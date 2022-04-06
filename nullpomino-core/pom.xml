@@ -1,14 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>nullpomino-core</artifactId>
 	<parent>
 		<groupId>mu.nu.nullpo</groupId>
 		<artifactId>nullpomino-parent</artifactId>
 		<version>7.6.0-SNAPSHOT</version>
-		<relativePath>../nullpomino-parent</relativePath>
 	</parent>
-	
+
 	<repositories>
 		<repository>
 			<id>lib</id>
@@ -25,7 +23,7 @@
 			<url>${project.baseUri}/lib</url>
 		</repository>
 	</repositories>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>mu.nu.nullpo.local</groupId>
@@ -78,5 +76,5 @@
 			<version>LOCAL</version>
 		</dependency>
 	</dependencies>
-	
+
 </project>
