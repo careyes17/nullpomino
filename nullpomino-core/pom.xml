@@ -37,11 +37,6 @@
 		</dependency>
 		<dependency>
 			<groupId>mu.nu.nullpo.local</groupId>
-			<artifactId>jorbis-0.0.15</artifactId>
-			<version>LOCAL</version>
-		</dependency>
-		<dependency>
-			<groupId>mu.nu.nullpo.local</groupId>
 			<artifactId>swing-worker-1.2</artifactId>
 			<version>LOCAL</version>
 		</dependency>
