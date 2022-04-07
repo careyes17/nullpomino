@@ -22,7 +22,6 @@
     <cp>lib\lwjgl.jar</cp>
     <cp>lib\jorbis-0.0.15.jar</cp>
     <cp>lib\jogg-0.0.7.jar</cp>
-    <cp>lib\ibxm.jar</cp>
     <cp>lib\jinput.jar</cp>
   </classPath>
   <jre>
