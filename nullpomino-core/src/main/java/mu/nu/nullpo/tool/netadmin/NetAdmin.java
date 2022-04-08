@@ -1125,8 +1125,8 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 			Calendar cStart = GeneralUtil.importCalendarString(message[1]);
 			Calendar cExpire = ((message.length > 2) && (message[2].length() > 0)) ? GeneralUtil.importCalendarString(message[2]) : null;
 
-			String strStart = (cStart != null) ? GeneralUtil.getCalendarString(cStart) : "???";
-			String strExpire = (cExpire != null) ? GeneralUtil.getCalendarString(cExpire) : getUIText("Login_Message_Banned_Permanent");
+			String strStart = (cStart != null) ? GeneralUtil.getDateAndTime(cStart) : "???";
+			String strExpire = (cExpire != null) ? GeneralUtil.getDateAndTime(cExpire) : getUIText("Login_Message_Banned_Permanent");
 
 			labelLoginMessage.setText(String.format(getUIText("Login_Message_Banned"), strStart, strExpire));
 			return;
@@ -1364,7 +1364,7 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 					String strBanLength = getUIText("BanType" + ban.banLength);
 					String strDate = "";
 					if(ban.startDate != null) {
-						strDate = GeneralUtil.getCalendarString(ban.startDate);
+						strDate = GeneralUtil.getDateAndTime(ban.startDate);
 					}
 
 					addConsoleLog(String.format(getUIText("Console_BanList_Result"), ban.addr, strBanLength, strDate), new Color(0, 64, 64));

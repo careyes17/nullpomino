@@ -4354,8 +4354,8 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 			Calendar cStart = GeneralUtil.importCalendarString(message[1]);
 			Calendar cExpire = ((message.length > 2) && (message[2].length() > 0)) ? GeneralUtil.importCalendarString(message[2]) : null;
 
-			String strStart = (cStart != null) ? GeneralUtil.getCalendarString(cStart) : "???";
-			String strExpire = (cExpire != null) ? GeneralUtil.getCalendarString(cExpire) : getUIText("SysMsg_Banned_Permanent");
+			String strStart = (cStart != null) ? GeneralUtil.getDateAndTime(cStart) : "???";
+			String strExpire = (cExpire != null) ? GeneralUtil.getDateAndTime(cExpire) : getUIText("SysMsg_Banned_Permanent");
 
 			addSystemChatLogLater(txtpaneLobbyChatLog, String.format(getUIText("SysMsg_Banned"), strStart, strExpire), Color.red);
 		}

@@ -1,11 +1,69 @@
 package mu.nu.nullpo.util;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import java.util.Calendar;
+import java.util.Date;
 
 import org.junit.jupiter.api.Test;
 
 class GeneralUtilTest {
+
+	@Test
+	void dateFormatValidatorValidatesCorrectFormat() {
+		String format = "yyyy-MM-dd";
+		String toValidate = "1970-01-01";
+		assertTrue(GeneralUtil.validateDateFormat(format, toValidate));
+	}
+
+	@Test
+	void dateFormatValidatorDoesNotValidateIncorrectFormat() {
+		String format = "yyyy-MM-dd";
+		String toValidate = "1970/01/01";
+		assertFalse(GeneralUtil.validateDateFormat(format, toValidate));
+	}
+
+	@Test
+	void IllegalArgumentExceptionIfFormatIsNull() {
+		String format = null;
+		String toValidate = "1970/01/01";
+		assertThrows(IllegalArgumentException.class, () -> {
+			GeneralUtil.validateDateFormat(format, toValidate);
+		});
+	}
+
+	@Test
+	void IllegalArgumentExceptionIfToValidateIsNull() {
+		String format = "yyyy-MM-dd";
+		String toValidate = null;
+		assertThrows(IllegalArgumentException.class, () -> {
+			GeneralUtil.validateDateFormat(format, toValidate);
+		});
+	}
+
+	@Test
+	void correctDateAndTimeShouldBeReturned() {
+		Calendar calendar = mock(Calendar.class);
+		Long testMilliseconds = 0l;
+		when(calendar.getTime()).thenReturn(new Date(testMilliseconds));
+		
+		String expectedFormat = "yyyy-MM-dd HH:mm:ss";
+		String actualFormatted = GeneralUtil.getDateAndTime(calendar);
+		assertTrue(GeneralUtil.validateDateFormat(expectedFormat, actualFormatted));
+	}
+
+	@Test
+	void throwsIllegalArgumentExceptionIfCalendarIsNull() {
+		Calendar calendar = null;
+		assertThrows(IllegalArgumentException.class, () -> {
+			GeneralUtil.getDateAndTime(calendar);
+		});
+	}
 
 	@Test
 	void stringsShouldBeCombined() {

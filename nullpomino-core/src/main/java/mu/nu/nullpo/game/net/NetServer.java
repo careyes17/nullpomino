@@ -689,9 +689,9 @@ public class NetServer {
 		propSPRankingDaily.setProperty("daily.lastupdate", GeneralUtil.exportCalendarString(spDailyLastUpdate));
 
 		if(oldLastUpdate != null) {
-			log.debug("SP daily ranking previous-update:" + GeneralUtil.getCalendarString(oldLastUpdate));
+			log.debug("SP daily ranking previous-update:" + GeneralUtil.getDateAndTime(oldLastUpdate));
 		}
-		log.debug("SP daily ranking last-update:" + GeneralUtil.getCalendarString(c));
+		log.debug("SP daily ranking last-update:" + GeneralUtil.getDateAndTime(c));
 
 		if((oldLastUpdate == null) || (c.get(Calendar.DATE) == oldLastUpdate.get(Calendar.DATE))) {
 			return false;

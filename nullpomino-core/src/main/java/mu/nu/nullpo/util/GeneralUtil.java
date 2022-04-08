@@ -30,6 +30,7 @@ package mu.nu.nullpo.util;
 
 import java.io.FileInputStream;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -93,12 +94,13 @@ public class GeneralUtil {
 
 	/**
 	 * Get date and time from a Calendar
-	 * @param c Calendar
+	 * @param calendar Calendar
 	 * @return Date and Time String
 	 */
-	public static String getCalendarString(Calendar c) {
+	public static String getDateAndTime(Calendar calendar) {
+		if (calendar == null) throw new IllegalArgumentException("The calendar object supplied is null.");
 		DateFormat dfm = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		return dfm.format(c.getTime());
+		return dfm.format(calendar.getTime());
 	}
 
 	/**
@@ -107,7 +109,7 @@ public class GeneralUtil {
 	 * @param z TimeZone
 	 * @return Date and Time String
 	 */
-	public static String getCalendarString(Calendar c, TimeZone z) {
+	public static String getDateAndTime(Calendar c, TimeZone z) {
 		DateFormat dfm = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		dfm.setTimeZone(z);
 		return dfm.format(c.getTime());
@@ -358,5 +360,24 @@ public class GeneralUtil {
 		}
 		
 		return combinedString;
+	}
+
+	/**
+	 * Validates the date format of a string
+	 * @param format the format that is going to be compared against
+	 * @param toValidate the date formatted string that is to be validated
+	 * @return true if the date format is valid, false otherwise
+	 */
+	public static boolean validateDateFormat(String format, String toValidate) {
+		if (format == null) throw new IllegalArgumentException("Format provided is null.");
+		if (toValidate == null) throw new IllegalArgumentException("String to validate is null.");
+		DateFormat formatter = new SimpleDateFormat(format);
+		formatter.setLenient(false);
+		try {
+			formatter.parse(toValidate);
+			return true;
+		} catch (ParseException e) {
+			return false;
+		}
 	}
 }
