@@ -62,13 +62,12 @@ public class GeneralUtil {
 	}
 
 	/**
-	 * Returns ON if b is true, OFF if b is false
-	 * @param b Boolean variable to be checked
-	 * @return ON if b is true, OFF if b is false
+	 * Converts a boolean value into "ON" or "OFF"
+	 * @param bool Boolean value to be converted
+	 * @return "ON" if value is true, "OFF" if value is false
 	 */
-	public static String getONorOFF(boolean b) {
-		if(b == true) return "ON";
-		return "OFF";
+	public static String getONorOFF(boolean bool) {
+		return bool ? "ON" : "OFF";
 	}
 
 	/**
@@ -337,22 +336,27 @@ public class GeneralUtil {
 	}
 	
 	/**
-	 * Combine array of strings
+	 * Combine an array of strings into one string with separation
 	 * @param strings Array of strings
-	 * @param separator Separator used for combine
-	 * @param startIndex First element which will be combined
-	 * @return Combined string
+	 * @param separator String that will be placed between strings
+	 * @param startIndex Start index for string combination
+	 * @return A string of the combined strings
 	 */
-	public static String StringCombine(String[] strings, String separator,
+	public static String combineStrings(String[] strings, String separator,
 			int startIndex)
 	{
-		String res = "";
-		for (int i = startIndex; i<strings.length; i++) {
-			res+= strings[i];
-			if (i != strings.length-1)
-				res+= separator;
+		if (strings == null) throw new IllegalArgumentException("The provided string array is null.");
+		if (strings.length == 0) throw new IllegalArgumentException("The provided string array is empty");
+		if (separator == null) throw new IllegalArgumentException("The provided separator is null");
+		if (startIndex < 0) throw new IllegalArgumentException("The start index cannot be negative");
+		if (startIndex > strings.length) throw new ArrayIndexOutOfBoundsException("The start index is higher than the size of the string array");
+		
+		String combinedString = "";
+		for (int i = startIndex; i < strings.length; i++) {
+			combinedString += strings[i];
+			if (i != strings.length-1) combinedString += separator;
 		}
 		
-		return res;
+		return combinedString;
 	}
 }
