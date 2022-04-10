@@ -1233,7 +1233,7 @@ public class EventReceiver {
 	public void saveReplay(GameManager owner, CustomProperties prop, String foldername) {
 		if(owner.mode.isNetplayMode()) return;
 
-		String filename = foldername + "/" + GeneralUtil.getReplayFilename();
+		String filename = foldername + "/" + GeneralUtil.createReplayFilename();
 		try {
 			File repfolder = new File(foldername);
 			if (!repfolder.exists()) {
