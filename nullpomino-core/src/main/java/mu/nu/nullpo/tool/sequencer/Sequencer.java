@@ -68,6 +68,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import mu.nu.nullpo.game.component.Piece;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import net.omegaboshi.nullpomino.game.subsystem.randomizer.Randomizer;
 
@@ -135,7 +136,7 @@ public class Sequencer extends JFrame implements ActionListener {
 		// Load config file
 		propConfig = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/swing.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/swing.cfg");
 			propConfig.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -143,7 +144,7 @@ public class Sequencer extends JFrame implements ActionListener {
 		// Load UI Language file
 		propLangDefault = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/sequencer_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/sequencer_default.properties");
 			propLangDefault.load(in);
 			in.close();
 		} catch (IOException e) {
@@ -152,7 +153,7 @@ public class Sequencer extends JFrame implements ActionListener {
 
 		propLang = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/sequencer_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/sequencer_" + Locale.getDefault().getCountry() + ".properties");
 			propLang.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -284,7 +285,7 @@ public class Sequencer extends JFrame implements ActionListener {
 		JLabel lRandomizer = new JLabel(getUIText("Option_Randomizer"));
 		pRandomizer.add(lRandomizer);
 
-		vectorRandomizer = getTextFileVector("config/list/randomizer.lst");
+		vectorRandomizer = getTextFileVector(Constants.CONFIG_BASE_PATH + "/list/randomizer.lst");
 		comboboxRandomizer = new JComboBox(createShortStringVector(vectorRandomizer));
 		comboboxRandomizer.setPreferredSize(new Dimension(200, 30));
 		comboboxRandomizer.setSelectedIndex(0);
@@ -543,7 +544,7 @@ public class Sequencer extends JFrame implements ActionListener {
 	}
 
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("config/etc/log.cfg");
+		PropertyConfigurator.configure(Constants.CONFIG_BASE_PATH + "/etc/log.cfg");
 		log.debug("Sequencer start");
 		new Sequencer();
 	}

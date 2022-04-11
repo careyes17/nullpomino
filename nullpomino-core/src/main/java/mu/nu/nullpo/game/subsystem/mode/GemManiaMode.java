@@ -34,6 +34,7 @@ import mu.nu.nullpo.game.component.Controller;
 import mu.nu.nullpo.game.component.Field;
 import mu.nu.nullpo.game.event.EventReceiver;
 import mu.nu.nullpo.game.play.GameEngine;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 
@@ -390,10 +391,10 @@ public class GemManiaMode extends AbstractMode {
 	private void loadStageSet(int id) {
 		if(id >= 0) {
 			log.debug("Loading stage set from custom set #" + id);
-			propStageSet = receiver.loadProperties("config/map/gemmania/custom" + id + ".map");
+			propStageSet = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/gemmania/custom" + id + ".map");
 		} else {
 			log.debug("Loading stage set from default set");
-			propStageSet = receiver.loadProperties("config/map/gemmania/default.map");
+			propStageSet = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/gemmania/default.map");
 		}
 
 		if(propStageSet == null) propStageSet = new CustomProperties();
@@ -407,10 +408,10 @@ public class GemManiaMode extends AbstractMode {
 		if((propStageSet != null) && (!owner.replayMode)) {
 			if(id >= 0) {
 				log.debug("Saving stage set to custom set #" + id);
-				receiver.saveProperties("config/map/gemmania/custom" + id + ".map", propStageSet);
+				receiver.saveProperties(Constants.CONFIG_BASE_PATH + "/map/gemmania/custom" + id + ".map", propStageSet);
 			} else {
 				log.debug("Saving stage set to default set");
-				receiver.saveProperties("config/map/gemmania/default.map", propStageSet);
+				receiver.saveProperties(Constants.CONFIG_BASE_PATH + "/map/gemmania/default.map", propStageSet);
 			}
 		}
 	}

@@ -34,6 +34,7 @@ import mu.nu.nullpo.game.component.Block;
 import mu.nu.nullpo.game.component.Controller;
 import mu.nu.nullpo.game.event.EventReceiver;
 import mu.nu.nullpo.game.play.GameEngine;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 
@@ -685,7 +686,7 @@ public class AvalancheFeverMode extends Avalanche1PDummyMode {
 
 	private void loadMapSetFever(GameEngine engine, int playerID, int id, boolean forceReload) {
 		if((propFeverMap == null) || (forceReload)) {
-			propFeverMap = receiver.loadProperties("config/map/avalanche/" +
+			propFeverMap = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/avalanche/" +
 					FEVER_MAPS[id] + "Endless.map");
 			feverChainMin = propFeverMap.getProperty("minChain", 3);
 			feverChainMax = propFeverMap.getProperty("maxChain", 15);

@@ -115,6 +115,7 @@ import mu.nu.nullpo.game.net.NetUtil;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
 import mu.nu.nullpo.game.subsystem.mode.NetDummyMode;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 
@@ -645,7 +646,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		// Read configuration file
 		propConfig = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netlobby.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netlobby.cfg");
 			propConfig.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -653,7 +654,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		// Load global settings
 		propGlobal = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/global.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/global.cfg");
 			propGlobal.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -661,7 +662,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		// SwingRead version of the configuration file
 		propSwingConfig = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/swing.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/swing.cfg");
 			propSwingConfig.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -669,7 +670,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		// ObserverFunction read configuration file
 		propObserver = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netobserver.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netobserver.cfg");
 			propObserver.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -677,7 +678,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		// Game mode description
 		propDefaultModeDesc = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/modedesc_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/modedesc_default.properties");
 			propDefaultModeDesc.load(in);
 			in.close();
 		} catch(IOException e) {
@@ -685,7 +686,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		}
 		propModeDesc = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/modedesc_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/modedesc_" + Locale.getDefault().getCountry() + ".properties");
 			propModeDesc.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -693,7 +694,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		// Read language file
 		propLangDefault = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/netlobby_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/netlobby_default.properties");
 			propLangDefault.load(in);
 			in.close();
 		} catch (Exception e) {
@@ -702,7 +703,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 
 		propLang = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/netlobby_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/netlobby_" + Locale.getDefault().getCountry() + ".properties");
 			propLang.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -835,14 +836,14 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		// * Server selection list box
 		listmodelServerList = new DefaultListModel();
 		if(GameManager.isDevBuild()) {
-			if(!loadListToDefaultListModel(listmodelServerList, "config/setting/netlobby_serverlist_dev.cfg")) {
-				loadListToDefaultListModel(listmodelServerList, "config/list/netlobby_serverlist_default_dev.lst");
-				saveListFromDefaultListModel(listmodelServerList, "config/setting/netlobby_serverlist_dev.cfg");
+			if(!loadListToDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/setting/netlobby_serverlist_dev.cfg")) {
+				loadListToDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/list/netlobby_serverlist_default_dev.lst");
+				saveListFromDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/setting/netlobby_serverlist_dev.cfg");
 			}
 		} else {
-			if(!loadListToDefaultListModel(listmodelServerList, "config/setting/netlobby_serverlist.cfg")) {
-				loadListToDefaultListModel(listmodelServerList, "config/list/netlobby_serverlist_default.lst");
-				saveListFromDefaultListModel(listmodelServerList, "config/setting/netlobby_serverlist.cfg");
+			if(!loadListToDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/setting/netlobby_serverlist.cfg")) {
+				loadListToDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/list/netlobby_serverlist_default.lst");
+				saveListFromDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/setting/netlobby_serverlist.cfg");
 			}
 		}
 		listboxServerList = new JList(listmodelServerList);
@@ -1550,7 +1551,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 
 		// *** Mode Combobox
 		DefaultComboBoxModel modelMode = new DefaultComboBoxModel();
-		loadModeList(modelMode, "config/list/netlobby_multimode.lst");
+		loadModeList(modelMode, Constants.CONFIG_BASE_PATH + "/list/netlobby_multimode.lst");
 		comboboxCreateRoomMode = new JComboBox(modelMode);
 		comboboxCreateRoomMode.setPreferredSize(new Dimension(200, 20));
 		comboboxCreateRoomMode.setToolTipText(getUIText("CreateRoom_Mode_Tip"));
@@ -2067,7 +2068,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 
 		// ** Game mode listbox
 		listmodelCreateRoom1PModeList = new DefaultListModel();
-		loadModeList(listmodelCreateRoom1PModeList, "config/list/netlobby_singlemode.lst");
+		loadModeList(listmodelCreateRoom1PModeList, Constants.CONFIG_BASE_PATH + "/list/netlobby_singlemode.lst");
 
 		listboxCreateRoom1PModeList = new JList(listmodelCreateRoom1PModeList);
 		listboxCreateRoom1PModeList.addListSelectionListener(new ListSelectionListener() {
@@ -3347,7 +3348,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		propConfig.setProperty("createroom.defaultPresetID", (Integer)spinnerCreateRoomPresetID.getValue());
 
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/netlobby.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netlobby.cfg");
 			propConfig.store(out, "NullpoMino NetLobby Config");
 			out.close();
 		} catch (IOException e) {
@@ -3360,7 +3361,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 	 */
 	public void saveGlobalConfig() {
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/global.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/global.cfg");
 			propGlobal.store(out, "NullpoMino Global Config");
 			out.close();
 		} catch (IOException e) {
@@ -3423,7 +3424,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 													   JOptionPane.YES_NO_OPTION);
 			if(answer == JOptionPane.YES_OPTION) {
 				listmodelServerList.remove(index);
-				saveListFromDefaultListModel(listmodelServerList, "config/setting/netlobby_serverlist.cfg");
+				saveListFromDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/setting/netlobby_serverlist.cfg");
 			}
 		}
 	}
@@ -3496,7 +3497,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 				propObserver.setProperty("observer.port", port);
 
 				try {
-					FileOutputStream out = new FileOutputStream("config/setting/netobserver.cfg");
+					FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netobserver.cfg");
 					propObserver.store(out, "NullpoMino NetObserver Config");
 					out.close();
 				} catch (IOException e) {
@@ -3668,7 +3669,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 	 * @return Rule file list. null if directory doesn't exist.
 	 */
 	public String[] getRuleFileList() {
-		File dir = new File("config/rule");
+		File dir = new File(Constants.CONFIG_BASE_PATH + "/rule");
 
 		FilenameFilter filter = new FilenameFilter() {
 			public boolean accept(File dir1, String name) {
@@ -3696,13 +3697,13 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		for(int i = 0; i < filelist.length; i++) {
 			RuleEntry entry = new RuleEntry();
 
-			File file = new File("config/rule/" + filelist[i]);
+			File file = new File(Constants.CONFIG_BASE_PATH + "/rule/" + filelist[i]);
 			entry.filename = filelist[i];
 			entry.filepath = file.getPath();
 
 			CustomProperties prop = new CustomProperties();
 			try {
-				FileInputStream in = new FileInputStream("config/rule/" + filelist[i]);
+				FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/rule/" + filelist[i]);
 				prop.load(in);
 				in.close();
 				entry.rulename = prop.getProperty("0.ruleopt.strRuleName", "");
@@ -3826,7 +3827,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 				if(answer == JOptionPane.YES_OPTION) {
 					propObserver.setProperty("observer.enable", false);
 					try {
-						FileOutputStream out = new FileOutputStream("config/setting/netobserver.cfg");
+						FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netobserver.cfg");
 						propObserver.store(out, "NullpoMino NetObserver Config");
 						out.close();
 					} catch (IOException e2) {
@@ -3983,7 +3984,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 		if(e.getActionCommand() == "ServerAdd_OK") {
 			if(txtfldServerAddHost.getText().length() > 0) {
 				listmodelServerList.addElement(txtfldServerAddHost.getText());
-				saveListFromDefaultListModel(listmodelServerList, "config/setting/netlobby_serverlist.cfg");
+				saveListFromDefaultListModel(listmodelServerList, Constants.CONFIG_BASE_PATH + "/setting/netlobby_serverlist.cfg");
 				txtfldServerAddHost.setText("");
 			}
 			changeCurrentScreenCard(SCREENCARD_SERVERSELECT);
@@ -4057,7 +4058,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 					mapList.clear();
 					CustomProperties propMap = new CustomProperties();
 					try {
-						FileInputStream in = new FileInputStream("config/map/vsbattle/" + setID + ".map");
+						FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/map/vsbattle/" + setID + ".map");
 						propMap.load(in);
 						in.close();
 					} catch (IOException e2) {
@@ -4993,7 +4994,7 @@ public class NetLobbyFrame extends JFrame implements ActionListener, NetMessageL
 	 * @param args CommandLinesArgumentcount
 	 */
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("config/etc/log.cfg");
+		PropertyConfigurator.configure(Constants.CONFIG_BASE_PATH + "/etc/log.cfg");
 		NetLobbyFrame frame = new NetLobbyFrame();
 		frame.init();
 		frame.setVisible(true);

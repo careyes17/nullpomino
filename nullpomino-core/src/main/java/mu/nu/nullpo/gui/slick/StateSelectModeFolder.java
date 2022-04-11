@@ -12,6 +12,8 @@ import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;
 
+import mu.nu.nullpo.util.Constants;
+
 /**
  * Mode folder select
  */
@@ -77,7 +79,7 @@ public class StateSelectModeFolder extends DummyMenuScrollState {
 		strCurrentFolder = NullpoMinoSlick.propGlobal.getProperty("name.folder", "");
 
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/modefolder.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/modefolder.lst"));
 			String strFolder = "";
 
 			String str;

@@ -37,6 +37,7 @@ import mu.nu.nullpo.game.component.Field;
 import mu.nu.nullpo.game.event.EventReceiver;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 
 /**
@@ -108,7 +109,7 @@ public class ToolVSMapEditMode extends AbstractMode {
 	 * @param setID MapSetID
 	 */
 	private void loadAllMaps(int setID) {
-		propMap = receiver.loadProperties("config/map/vsbattle/" + setID + ".map");
+		propMap = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/vsbattle/" + setID + ".map");
 		if(propMap == null) propMap = new CustomProperties();
 
 		listFields.clear();
@@ -135,7 +136,7 @@ public class ToolVSMapEditMode extends AbstractMode {
 			saveMap(listFields.get(i), propMap, i);
 		}
 
-		receiver.saveProperties("config/map/vsbattle/" + setID + ".map", propMap);
+		receiver.saveProperties(Constants.CONFIG_BASE_PATH + "/map/vsbattle/" + setID + ".map", propMap);
 	}
 
 	private void grayToRandomColor(Field field) {

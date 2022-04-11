@@ -8,6 +8,7 @@ import java.util.LinkedList;
 
 import org.apache.log4j.Logger;
 
+import mu.nu.nullpo.util.Constants;
 import sdljava.SDLException;
 import sdljava.video.SDLSurface;
 
@@ -60,7 +61,7 @@ public class StateSelectModeFolderSDL extends DummyMenuScrollStateSDL {
 		strCurrentFolder = NullpoMinoSDL.propGlobal.getProperty("name.folder", "");
 
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/modefolder.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/modefolder.lst"));
 			String strFolder = "";
 
 			String str;

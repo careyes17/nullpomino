@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 
 import org.apache.log4j.Logger;
@@ -65,7 +66,7 @@ public class StateSelectRuleFromList extends DummyMenuScrollState {
 		mapRuleEntries = new HashMap<String, RuleEntry>();
 
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/recommended_rules.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/recommended_rules.lst"));
 			String strMode = "";
 
 			String str;

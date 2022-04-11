@@ -59,6 +59,7 @@ import mu.nu.nullpo.game.net.NetServerBan;
 import mu.nu.nullpo.game.net.NetUtil;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 import net.clarenceho.crypto.RC4;
@@ -215,7 +216,7 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 		// Load config file
 		propConfig = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netadmin.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netadmin.cfg");
 			propConfig.load(in);
 			in.close();
 		} catch (IOException e) {}
@@ -223,7 +224,7 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 		// Load language files
 		propLangDefault = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/netadmin_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/netadmin_default.properties");
 			propLangDefault.load(in);
 			in.close();
 		} catch (IOException e) {
@@ -231,7 +232,7 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 		}
 		propLang = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/netadmin_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/netadmin_" + Locale.getDefault().getCountry() + ".properties");
 			propLang.load(in);
 			in.close();
 		} catch (IOException e) {}
@@ -239,7 +240,7 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 		// Set look&feel
 		try {
 			CustomProperties propSwingConfig = new CustomProperties();
-			FileInputStream in = new FileInputStream("config/setting/swing.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/swing.cfg");
 			propSwingConfig.load(in);
 			in.close();
 
@@ -560,7 +561,7 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 		}
 
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/netadmin.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netadmin.cfg");
 			propConfig.store(out, "NullpoMino NetAdmin Config");
 			out.close();
 		} catch (IOException e) {
@@ -689,10 +690,10 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 				InputStreamReader reader = null;
 				try {
 					reader = new InputStreamReader(
-						new FileInputStream("config/lang/netadmin_help_" + Locale.getDefault().getCountry() + ".txt"), "UTF-8"
+						new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/netadmin_help_" + Locale.getDefault().getCountry() + ".txt"), "UTF-8"
 					);
 				} catch (IOException e2) {
-					reader = new InputStreamReader(new FileInputStream("config/lang/netadmin_help_default.txt"), "UTF-8");
+					reader = new InputStreamReader(new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/netadmin_help_default.txt"), "UTF-8");
 				}
 
 				BufferedReader txtHelp = new BufferedReader(reader);
@@ -879,7 +880,7 @@ public class NetAdmin extends JFrame implements ActionListener, NetMessageListen
 	 * @param args Command line options
 	 */
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("config/etc/log.cfg");
+		PropertyConfigurator.configure(Constants.CONFIG_BASE_PATH + "/etc/log.cfg");
 		new NetAdmin();
 	}
 

@@ -35,6 +35,7 @@ import mu.nu.nullpo.game.component.Field;
 import mu.nu.nullpo.game.component.Piece;
 import mu.nu.nullpo.game.event.EventReceiver;
 import mu.nu.nullpo.game.play.GameEngine;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 
@@ -597,7 +598,7 @@ public class PracticeMode extends AbstractMode {
 					engine.createFieldIfNeeded();
 					engine.field.reset();
 
-					CustomProperties prop = receiver.loadProperties("config/map/practice/" + mapNumber + ".map");
+					CustomProperties prop = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/practice/" + mapNumber + ".map");
 					if(prop != null) {
 						loadMap(engine.field, prop, 0);
 						engine.field.setAllSkin(engine.getSkin());
@@ -607,7 +608,7 @@ public class PracticeMode extends AbstractMode {
 					if(engine.field != null) {
 						CustomProperties prop = new CustomProperties();
 						saveMap(engine.field, prop, 0);
-						receiver.saveProperties("config/map/practice/" + mapNumber + ".map", prop);
+						receiver.saveProperties(Constants.CONFIG_BASE_PATH + "/map/practice/" + mapNumber + ".map", prop);
 					}
 				} else if(menuCursor == 44) {
 					// Preset読み込み
@@ -624,7 +625,7 @@ public class PracticeMode extends AbstractMode {
 					receiver.saveModeConfig(owner.modeConfig);
 
 					if(useMap && ((engine.field == null) || (engine.field.isEmpty()))) {
-						CustomProperties prop = receiver.loadProperties("config/map/practice/" + mapNumber + ".map");
+						CustomProperties prop = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/practice/" + mapNumber + ".map");
 						if(prop != null) {
 							engine.createFieldIfNeeded();
 							loadMap(engine.field, prop, 0);

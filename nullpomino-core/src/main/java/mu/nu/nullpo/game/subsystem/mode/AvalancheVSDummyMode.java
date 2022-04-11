@@ -37,6 +37,7 @@ import mu.nu.nullpo.game.component.Piece;
 import mu.nu.nullpo.game.event.EventReceiver;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 
@@ -448,7 +449,7 @@ public abstract class AvalancheVSDummyMode extends AbstractMode {
 	protected void loadMapPreview(GameEngine engine, int playerID, int id, boolean forceReload) {
 		if((propMap[playerID] == null) || (forceReload)) {
 			mapMaxNo[playerID] = 0;
-			propMap[playerID] = receiver.loadProperties("config/map/avalanche/" + mapSet[playerID] + ".map");
+			propMap[playerID] = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/avalanche/" + mapSet[playerID] + ".map");
 		}
 
 		if((propMap[playerID] == null) && (engine.field != null)) {
@@ -463,7 +464,7 @@ public abstract class AvalancheVSDummyMode extends AbstractMode {
 
 	protected void loadMapSetFever(GameEngine engine, int playerID, int id, boolean forceReload) {
 		if((propFeverMap[playerID] == null) || (forceReload)) {
-			propFeverMap[playerID] = receiver.loadProperties("config/map/avalanche/" +
+			propFeverMap[playerID] = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/avalanche/" +
 					FEVER_MAPS[id] + ".map");
 			feverChainMin[playerID] = propFeverMap[playerID].getProperty("minChain", 3);
 			feverChainMax[playerID] = propFeverMap[playerID].getProperty("maxChain", 15);
@@ -548,7 +549,7 @@ public abstract class AvalancheVSDummyMode extends AbstractMode {
 				engine.field.setAllSkin(engine.getSkin());
 			} else {
 				if(propMap[playerID] == null) {
-					propMap[playerID] = receiver.loadProperties("config/map/avalanche/" + mapSet[playerID] + ".map");
+					propMap[playerID] = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/avalanche/" + mapSet[playerID] + ".map");
 				}
 
 				if(propMap[playerID] != null) {

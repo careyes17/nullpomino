@@ -56,6 +56,7 @@ import javax.swing.JTextField;
 import javax.swing.UIManager;
 
 import mu.nu.nullpo.game.component.BGMStatus;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 
 import org.apache.log4j.Logger;
@@ -111,7 +112,7 @@ public class MusicListEditor extends JFrame implements ActionListener {
 		// Read configuration file
 		propConfig = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/swing.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/swing.cfg");
 			propConfig.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -119,7 +120,7 @@ public class MusicListEditor extends JFrame implements ActionListener {
 		// Read language file
 		propLangDefault = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/musiclisteditor_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/musiclisteditor_default.properties");
 			propLangDefault.load(in);
 			in.close();
 		} catch (IOException e) {
@@ -128,7 +129,7 @@ public class MusicListEditor extends JFrame implements ActionListener {
 
 		propLang = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/musiclisteditor_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/musiclisteditor_" + Locale.getDefault().getCountry() + ".properties");
 			propLang.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -263,7 +264,7 @@ public class MusicListEditor extends JFrame implements ActionListener {
 	private void loadMusicList() {
 		propMusic = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/music.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/music.cfg");
 			propMusic.load(in);
 			in.close();
 		} catch (IOException e) {}
@@ -275,7 +276,7 @@ public class MusicListEditor extends JFrame implements ActionListener {
 	 */
 	private void saveMusicList() throws IOException {
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/music.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/music.cfg");
 			propMusic.store(out, "NullpoMino Music List");
 			out.close();
 		} catch (IOException e) {
@@ -364,7 +365,7 @@ public class MusicListEditor extends JFrame implements ActionListener {
 	 * @param args CommandLinesArgumentcount
 	 */
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("config/etc/log.cfg");
+		PropertyConfigurator.configure(Constants.CONFIG_BASE_PATH + "/etc/log.cfg");
 		log.debug("MusicListEditor start");
 		new MusicListEditor();
 	}

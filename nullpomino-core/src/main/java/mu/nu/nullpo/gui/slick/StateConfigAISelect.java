@@ -34,6 +34,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import mu.nu.nullpo.game.subsystem.ai.AIPlayer;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.GeneralUtil;
 
 import org.apache.log4j.Logger;
@@ -102,7 +103,7 @@ public class StateConfigAISelect extends BaseGameState {
 	@Override
 	public void init(GameContainer container, StateBasedGame game) throws SlickException {
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/ai.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/ai.lst"));
 			aiPathList = loadAIList(in);
 			aiNameList = loadAINames(aiPathList);
 			in.close();

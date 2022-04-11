@@ -41,6 +41,7 @@ import org.apache.log4j.Logger;
 import mu.nu.nullpo.game.component.Block;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 
 /**
@@ -869,14 +870,14 @@ public class EventReceiver {
 	public void setGraphics(Object g) {}
 
 	/**
-	 * Load properties from "config/setting/mode.cfg"
-	 * @return Properties from "config/setting/mode.cfg". null if load fails.
+	 * Load properties from mode.cfg
+	 * @return Properties from mode.cfg. null if load fails.
 	 */
 	public CustomProperties loadModeConfig() {
 		CustomProperties propModeConfig = new CustomProperties();
 
 		try {
-			FileInputStream in = new FileInputStream("config/setting/mode.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/mode.cfg");
 			propModeConfig.load(in);
 			in.close();
 		} catch(IOException e) {
@@ -887,12 +888,12 @@ public class EventReceiver {
 	}
 
 	/**
-	 * Save properties to "config/setting/mode.cfg"
+	 * Save properties to mode.cfg
 	 * @param modeConfig Properties you want to save
 	 */
 	public void saveModeConfig(CustomProperties modeConfig) {
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/mode.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/mode.cfg");
 			modeConfig.store(out, "NullpoMino Mode Config");
 			out.close();
 		} catch(IOException e) {

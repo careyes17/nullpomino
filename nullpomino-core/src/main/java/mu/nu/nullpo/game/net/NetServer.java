@@ -59,6 +59,7 @@ import java.util.zip.Adler32;
 import mu.nu.nullpo.game.component.RuleOptions;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 import net.clarenceho.crypto.RC4;
@@ -267,7 +268,7 @@ public class NetServer {
 	private static void loadPresetList() {
 		propPresets = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/etc/netserver_presets.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/etc/netserver_presets.cfg");
 			propPresets.load(in);
 			in.close();
 		} catch (IOException e) {
@@ -300,7 +301,7 @@ public class NetServer {
 		}
 
 		try {
-			BufferedReader txtRuleList = new BufferedReader(new FileReader("config/etc/netserver_rulelist.lst"));
+			BufferedReader txtRuleList = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/etc/netserver_rulelist.lst"));
 			int style = 0;
 
 			String str = null;
@@ -371,7 +372,7 @@ public class NetServer {
 		}
 
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/netlobby_multimode.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/netlobby_multimode.lst"));
 
 			String str = null;
 			int style = 0;
@@ -517,7 +518,7 @@ public class NetServer {
 		}
 
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/netserver_mpranking.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_mpranking.cfg");
 			propMPRanking.store(out, "NullpoMino NetServer Multiplayer Leaderboard");
 			out.close();
 		} catch (IOException e) {
@@ -546,7 +547,7 @@ public class NetServer {
 		if(spDailyLastUpdate != null) spDailyLastUpdate.setTimeZone(z);
 
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/netlobby_singlemode.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/netlobby_singlemode.lst"));
 
 			String str = null;
 			int style = 0;
@@ -714,7 +715,7 @@ public class NetServer {
 			r.writeProperty(propSPRankingAlltime);
 		}
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/netserver_spranking.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_spranking.cfg");
 			propSPRankingAlltime.store(out, "NullpoMino NetServer Single Player All-time Leaderboard");
 			out.close();
 		} catch (IOException e) {
@@ -726,7 +727,7 @@ public class NetServer {
 			r.writeProperty(propSPRankingDaily);
 		}
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/netserver_spranking_daily.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_spranking_daily.cfg");
 			propSPRankingDaily.store(out, "NullpoMino NetServer Single Player Daily Leaderboard");
 			out.close();
 		} catch (IOException e) {
@@ -778,7 +779,7 @@ public class NetServer {
 	 */
 	private static void writePlayerDataToFile() {
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/netserver_playerdata.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_playerdata.cfg");
 			propPlayerData.store(out, "NullpoMino NetServer PlayerData");
 			out.close();
 		} catch (IOException e) {
@@ -793,7 +794,7 @@ public class NetServer {
 		banList = new LinkedList<NetServerBan>();
 
 		try {
-			BufferedReader txtBanList = new BufferedReader(new FileReader("config/setting/netserver_banlist.cfg"));
+			BufferedReader txtBanList = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/setting/netserver_banlist.cfg"));
 
 			String str;
 			while((str = txtBanList.readLine()) != null) {
@@ -815,7 +816,7 @@ public class NetServer {
 	 */
 	private static void saveBanList() {
 		try {
-			FileWriter outFile = new FileWriter("config/setting/netserver_banlist.cfg");
+			FileWriter outFile = new FileWriter(Constants.CONFIG_BASE_PATH + "/setting/netserver_banlist.cfg");
 			PrintWriter out = new PrintWriter(outFile);
 
 			for(NetServerBan ban: banList) {
@@ -839,7 +840,7 @@ public class NetServer {
 		else lobbyChatList.clear();
 
 		try {
-			BufferedReader txtLobbyChat = new BufferedReader(new FileReader("config/setting/netserver_lobbychat.cfg"));
+			BufferedReader txtLobbyChat = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/setting/netserver_lobbychat.cfg"));
 
 			String str;
 			while((str = txtLobbyChat.readLine()) != null) {
@@ -863,7 +864,7 @@ public class NetServer {
 	 */
 	private static void saveLobbyChatHistory() {
 		try {
-			FileWriter outFile = new FileWriter("config/setting/netserver_lobbychat.cfg");
+			FileWriter outFile = new FileWriter(Constants.CONFIG_BASE_PATH + "/setting/netserver_lobbychat.cfg");
 			PrintWriter out = new PrintWriter(outFile);
 
 			while(lobbyChatList.size() > maxLobbyChatHistory) lobbyChatList.removeFirst();
@@ -925,10 +926,10 @@ public class NetServer {
 	 */
 	public static void main(String[] args) {
 		// Init log system (should be first!)
-		PropertyConfigurator.configure("config/etc/log_server.cfg");
+		PropertyConfigurator.configure(Constants.CONFIG_BASE_PATH + "/etc/log_server.cfg");
 
 		// get netserver.cfg file path from 2nd command-line argument, if specified
-		String servcfg = "config/etc/netserver.cfg";  // default location
+		String servcfg = Constants.CONFIG_BASE_PATH + "/etc/netserver.cfg";  // default location
 		if (args.length >= 2) {
 			servcfg = args[1];
 		}
@@ -982,7 +983,7 @@ public class NetServer {
 		// Load player data file
 		propPlayerData = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netserver_playerdata.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_playerdata.cfg");
 			propPlayerData.load(in);
 			in.close();
 		} catch (IOException e) {}
@@ -990,7 +991,7 @@ public class NetServer {
 		// Load multiplayer leaderboard file
 		propMPRanking = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netserver_mpranking.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_mpranking.cfg");
 			propMPRanking.load(in);
 			in.close();
 		} catch (IOException e) {}
@@ -998,14 +999,14 @@ public class NetServer {
 		// Load single player leaderboard file
 		propSPRankingAlltime = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netserver_spranking.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_spranking.cfg");
 			propSPRankingAlltime.load(in);
 			in.close();
 		} catch (IOException e) {}
 
 		propSPRankingDaily = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netserver_spranking_daily.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_spranking_daily.cfg");
 			propSPRankingDaily.load(in);
 			in.close();
 		} catch (IOException e) {}
@@ -1013,7 +1014,7 @@ public class NetServer {
 		// Load single player personal best
 		propSPPersonalBest = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netserver_sppersonalbest.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netserver_sppersonalbest.cfg");
 			propSPPersonalBest.load(in);
 			in.close();
 		} catch (IOException e) {}

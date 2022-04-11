@@ -34,6 +34,7 @@ import java.io.FilenameFilter;
 import java.util.Arrays;
 import java.util.LinkedList;
 
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import sdljava.SDLException;
 //import sdljava.event.MouseState;
@@ -82,7 +83,7 @@ public class StateConfigRuleSelectSDL extends DummyMenuScrollStateSDL {
 	 * @return Rule file list. null if directory doesn't exist.
 	 */
 	private String[] getRuleFileList() {
-		File dir = new File("config/rule");
+		File dir = new File(Constants.CONFIG_BASE_PATH + "/rule");
 
 		FilenameFilter filter = new FilenameFilter() {
 			public boolean accept(File dir1, String name) {
@@ -111,13 +112,13 @@ public class StateConfigRuleSelectSDL extends DummyMenuScrollStateSDL {
 		for(int i = 0; i < filelist.length; i++) {
 			RuleEntry entry = new RuleEntry();
 
-			File file = new File("config/rule/" + filelist[i]);
+			File file = new File(Constants.CONFIG_BASE_PATH + "/rule/" + filelist[i]);
 			entry.filename = filelist[i];
 			entry.filepath = file.getPath();
 
 			CustomProperties prop = new CustomProperties();
 			try {
-				FileInputStream in = new FileInputStream("config/rule/" + filelist[i]);
+				FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/rule/" + filelist[i]);
 				prop.load(in);
 				in.close();
 				entry.rulename = prop.getProperty("0.ruleopt.strRuleName", "");

@@ -83,6 +83,7 @@ import mu.nu.nullpo.gui.net.NetLobbyFrame;
 import mu.nu.nullpo.gui.net.NetLobbyListener;
 import mu.nu.nullpo.gui.net.UpdateChecker;
 import mu.nu.nullpo.gui.net.UpdateCheckerListener;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 import mu.nu.nullpo.util.ModeManager;
@@ -195,13 +196,13 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 	public static void main(String[] args) {
 		programArgs = args;
 
-		PropertyConfigurator.configure("config/etc/log_swing.cfg");
+		PropertyConfigurator.configure(Constants.CONFIG_BASE_PATH + "/etc/log_swing.cfg");
 		log.debug("NullpoMinoSwing Start");
 
 		// Read configuration file
 		propConfig = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/swing.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/swing.cfg");
 			propConfig.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -212,7 +213,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 		// ModeRead
 		modeManager = new ModeManager();
 		try {
-			BufferedReader txtMode = new BufferedReader(new FileReader("config/list/mode.lst"));
+			BufferedReader txtMode = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/mode.lst"));
 			modeManager.loadGameModes(txtMode);
 			txtMode.close();
 			modeList = modeManager.getModeNames(false);
@@ -223,7 +224,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 		// Read language file
 		propLangDefault = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/swing_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/swing_default.properties");
 			propLangDefault.load(in);
 			in.close();
 		} catch (IOException e) {
@@ -232,7 +233,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 
 		propLang = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/swing_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/swing_" + Locale.getDefault().getCountry() + ".properties");
 			propLang.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -240,7 +241,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 		// Game mode description
 		propDefaultModeDesc = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/modedesc_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/modedesc_default.properties");
 			propDefaultModeDesc.load(in);
 			in.close();
 		} catch(IOException e) {
@@ -249,7 +250,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 
 		propModeDesc = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/modedesc_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/modedesc_" + Locale.getDefault().getCountry() + ".properties");
 			propModeDesc.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -257,7 +258,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 		// Set default rule selections
 		try {
 			CustomProperties propDefaultRule = new CustomProperties();
-			FileInputStream in = new FileInputStream("config/list/global_defaultrule.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/list/global_defaultrule.properties");
 			propDefaultRule.load(in);
 			in.close();
 
@@ -351,7 +352,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 	 */
 	public static void saveConfig() {
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/swing.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/swing.cfg");
 			propConfig.store(out, "NullpoMino Swing-frontend Config");
 			out.close();
 		} catch(IOException e) {
@@ -359,7 +360,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 		}
 
 		try {
-			FileOutputStream out = new FileOutputStream("config/setting/global.cfg");
+			FileOutputStream out = new FileOutputStream(Constants.CONFIG_BASE_PATH + "/setting/global.cfg");
 			propGlobal.store(out, "NullpoMino Global Config");
 			out.close();
 		} catch(IOException e) {
@@ -372,7 +373,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 	 */
 	public static void loadGlobalConfig() {
 		try {
-			FileInputStream in = new FileInputStream("config/setting/global.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/global.cfg");
 			propGlobal.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -683,7 +684,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 		mapRuleEntries = new HashMap<String, RuleEntry>();
 
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/recommended_rules.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/recommended_rules.lst"));
 			String strMode = "";
 
 			String str;
@@ -1224,7 +1225,7 @@ public class NullpoMinoSwing extends JFrame implements ActionListener, NetLobbyL
 
 		propObserver = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/netobserver.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/netobserver.cfg");
 			propObserver.load(in);
 			in.close();
 		} catch (IOException e) {}

@@ -38,6 +38,7 @@ import mu.nu.nullpo.game.component.Piece;
 import mu.nu.nullpo.game.event.EventReceiver;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 import mu.nu.nullpo.util.GeneralUtil;
 
@@ -476,7 +477,7 @@ public class SPFMode extends AbstractMode {
 	private void loadMapPreview(GameEngine engine, int playerID, int id, boolean forceReload) {
 		if((propMap[playerID] == null) || (forceReload)) {
 			mapMaxNo[playerID] = 0;
-			propMap[playerID] = receiver.loadProperties("config/map/spf/" + mapSet[playerID] + ".map");
+			propMap[playerID] = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/spf/" + mapSet[playerID] + ".map");
 		}
 
 		if((propMap[playerID] == null) && (engine.field != null)) {
@@ -891,7 +892,7 @@ public class SPFMode extends AbstractMode {
 					engine.field.setAllSkin(engine.getSkin());
 				} else {
 					if(propMap[playerID] == null) {
-						propMap[playerID] = receiver.loadProperties("config/map/spf/" + mapSet[playerID] + ".map");
+						propMap[playerID] = receiver.loadProperties(Constants.CONFIG_BASE_PATH + "/map/spf/" + mapSet[playerID] + ".map");
 					}
 
 					if(propMap[playerID] != null) {

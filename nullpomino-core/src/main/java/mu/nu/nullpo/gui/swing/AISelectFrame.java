@@ -49,6 +49,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
 import mu.nu.nullpo.game.subsystem.ai.AIPlayer;
+import mu.nu.nullpo.util.Constants;
 
 import org.apache.log4j.Logger;
 
@@ -124,7 +125,7 @@ public class AISelectFrame extends JFrame implements ActionListener {
 		this.owner = owner;
 
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("config/list/ai.lst"));
+			BufferedReader in = new BufferedReader(new FileReader(Constants.CONFIG_BASE_PATH + "/list/ai.lst"));
 			aiPathList = loadAIList(in);
 			aiNameList = loadAINames(aiPathList);
 			in.close();

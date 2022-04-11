@@ -30,6 +30,7 @@ import org.apache.log4j.Logger;
 import org.jdesktop.layout.GroupLayout;
 import org.jdesktop.layout.GroupLayout.ParallelGroup;
 
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 
 public class AIRanksTool extends JFrame implements ActionListener {
@@ -529,7 +530,7 @@ public class AIRanksTool extends JFrame implements ActionListener {
 		// Load language files
 		propLangDefault = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/airankstool_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/airankstool_default.properties");
 			propLangDefault.load(in);
 			in.close();
 		} catch (IOException e) {
@@ -539,7 +540,7 @@ public class AIRanksTool extends JFrame implements ActionListener {
 
 		propLang = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/airankstool_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/airankstool_" + Locale.getDefault().getCountry() + ".properties");
 			propLang.load(in);
 			in.close();
 		} catch(IOException e) {}

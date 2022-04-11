@@ -1,140 +1,140 @@
-NullpoMino `‚Ê‚é‚Ûƒ~ƒm`
+NullpoMino ï¿½`ï¿½Ê‚ï¿½Ûƒ~ï¿½mï¿½`
 Version 7.5.0
 
-y‚±‚ê‚Á‚Ä‰½Hz
-Java‚Åì‚Á‚½—Ž‚¿‚à‚ÌƒAƒNƒVƒ‡ƒ“ƒpƒYƒ‹ƒQ[ƒ€‚à‚Ç‚«‚Å‚·B
+ï¿½yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‰ï¿½ï¿½Hï¿½z
+Javaï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒAï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½pï¿½Yï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½ï¿½Å‚ï¿½ï¿½B
 
-y‹N“®•û–@z
-“®ì‚É‚ÍJava Runtime Environment‚Ì1.5ˆÈã‚ª•K—v‚Å‚·Bhttp://www.java.com/ja/download/
+ï¿½yï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½z
+ï¿½ï¿½ï¿½ï¿½É‚ï¿½Java Runtime Environmentï¿½ï¿½1.5ï¿½Èã‚ªï¿½Kï¿½vï¿½Å‚ï¿½ï¿½Bhttp://www.java.com/ja/download/
 
-EWindows
-@@play_swing.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆSwingƒo[ƒWƒ‡ƒ“‚ª‹N“®‚µ‚Ü‚·B
-@@iOSˆË‘¶ƒ‰ƒCƒuƒ‰ƒŠ‚ðŽg‚í‚È‚¢ÝŒv‚Å‚·B‚µ‚©‚µ“®ì‘¬“x‚âƒTƒEƒ“ƒh‚ÌŽ¿‚ÍÅ’á‚Å‚·BBGMÄ¶‚âƒWƒ‡ƒCƒXƒeƒBƒbƒN‹@”\‚à‚ ‚è‚Ü‚¹‚ñBj
-@@play_slick.bat‚Ü‚½‚ÍNullpoMino.exe‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆSlickƒo[ƒWƒ‡ƒ“‚ª‹N“®‚µ‚Ü‚·B
-@@iOpenGL‚É‘Î‰ž‚µ‚½ƒrƒfƒIƒJ[ƒh‚ª•K—v‚Å‚·B‚¢‚­‚Â‚©‚ÌPC‚Å‚ÍƒL[ƒ{[ƒh‚ð”FŽ¯‚µ‚Ü‚¹‚ñBj
-@@play_sdl.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆSDLƒo[ƒWƒ‡ƒ“‚ª‹N“®‚µ‚Ü‚·B
-@@i‚Ù‚Æ‚ñ‚Ç‚ÌPC‚ÅSlickƒo[ƒWƒ‡ƒ“‚æ‚è‚àˆÀ’è‚µ‚Ä“®ì‚µ‚Ü‚·B
-@@@‚½‚¾‚µƒ‰ƒ“ƒ_ƒ€‚ÉƒNƒ‰ƒbƒVƒ…‚·‚éƒoƒO‚âAƒlƒbƒgƒvƒŒƒCŽž‚Éƒƒ‚ƒŠƒŠ[ƒNƒoƒO‚È‚Ç‚ª‚ ‚è‚Ü‚·B32bitŒÀ’èj
+ï¿½EWindows
+ï¿½@ï¿½@play_swing.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Swingï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½iOSï¿½Ë‘ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½È‚ï¿½ï¿½ÝŒvï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì‘¬ï¿½xï¿½ï¿½Tï¿½Eï¿½ï¿½ï¿½hï¿½ÌŽï¿½ï¿½ÍÅ’ï¿½Å‚ï¿½ï¿½BBGMï¿½Äï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½j
+ï¿½@ï¿½@play_slick.batï¿½Ü‚ï¿½ï¿½ï¿½NullpoMino.exeï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Slickï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½iOpenGLï¿½É‘Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½fï¿½Iï¿½Jï¿½[ï¿½hï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½PCï¿½Å‚ÍƒLï¿½[ï¿½{ï¿½[ï¿½hï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½j
+ï¿½@ï¿½@play_sdl.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½SDLï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½iï¿½Ù‚Æ‚ï¿½Ç‚ï¿½PCï¿½ï¿½Slickï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚µï¿½Ä“ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ÉƒNï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½Aï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Éƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Nï¿½oï¿½Oï¿½È‚Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B32bitï¿½ï¿½ï¿½ï¿½j
 
-@@ruleeditor.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚Æƒ‹[ƒ‹ƒGƒfƒBƒ^‚ð‹N“®‚µ‚Ü‚·Bƒ‹[ƒ‹‚Ìì¬E•ÒW‚ª‚Å‚«‚Ü‚·B
-@@sequencer.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆƒV[ƒPƒ“ƒXƒrƒ…[ƒA‚ð‹N“®‚µ‚Ü‚·BƒŠƒvƒŒƒCƒtƒ@ƒCƒ‹‚ðŠJ‚¢‚ÄNEXT‚Ì‡”Ô‚ðŠm”F‚Å‚«‚éƒc[ƒ‹‚Å‚·BiZircean‚³‚ñŠJ”­j
-@@musiclisteditor.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚Æƒ~ƒ…[ƒWƒbƒNƒŠƒXƒgƒGƒfƒBƒ^‚ð‹N“®‚µ‚Ü‚·B‰¹Šy‚ÌÝ’è‚ª‚Å‚«‚Ü‚·B
-@@netserver.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆNetServeriƒlƒbƒgƒvƒŒƒC—pƒT[ƒo[j‚ð‹N“®‚µ‚Ü‚·B
-@@netadmin.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆNetAdminiNetServerŠÇ—ƒc[ƒ‹j‚ð‹N“®‚µ‚Ü‚·B
-@@airankstool.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆAI Ranks Tool‚ð‹N“®‚µ‚Ü‚·BRanksAI‚Ì’èÎƒtƒ@ƒCƒ‹‚ðì¬‚·‚éƒc[ƒ‹‚Å‚·Bi‘å—Ê‚Ìƒƒ‚ƒŠ‚ð•K—v‚Æ‚µ‚Ü‚·j
+ï¿½@ï¿½@ruleeditor.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½[ï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½^ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ìì¬ï¿½Eï¿½ÒWï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@sequencer.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ÆƒVï¿½[ï¿½Pï¿½ï¿½ï¿½Xï¿½rï¿½ï¿½ï¿½[ï¿½Aï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½NEXTï¿½Ìï¿½ï¿½Ô‚ï¿½ï¿½mï¿½Fï¿½Å‚ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½iZirceanï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½j
+ï¿½@ï¿½@musiclisteditor.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Æƒ~ï¿½ï¿½ï¿½[ï¿½Wï¿½bï¿½Nï¿½ï¿½ï¿½Xï¿½gï¿½Gï¿½fï¿½Bï¿½^ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½yï¿½ÌÝ’è‚ªï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@netserver.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½NetServerï¿½iï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½pï¿½Tï¿½[ï¿½oï¿½[ï¿½jï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@netadmin.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½NetAdminï¿½iNetServerï¿½Ç—ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@airankstool.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½AI Ranks Toolï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½BRanksAIï¿½Ì’ï¿½Îƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½cï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½iï¿½ï¿½Ê‚Ìƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½j
 
-ELinux
-@@’[––ƒEƒBƒ“ƒhƒE‚ÅNullpoMino‚ª‚ ‚éƒfƒBƒŒƒNƒgƒŠi‚±‚Ìƒtƒ@ƒCƒ‹‚ª‚ ‚éƒfƒBƒŒƒNƒgƒŠj‚Ü‚ÅˆÚ“®‚µ‚Ä
-@@ˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ð“ü—Í‚µ‚ÄEnterƒL[‚ð‰Ÿ‚·‚Æ‚½‚Ô‚ñ‹N“®‚µ‚Ü‚·B
-@@(’:Å‰‚ÌchmodƒRƒ}ƒ“ƒh‚Í‹N“®—pƒVƒFƒ‹ƒXƒNƒŠƒvƒg‚ÉŽÀsŒ ŒÀ‚ð—^‚¦‚é‚à‚Ì‚Å‚·B2‰ñ–Ú‚Ì‹N“®‚©‚ç‚Í•K—v‚ ‚è‚Ü‚¹‚ñB)
+ï¿½ELinux
+ï¿½@ï¿½@ï¿½[ï¿½ï¿½ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½NullpoMinoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½iï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½jï¿½Ü‚ÅˆÚ“ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½È‰ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Enterï¿½Lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ô‚ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@(ï¿½ï¿½:ï¿½Åï¿½ï¿½ï¿½chmodï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½Í‹Nï¿½ï¿½ï¿½pï¿½Vï¿½Fï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ÉŽï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‚ï¿½ï¿½B2ï¿½ï¿½Ú‚Ì‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í•Kï¿½vï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B)
 
-@@Swingƒo[ƒWƒ‡ƒ“:
+ï¿½@ï¿½@Swingï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½:
 chmod +x play_swing
 ./play_swing
 
-@@Slickƒo[ƒWƒ‡ƒ“:
+ï¿½@ï¿½@Slickï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½:
 chmod +x play_slick
 ./play_slick
-@@‚Ü‚½‚Í
+ï¿½@ï¿½@ï¿½Ü‚ï¿½ï¿½ï¿½
 chmod +x NullpoMino
 ./NullpoMino
 
-@@SDLƒo[ƒWƒ‡ƒ“:
+ï¿½@ï¿½@SDLï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½:
 chmod +x play_sdl
 ./play_sdl
 
-@@ƒ‹[ƒ‹ƒGƒfƒBƒ^:
+ï¿½@ï¿½@ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½^:
 chmod +x ruleeditor
 ./ruleeditor
 
-@@ƒV[ƒPƒ“ƒXƒrƒ…[ƒA:
+ï¿½@ï¿½@ï¿½Vï¿½[ï¿½Pï¿½ï¿½ï¿½Xï¿½rï¿½ï¿½ï¿½[ï¿½A:
 chmod +x sequencer
 ./sequencer
 
-@@ƒ~ƒ…[ƒWƒbƒNƒŠƒXƒgƒGƒfƒBƒ^:
+ï¿½@ï¿½@ï¿½~ï¿½ï¿½ï¿½[ï¿½Wï¿½bï¿½Nï¿½ï¿½ï¿½Xï¿½gï¿½Gï¿½fï¿½Bï¿½^:
 chmod +x musiclisteditor
 ./musiclisteditor
 
-@@ƒlƒbƒgƒvƒŒƒC—pƒT[ƒo[:
+ï¿½@ï¿½@ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½pï¿½Tï¿½[ï¿½oï¿½[:
 chmod +x netserver
 ./netserver
 
-@@NetAdmin:
+ï¿½@ï¿½@NetAdmin:
 chmod +x netadmin
 ./netadmin
 
-@@AI Ranks Tool:
+ï¿½@ï¿½@AI Ranks Tool:
 chmod +x airankstool
 ./airankstool
 
-@@Žg—p‚µ‚Ä‚¢‚éƒrƒfƒIƒJ[ƒh‚âLinux‚Ìƒo[ƒWƒ‡ƒ“‚É‚æ‚Á‚Ä‚Í‚¤‚Ü‚­“®‚©‚È‚¢‚©‚à‚µ‚ê‚Ü‚¹‚ñB
+ï¿½@ï¿½@ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½rï¿½fï¿½Iï¿½Jï¿½[ï¿½hï¿½ï¿½Linuxï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Ä‚Í‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-@@Swingƒo[ƒWƒ‡ƒ“ŒÅ—L‚Ì–â‘è:
-@@@Œ»Žž“_‚Å‚Í‚Ü‚Æ‚à‚É“®‚«‚Ü‚¹‚ñB
+ï¿½@ï¿½@Swingï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å—Lï¿½Ì–ï¿½ï¿½:
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚Í‚Ü‚Æ‚ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-@@Slickƒo[ƒWƒ‡ƒ“ŒÅ—L‚Ì–â‘è:
-@@@3DƒfƒXƒNƒgƒbƒv‹@”\iBeryl‚Æ‚©j‚Í–³Œø‚É‚·‚é‚±‚Æ‚ð‚¨‚·‚·‚ß‚µ‚Ü‚·B
-@@@ˆê‰žx64‚Å‚à“®ì‚·‚é‚æ‚¤‚Å‚·B
+ï¿½@ï¿½@Slickï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å—Lï¿½Ì–ï¿½ï¿½:
+ï¿½@ï¿½@ï¿½@3Dï¿½fï¿½Xï¿½Nï¿½gï¿½bï¿½vï¿½@ï¿½\ï¿½iBerylï¿½Æ‚ï¿½ï¿½jï¿½Í–ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ê‰žx64ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B
 
-@@@LWJGL‚¨‚æ‚ÑSCIM‚ÌƒoƒO(‚à‚µ‚­‚Í§ŒÀ)‚Ì‚½‚ßAplay_slickƒVƒFƒ‹ƒXƒNƒŠƒvƒg‚ÍƒQ[ƒ€‚ð‹N“®‚·‚é‚Æ‚«‚É‘S‚Ä‚ÌIME‚ð–³Œø‰»‚µ‚Ü‚·B
-@@@ƒVƒFƒ‹ƒXƒNƒŠƒvƒg“à‚ÌƒRƒ}ƒ“ƒhƒ‰ƒCƒ“Å‰‚ÌXMODIFIERS=@im=none‚ÍAŽg‚Á‚Ä‚¢‚éIME‚ªSCIMˆÈŠO‚Ìê‡‚Í•s—v‚Å‚·B
+ï¿½@ï¿½@ï¿½@LWJGLï¿½ï¿½ï¿½ï¿½ï¿½SCIMï¿½Ìƒoï¿½O(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½)ï¿½Ì‚ï¿½ï¿½ßAplay_slickï¿½Vï¿½Fï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ÍƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½É‘Sï¿½Ä‚ï¿½IMEï¿½ð–³Œï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½Vï¿½Fï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½XMODIFIERS=@im=noneï¿½ÍAï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½IMEï¿½ï¿½SCIMï¿½ÈŠOï¿½Ìê‡ï¿½Í•sï¿½vï¿½Å‚ï¿½ï¿½B
 
-@@@‚à‚µSCIM‚ð—LŒø‰»‚µ‚½‚Ü‚ÜƒQ[ƒ€‚ðƒvƒŒƒC‚µ‚½‚¢ê‡‚ÍAˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ðŽŽ‚µ‚Ä‚­‚¾‚³‚¢(sudo‚ðŽÀs‚Å‚«‚éŒ ŒÀ‚ª•K—v‚Å‚·):
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½SCIMï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ÜƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍAï¿½È‰ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(sudoï¿½ï¿½ï¿½ï¿½ï¿½sï¿½Å‚ï¿½ï¿½éŒ ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½):
 
 sudo chmod go+r /dev/input/*
 java -cp bin:NullpoMino.jar:lib/log4j-1.2.15.jar:lib/slick.jar:lib/lwjgl.jar:lib/jorbis-0.0.15.jar:lib/jogg-0.0.7.jar:lib/ibxm.jar:lib/jinput.jar -Djava.library.path=lib mu.nu.nullpo.gui.slick.NullpoMinoSlick -j
 
-@@@Å‰‚ÌƒRƒ}ƒ“ƒh‚ÍA‚·‚×‚Ä‚ÌƒvƒƒOƒ‰ƒ€‚ªƒL[ƒ{[ƒh“ü—Í‚ð’¼Ú“Ç‚ÝŽæ‚ê‚é‚æ‚¤‚É‚µ‚Ü‚·B
-@@@ˆê“xŽÀs‚·‚é‚ÆAŽŸ‚ÉÄ‹N“®‚à‚µ‚­‚ÍƒVƒƒƒbƒgƒ_ƒEƒ“‚·‚é‚Ü‚ÅÄ“xŽÀs‚·‚é•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
-@@@2‚Â–Ú‚ÌƒRƒ}ƒ“ƒh‚ÍAƒQ[ƒ€‚ð"-j"ƒIƒvƒVƒ‡ƒ“‚ð•t‚¯‚Ä‹N“®‚µ‚Ü‚·B
-@@@’ÊíA‚±‚ÌƒQ[ƒ€‚ÍƒL[ƒ{[ƒh“ü—Í‚ðLWJGL‚©‚ç“Ç‚ÝŽæ‚ë‚¤‚Æ‚µ‚Ü‚·‚ªASCIM‚Æ‚Í‘Š«‚ªˆ«‚¢‚Å‚·B
-@@@‚±‚ÌƒIƒvƒVƒ‡ƒ“‚ðŽg—p‚µ‚Ä‚¢‚éê‡AƒQ[ƒ€‚ÍƒL[ƒ{[ƒh“ü—Í‚ðƒVƒXƒeƒ€‚©‚ç’¼Ú“Ç‚ÝŽæ‚è‚Ü‚·‚Ì‚ÅASCIM‚ª‚ ‚Á‚Ä‚à–â‘è‚È‚­“®ì‚·‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
-@@@‚½‚¾‚µˆê•””FŽ¯‚Å‚«‚È‚¢ƒL[i;‚È‚Çj‚ª‚ ‚è‚Ü‚·B
+ï¿½@ï¿½@ï¿½@ï¿½Åï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ÍAï¿½ï¿½ï¿½×‚Ä‚Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½[ï¿½{ï¿½[ï¿½hï¿½ï¿½ï¿½Í‚ð’¼Ú“Ç‚ÝŽï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½xï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½ÉÄ‹Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍƒVï¿½ï¿½ï¿½bï¿½gï¿½_ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ÅÄ“xï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@2ï¿½Â–Ú‚ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ÍAï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½"-j"ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½Ä‹Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½Êï¿½Aï¿½ï¿½ï¿½ÌƒQï¿½[ï¿½ï¿½ï¿½ÍƒLï¿½[ï¿½{ï¿½[ï¿½hï¿½ï¿½ï¿½Í‚ï¿½LWJGLï¿½ï¿½ï¿½ï¿½Ç‚ÝŽï¿½ë‚¤ï¿½Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ASCIMï¿½Æ‚Í‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ÌƒIï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½Qï¿½[ï¿½ï¿½ï¿½ÍƒLï¿½[ï¿½{ï¿½[ï¿½hï¿½ï¿½ï¿½Í‚ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ç’¼ï¿½Ú“Ç‚ÝŽï¿½ï¿½Ü‚ï¿½ï¿½Ì‚ÅASCIMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê•”ï¿½Fï¿½ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Lï¿½[ï¿½i;ï¿½È‚Çjï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@@SDLƒo[ƒWƒ‡ƒ“ŒÅ—L‚Ì–â‘è:
-@@@Ž©•ª‚ªUbuntu 8.04‚ÅŽŽ‚µ‚½ŒÀ‚è‚Å‚ÍA‚±‚ê‚ªLinux‚Å‚ÍÅ‚à–â‘è‚È‚­“®ì‚µ‚Ü‚·B
-@@@“®‚©‚·‚É‚Ílibsdl‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚é•K—v‚ª‚ ‚è‚Ü‚·B
-@@@“ü‚Á‚Ä‚È‚¢ê‡AUbuntu 8.04‚¾‚ÆˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ÅƒCƒ“ƒXƒg[ƒ‹‚Å‚«‚é‚ç‚µ‚¢‚Å‚·B
+ï¿½@ï¿½@SDLï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å—Lï¿½Ì–ï¿½ï¿½:
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ubuntu 8.04ï¿½ÅŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ÍAï¿½ï¿½ï¿½ê‚ªLinuxï¿½Å‚ÍÅ‚ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ì‚µï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½libsdlï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚È‚ï¿½ï¿½ê‡ï¿½AUbuntu 8.04ï¿½ï¿½ï¿½ÆˆÈ‰ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ÅƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 sudo apt-get install libsdl1.2debian
-@@@i386ˆÈŠO‚¾‚Æ“®‚©‚È‚¢‚æ‚¤‚Å‚·B
+ï¿½@ï¿½@ï¿½@i386ï¿½ÈŠOï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B
 
-EMac OS X
-@@Ž‚Á‚Ä‚È‚¢‚Ì‚Å‚æ‚­•ª‚©‚è‚Ü‚¹‚ñ(LEƒÖEM)
-@@Slickƒo[ƒWƒ‡ƒ“‚Íˆê‰žLinux‚Æ“¯‚¶ƒRƒ}ƒ“ƒh‚Å“®‚­‚ç‚µ‚¢‚Å‚·B
-@@SDLƒo[ƒWƒ‡ƒ“‚ÍAŽg‚Á‚Ä‚éƒ‰ƒCƒuƒ‰ƒŠisdljavaj‚ªWindows”Å‚ÆLinux”Å‚µ‚©‘¶Ý‚µ‚È‚¢‚½‚ß“®‚«‚Ü‚¹‚ñB
-@@Swingƒo[ƒWƒ‡ƒ“‚Í•ª‚©‚è‚Ü‚¹‚ñc
+ï¿½EMac OS X
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚È‚ï¿½ï¿½Ì‚Å‚æ‚­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½(ï¿½Lï¿½Eï¿½ÖEï¿½M)
+ï¿½@ï¿½@Slickï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Íˆê‰žLinuxï¿½Æ“ï¿½ï¿½ï¿½ï¿½Rï¿½}ï¿½ï¿½ï¿½hï¿½Å“ï¿½ï¿½ï¿½ï¿½ç‚µï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@SDLï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ÍAï¿½gï¿½ï¿½ï¿½Ä‚éƒ‰ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½isdljavaï¿½jï¿½ï¿½Windowsï¿½Å‚ï¿½Linuxï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ß“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@Swingï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Í•ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½c
 
-y—V‚Ñ•ûz
-ã‚©‚çƒuƒƒbƒN‚ª—Ž‰º‚µ‚Ä‚«‚Ü‚·B
-ƒuƒƒbƒN‚Í’n–Ê‚â‘¼‚ÌƒuƒƒbƒN‚Ìã‚É—Ž‚¿‚é‚Ü‚Å‰ñ“]‚³‚¹‚½‚èAˆÚ“®‚³‚¹‚½‚èA‘‚­—Ž‰º‚³‚¹‚½‚è‚Å‚«‚Ü‚·B
-ƒuƒƒbƒN‚ª’n–Ê‚â‘¼‚ÌƒuƒƒbƒN‚Ìã‚É—Ž‚¿‚é‚ÆA‚»‚ÌƒuƒƒbƒN‚ªŒÅ’è‚³‚ê‚ÄAã‚©‚çŽŸ‚ÌƒuƒƒbƒN‚ª—Ž‰º‚µ‚Ä‚«‚Ü‚·B
-ƒuƒƒbƒN‚ð‰¡ˆê—ñ‚ÉŒ„ŠÔ–³‚­•À‚×‚éiƒ‰ƒCƒ“‚ðì‚éj‚ÆAƒuƒƒbƒN‚ðÁ‚·‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-ˆê“x‚É•¡”‚Ìƒ‰ƒCƒ“‚ðì‚é‚Æ‚“¾“_‚Å‚·B
-ƒuƒƒbƒN‚ªã‚Ü‚ÅÏ‚Ý‚ ‚ª‚èAŽŸ‚ÌƒuƒƒbƒN‚ª—Ž‚¿‚Ä‚±‚ê‚È‚­‚È‚é‚ÆƒQ[ƒ€ƒI[ƒo[‚Å‚·B
+ï¿½yï¿½Vï¿½Ñ•ï¿½ï¿½z
+ï¿½ã‚©ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Í’nï¿½Ê‚â‘¼ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½Ìï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‰ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½nï¿½Ê‚â‘¼ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½Ìï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Å’è‚³ï¿½ï¿½ÄAï¿½ã‚©ï¿½çŽŸï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉŒï¿½ï¿½Ô–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚ï¿½iï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ÆAï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½ï¿½xï¿½É•ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ï¿½ï¿½B
+ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Ü‚ÅÏ‚Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½ÆƒQï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½Å‚ï¿½ï¿½B
 
-yƒ{ƒ^ƒ“‚Ìà–¾z
-UPFƒn[ƒhƒhƒƒbƒviƒuƒƒbƒN‚ðˆêu‚Å—Ž‰ºjEƒJ[ƒ\ƒ‹‚ðã‚ÉˆÚ“®
-DOWNFƒ\ƒtƒgƒhƒƒbƒviƒuƒƒbƒN‚ð‘‚­—Ž‰ºjEƒJ[ƒ\ƒ‹‚ð‰º‚ÉˆÚ“®
-LEFTFƒuƒƒbƒN‚ð¶‚ÉˆÚ“®EƒJ[ƒ\ƒ‹‚Å‘I‘ð‚µ‚Ä‚¢‚é€–Ú‚Ì’l‚ð1‚ÂŒ¸‚ç‚·
-RIGHTFƒuƒƒbƒN‚ð‰E‚ÉˆÚ“®EƒJ[ƒ\ƒ‹‚Å‘I‘ð‚µ‚Ä‚¢‚é€–Ú‚Ì’l‚ð1‚Â‘‚â‚·
-AFƒuƒƒbƒN‚Ì‰ñ“]Eƒƒjƒ…[€–Ú‚ÌŒˆ’è
-BFƒuƒƒbƒN‚Ì‹t‰ñ“]EƒLƒƒƒ“ƒZƒ‹
-CFƒuƒƒbƒN‚Ì‰ñ“]
-DFƒz[ƒ‹ƒhiƒuƒƒbƒN‚ðˆêŽž“I‚É•ÛŠÇ‚µ‚ÄAŒã‚ÅŽg‚¤‚±‚Æ‚ª‚Å‚«‚Ü‚·j
-EFƒuƒƒbƒN‚Ì180“x‰ñ“]
-FFƒGƒ“ƒfƒBƒ“ƒO‘‘—‚èiSPEED MANIA‚ÆGARBAGE MANIAƒ‚[ƒh‚ÅŽg—p‰Â”\jEƒlƒbƒgƒvƒŒƒC‚Å—ûKƒ‚[ƒh‚ðŠJŽn^I—¹
-QUITFƒQ[ƒ€‚ðI—¹‚·‚é
-PAUSEFƒQ[ƒ€‚ðˆêŽž’âŽ~
-GIVEUPFƒ^ƒCƒgƒ‹‚É–ß‚é
-RETRYFƒQ[ƒ€‚ðÅ‰‚©‚ç‚â‚è’¼‚·
-FRAME STEPFƒ|[ƒY’†‚É‰Ÿ‚·‚Æ1ƒtƒŒ[ƒ€‚¾‚¯ƒQ[ƒ€‚ði‚ß‚éiÝ’è‚Å—LŒø‚É‚µ‚Ä‚¢‚éê‡j
-SCREEN SHOTFƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚ðssƒtƒHƒ‹ƒ_‚É•Û‘¶
+ï¿½yï¿½{ï¿½^ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½z
+UPï¿½Fï¿½nï¿½[ï¿½hï¿½hï¿½ï¿½ï¿½bï¿½vï¿½iï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½uï¿½Å—ï¿½ï¿½ï¿½ï¿½jï¿½Eï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉˆÚ“ï¿½
+DOWNï¿½Fï¿½\ï¿½tï¿½gï¿½hï¿½ï¿½ï¿½bï¿½vï¿½iï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ð‘‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½Eï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉˆÚ“ï¿½
+LEFTï¿½Fï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ÉˆÚ“ï¿½ï¿½Eï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Å‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é€ï¿½Ú‚Ì’lï¿½ï¿½1ï¿½ÂŒï¿½ï¿½ç‚·
+RIGHTï¿½Fï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Eï¿½ÉˆÚ“ï¿½ï¿½Eï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Å‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é€ï¿½Ú‚Ì’lï¿½ï¿½1ï¿½Â‘ï¿½ï¿½â‚·
+Aï¿½Fï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Ì‰ï¿½]ï¿½Eï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ú‚ÌŒï¿½ï¿½ï¿½
+Bï¿½Fï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Ì‹tï¿½ï¿½]ï¿½Eï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½
+Cï¿½Fï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Ì‰ï¿½]
+Dï¿½Fï¿½zï¿½[ï¿½ï¿½ï¿½hï¿½iï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½êŽžï¿½Iï¿½É•ÛŠÇ‚ï¿½ï¿½ÄAï¿½ï¿½ÅŽgï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½j
+Eï¿½Fï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½180ï¿½xï¿½ï¿½]
+Fï¿½Fï¿½Gï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iSPEED MANIAï¿½ï¿½GARBAGE MANIAï¿½ï¿½ï¿½[ï¿½hï¿½ÅŽgï¿½pï¿½Â”\ï¿½jï¿½Eï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Å—ï¿½ï¿½Kï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Jï¿½nï¿½^ï¿½Iï¿½ï¿½
+QUITï¿½Fï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+PAUSEï¿½Fï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½êŽžï¿½ï¿½~
+GIVEUPï¿½Fï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½É–ß‚ï¿½
+RETRYï¿½Fï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è’¼ï¿½ï¿½
+FRAME STEPï¿½Fï¿½|ï¿½[ï¿½Yï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½iï¿½ß‚ï¿½iï¿½Ý’ï¿½Å—Lï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½j
+SCREEN SHOTï¿½Fï¿½Xï¿½Nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ssï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½É•Û‘ï¿½
 
-yƒL[”z’uz
-Eƒƒjƒ…[‰æ–Ê‚Å‚ÌƒL[”z’u
+ï¿½yï¿½Lï¿½[ï¿½zï¿½uï¿½z
+ï¿½Eï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½Ê‚Å‚ÌƒLï¿½[ï¿½zï¿½u
 +-------------+------------+------------+------------+
-|  ƒ{ƒ^ƒ“–¼   |  Blockbox  | Guideline  | NullpoMino |
-|             |(ƒfƒtƒHƒ‹ƒg)|            |  Classic   |
+|  ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½   |  Blockbox  | Guideline  | NullpoMino |
+|             |(ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½g)|            |  Classic   |
 +-------------+------------+------------+------------+
 |UP           |Cursor Up   |Cursor Up   |Cursor Up   |
 |DOWN         |Cursor Down |Cursor Down |Cursor Down |
@@ -154,10 +154,10 @@ SCREEN SHOTFƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚ðssƒtƒHƒ‹ƒ_‚É•Û‘¶
 |SCREEN SHOT  |F5          |F5          |F10         |
 +-------------+------------+------------+------------+
 
-EƒQ[ƒ€’†‚ÌƒL[”z’u
+ï¿½Eï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒLï¿½[ï¿½zï¿½u
 +-------------+------------+------------+------------+
-|  ƒ{ƒ^ƒ“–¼   |  Blockbox  | Guideline  | NullpoMino |
-|             |(ƒfƒtƒHƒ‹ƒg)|            |  Classic   |
+|  ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½   |  Blockbox  | Guideline  | NullpoMino |
+|             |(ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½g)|            |  Classic   |
 +-------------+------------+------------+------------+
 |UP           |Cursor Up   |Space       |Cursor Up   |
 |DOWN         |Cursor Down |Cursor Down |Cursor Down |
@@ -177,349 +177,349 @@ SCREEN SHOTFƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚ðssƒtƒHƒ‹ƒ_‚É•Û‘¶
 |SCREEN SHOT  |F5          |F5          |F10         |
 +-------------+------------+------------+------------+
 
-ƒL[”z’u‚Íƒ^ƒCƒgƒ‹‚ÌuCONFIGv‚Ì’†‚É‚ ‚éu[KEYBOARD SETTING]v‚©‚ç•ÏX‚Å‚«‚Ü‚·B
+ï¿½Lï¿½[ï¿½zï¿½uï¿½Íƒ^ï¿½Cï¿½gï¿½ï¿½ï¿½ÌuCONFIGï¿½vï¿½Ì’ï¿½ï¿½É‚ï¿½ï¿½ï¿½u[KEYBOARD SETTING]ï¿½vï¿½ï¿½ï¿½ï¿½ÏXï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-yÝ’è‚ÌƒŠƒZƒbƒgz
-Ý’è‚ðƒŠƒZƒbƒg‚µ‚½‚¢‚Æ‚«‚ÍAˆÈ‰º‚Ìƒtƒ@ƒCƒ‹‚ðíœ‚µ‚Ä‚­‚¾‚³‚¢B
-@Swing”ÅFconfig\setting\swing.cfg
-@Slick”ÅFconfig\setting\slick.cfg
-@SDL”ÅFconfig\setting\sdl.cfg
-@Šeƒo[ƒWƒ‡ƒ“‹¤’Ê‚ÌÝ’èFconfig\setting\global.cfg
-@ƒnƒCƒXƒRƒA‚È‚ÇFconfig\setting\mode.cfg
+ï¿½yï¿½Ý’ï¿½Ìƒï¿½ï¿½Zï¿½bï¿½gï¿½z
+ï¿½Ý’ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÍAï¿½È‰ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@Swingï¿½ÅFconfig\setting\swing.cfg
+ï¿½@Slickï¿½ÅFconfig\setting\slick.cfg
+ï¿½@SDLï¿½ÅFconfig\setting\sdl.cfg
+ï¿½@ï¿½eï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ÌÝ’ï¿½Fconfig\setting\global.cfg
+ï¿½@ï¿½nï¿½Cï¿½Xï¿½Rï¿½Aï¿½È‚ÇFconfig\setting\mode.cfg
 
-yƒQ[ƒ€ƒ‹[ƒ‹z
-‘I‚ñ‚¾ƒQ[ƒ€ƒ‹[ƒ‹‚É‰ž‚¶‚Ä‘€ì«‚âƒuƒƒbƒN‚ÌŒ©‚½–Ú‚ª•Ï‚í‚è‚Ü‚·B
-CONFIG‚Ì’†‚É‚ ‚éu[RULE SELECT]v‚©‚çŽg—p‚·‚éƒ‹[ƒ‹‚ð•ÏX‚Å‚«‚Ü‚·B
-•t‘®‚Ìƒ‹[ƒ‹ƒGƒfƒBƒ^‚ðŽg‚¤‚Æ“ÆŽ©‚Ìƒ‹[ƒ‹‚ðì¬‚Å‚«‚Ü‚·B
+ï¿½yï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½z
+ï¿½Iï¿½ñ‚¾ƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½Ä‘ï¿½ï¿½ì«ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÌŒï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ï‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+CONFIGï¿½Ì’ï¿½ï¿½É‚ï¿½ï¿½ï¿½u[RULE SELECT]ï¿½vï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½ï¿½ÏXï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½tï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½^ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Æ“ÆŽï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-AVALANCHE@@@@@FAVALANCHEƒ^ƒCƒv‚Ìƒ‚[ƒh—p‚Ìƒ‹[ƒ‹‚Å‚·B
-CLASSIC0 @@@@@F•ÇR‚è‚àƒz[ƒ‹ƒh‚à‚È‚¢ŒÃ“T“I‚Èƒ‹[ƒ‹(RETRO MANIAƒ‚[ƒh‚É‚¨‚·‚·‚ß)
-CLASSIC0-68K @@@FCLASSIC0‚É‹t‰ñ“]‚ª•t‚¢‚½ƒ‹[ƒ‹
-CLASSIC1 @@@@@FNEXT‚ª1ŒÂ‚¾‚¯Aƒz[ƒ‹ƒh‚È‚µAƒn[ƒhƒhƒƒbƒv‚È‚µA•Ç“o‚è•s‰Â‚Ìƒ‹[ƒ‹
-CLASSIC2 @@@@@FCLASSIC1‚Éƒn[ƒhƒhƒƒbƒv‚ð’Ç‰Á‚µ‚½ƒ‹[ƒ‹
-CLASSIC3 @@@@@FNEXT‚ª3ŒÂAƒz[ƒ‹ƒh‚ ‚èAˆê•”ƒuƒƒbƒN‚Å1‰ñ‚¾‚¯“ÁŽê‚È‰ñ“]‚ª‚Å‚«‚é‚æ‚¤‚É‚È‚Á‚½ƒ‹[ƒ‹
-CLASSIC-EASY-A @@FCLASSIC3‚ÆSTANDARD‚ð‡‘Ì‚³‚¹‚½‚æ‚¤‚Èƒ‹[ƒ‹
-CLASSIC-EASY-A2@@FCLASSIC-EASY-A‚ÌFˆá‚¢
-CLASSIC-EASY-B @@FCLASSIC-EASY-A‚Ìƒn[ƒhƒhƒƒbƒv‚Æƒ\ƒtƒgƒhƒƒbƒv‚ÌŠÖŒW‚ð”½‘Î‚É‚µ‚½ƒ‹[ƒ‹
-CLASSIC-EASY-B2@@FCLASSIC-EASY-B‚ÌFˆá‚¢
-CLASSIC-S@@@@@FCLASSIC0‚É•ÇR‚è‚ð’Ç‰Á‚µ‚½ƒ‹[ƒ‹(‚½‚¾‚µu•Çv‚µ‚©R‚è‚Ü‚¹‚ñB‚·‚Å‚É’u‚¢‚½ƒuƒƒbƒN‚ÍR‚è‚Ü‚¹‚ñB)
-DTET @@@@@@@F“Æ“Á‚È‰ñ“]–@‘¥‚â‘€ì«‚ðŽ‚Âƒ‹[ƒ‹
-NINTENDO-L @@@@Fƒ‚ƒmƒNƒ‚ÌƒuƒƒbƒN‚â‹·‚¢ƒtƒB[ƒ‹ƒh‚ð“Á’¥‚Æ‚·‚éŒÃ“T“I‚Èƒ‹[ƒ‹
-NINTENDO-L-FAST @ FNINTENDO-L‚Ì‰¡ˆÚ“®‚ð‘¬‚­‚µ‚½‚à‚Ì
-NINTENDO-R @@@@FNINTENDO-L‚æ‚è‚à‰EŠñ‚è‚É‰ñ“]‚µƒuƒƒbƒN‚àƒJƒ‰[‚ÈŒÃ“T“I‚Èƒ‹[ƒ‹(CLASSIC MARATHONƒ‚[ƒh‚É‚¨‚·‚·‚ß)
-NINTENDO-R-FAST @ FNINTENDO-R‚Ì‰¡ˆÚ“®‚ð‘¬‚­‚µ‚½‚à‚Ì
-PHYSICIAN@@@@@FPHYSICIANƒ^ƒCƒv‚Ìƒ‚[ƒh—p‚Ìƒ‹[ƒ‹‚Å‚·B
-SPF@@@@@@@@FSPFƒ^ƒCƒv‚Ìƒ‚[ƒh—p‚Ìƒ‹[ƒ‹‚Å‚·B
-SQUARE@@@@@@ FSQUAREƒ‚[ƒhŒü‚«‚Ìƒ‹[ƒ‹‚Å‚·B4x4‚Ì³•ûŒ`‚ªì‚èˆÕ‚¢‚æ‚¤‚È‡”Ô‚ÅƒuƒƒbƒN‚ªoŒ»‚µ‚Ü‚·B
-STANDARD@@@@@ F‰SŽÒ‚©‚çã‹‰ŽÒ‚Ü‚Åˆµ‚¢‚â‚·‚¢ƒ‹[ƒ‹‚ÅA•Ç“o‚è‚à‰Â”\
-STANDARD-EXP@@@ Fƒn[ƒhƒhƒƒbƒv‚ðŽg—p‚µ‚Ä‚à‘¦ŒÅ’è‚¹‚¸Aƒ\ƒtƒgƒhƒƒbƒv‚¾‚Æ‘¦ŒÅ’è‚É‚È‚éƒ‹[ƒ‹
-STANDARD-FAST@@@FSTANDARD‚æ‚è‚à‘f‘‚¢‘€ì‚ª‰Â”\
-STANDARD-FAST-B@@FSTANDARD-FAST‚æ‚è‚àæs‰ñ“]‚ª–\”­‚µ‚É‚­‚¢
-STANDARD-FRIENDS@ F“®‚«‚ª‚â‚â’x‚¢EoŒ»ˆÊ’u‚ª‘¼‚Ìƒ‹[ƒ‹‚Ì1ƒ}ƒX‰º
-STANDARD-GIZA@@@Fhebo-MAI‚³‚ñì‚Ìƒ‹[ƒ‹E‚â‚â‘¬“x‚ª—}‚¦‚ç‚ê‚Ä‚¢‚Ä‘Îí‚Å‚Í‘¬“x‚Å‚Í‚È‚­í—ª«‚ª‹‚ß‚ç‚ê‚é
-STANDARD-HARD@@@FSTANDARD‚æ‚è‚à­‚µ“ï‚µ‚¢
-STANDARD-HARD128@ FSTANDARD-HARD‚ð­‚µŠÈ’P‚É‚µ‚½‚à‚Ì(ƒuƒƒbƒN‚ª’n–Ê‚É’…’n‚µ‚½‚ ‚Æ128‰ñ‚Ü‚ÅˆÚ“®E‰ñ“]‰Â”\)
-STANDARD-HOLDNEXT@Fholdnext‚³‚ñì‚Ìƒ‹[ƒ‹EƒIƒŒƒ“ƒW–_‚ª“Á’¥
-STANDARD-J@@@@ F“®‚«‚ª‚©‚È‚è’x‚¢
-STANDARD-PLUS@@@FSTANDARD-FAST‚ðƒx[ƒX‚ÉAƒ‰ƒCƒ“Á‹ŽŽžŠÔ‚ð0‚É‚µ‚Äƒ\ƒtƒgƒhƒƒbƒv‘¬“x‚ðã‚°‚½ƒ‹[ƒ‹(Blink‚³‚ñì)
-STANDARD-SUPER3@@F‰ñ“]–@‘¥‚ªSTANDARD‚Æ“¯‚¶‚Å•ÇR‚è‚ª‘¶Ý‚µ‚È‚¢ƒ‹[ƒ‹
-STANDARD-ZERO@@@FSTANDARD-PLUS‚ðƒx[ƒX‚ÉAæs‰ñ“]–³‚µEæsƒz[ƒ‹ƒh–³‚µEƒ\ƒtƒgƒhƒƒbƒv‘¬“x20GEƒ[ƒv‰¡ˆÚ“®‚ðŽæ‚è“ü‚ê‚½ƒ‹[ƒ‹ (Wojtek‚³‚ñì)
+AVALANCHEï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FAVALANCHEï¿½^ï¿½Cï¿½vï¿½Ìƒï¿½ï¿½[ï¿½hï¿½pï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+CLASSIC0 ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Fï¿½ÇRï¿½ï¿½ï¿½ï¿½zï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½È‚ï¿½ï¿½Ã“Tï¿½Iï¿½Èƒï¿½ï¿½[ï¿½ï¿½(RETRO MANIAï¿½ï¿½ï¿½[ï¿½hï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+CLASSIC0-68K ï¿½@ï¿½@ï¿½@ï¿½FCLASSIC0ï¿½É‹tï¿½ï¿½]ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+CLASSIC1 ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FNEXTï¿½ï¿½1ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Aï¿½zï¿½[ï¿½ï¿½ï¿½hï¿½È‚ï¿½ï¿½Aï¿½nï¿½[ï¿½hï¿½hï¿½ï¿½ï¿½bï¿½vï¿½È‚ï¿½ï¿½Aï¿½Ç“oï¿½ï¿½sï¿½Â‚Ìƒï¿½ï¿½[ï¿½ï¿½
+CLASSIC2 ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FCLASSIC1ï¿½Éƒnï¿½[ï¿½hï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+CLASSIC3 ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FNEXTï¿½ï¿½3ï¿½ÂAï¿½zï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½Aï¿½ê•”ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½1ï¿½ñ‚¾‚ï¿½ï¿½ï¿½ï¿½ï¿½È‰ï¿½]ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+CLASSIC-EASY-A ï¿½@ï¿½@ï¿½FCLASSIC3ï¿½ï¿½STANDARDï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Èƒï¿½ï¿½[ï¿½ï¿½
+CLASSIC-EASY-A2ï¿½@ï¿½@ï¿½FCLASSIC-EASY-Aï¿½ÌFï¿½á‚¢
+CLASSIC-EASY-B ï¿½@ï¿½@ï¿½FCLASSIC-EASY-Aï¿½Ìƒnï¿½[ï¿½hï¿½hï¿½ï¿½ï¿½bï¿½vï¿½Æƒ\ï¿½tï¿½gï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ÌŠÖŒWï¿½ð”½‘Î‚É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+CLASSIC-EASY-B2ï¿½@ï¿½@ï¿½FCLASSIC-EASY-Bï¿½ÌFï¿½á‚¢
+CLASSIC-Sï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FCLASSIC0ï¿½É•ÇRï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½Çvï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Å‚É’uï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÍRï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B)
+DTET ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Fï¿½Æ“ï¿½ï¿½È‰ï¿½]ï¿½@ï¿½ï¿½ï¿½â‘€ï¿½ì«ï¿½ï¿½ï¿½ï¿½ï¿½Âƒï¿½ï¿½[ï¿½ï¿½
+NINTENDO-L ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Fï¿½ï¿½ï¿½mï¿½Nï¿½ï¿½ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½â‹·ï¿½ï¿½ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Ã“Tï¿½Iï¿½Èƒï¿½ï¿½[ï¿½ï¿½
+NINTENDO-L-FAST ï¿½@ ï¿½FNINTENDO-Lï¿½Ì‰ï¿½ï¿½Ú“ï¿½ï¿½ð‘¬‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+NINTENDO-R ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FNINTENDO-Lï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½É‰ï¿½]ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½[ï¿½ÈŒÃ“Tï¿½Iï¿½Èƒï¿½ï¿½[ï¿½ï¿½(CLASSIC MARATHONï¿½ï¿½ï¿½[ï¿½hï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+NINTENDO-R-FAST ï¿½@ ï¿½FNINTENDO-Rï¿½Ì‰ï¿½ï¿½Ú“ï¿½ï¿½ð‘¬‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+PHYSICIANï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FPHYSICIANï¿½^ï¿½Cï¿½vï¿½Ìƒï¿½ï¿½[ï¿½hï¿½pï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+SPFï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½FSPFï¿½^ï¿½Cï¿½vï¿½Ìƒï¿½ï¿½[ï¿½hï¿½pï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+SQUAREï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ ï¿½FSQUAREï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B4x4ï¿½Ìï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Õ‚ï¿½ï¿½æ‚¤ï¿½Èï¿½ï¿½Ô‚Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+STANDARDï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ ï¿½Fï¿½ï¿½ï¿½Sï¿½Ò‚ï¿½ï¿½ï¿½ã‹‰ï¿½Ò‚Ü‚Åˆï¿½ï¿½ï¿½ï¿½â‚·ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÅAï¿½Ç“oï¿½ï¿½ï¿½ï¿½Â”\
+STANDARD-EXPï¿½@ï¿½@ï¿½@ ï¿½Fï¿½nï¿½[ï¿½hï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Å’è‚¹ï¿½ï¿½ï¿½Aï¿½\ï¿½tï¿½gï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½Æ‘ï¿½ï¿½Å’ï¿½É‚È‚éƒ‹ï¿½[ï¿½ï¿½
+STANDARD-FASTï¿½@ï¿½@ï¿½@ï¿½FSTANDARDï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì‚ªï¿½Â”\
+STANDARD-FAST-Bï¿½@ï¿½@ï¿½FSTANDARD-FASTï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½]ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½
+STANDARD-FRIENDSï¿½@ ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Eï¿½oï¿½ï¿½ï¿½Ê’uï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½1ï¿½}ï¿½Xï¿½ï¿½
+STANDARD-GIZAï¿½@ï¿½@ï¿½@ï¿½Fhebo-MAIï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Eï¿½ï¿½â‘¬ï¿½xï¿½ï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‘Îï¿½Å‚Í‘ï¿½ï¿½xï¿½Å‚Í‚È‚ï¿½ï¿½í—ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚ï¿½ï¿½ï¿½
+STANDARD-HARDï¿½@ï¿½@ï¿½@ï¿½FSTANDARDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï‚µï¿½ï¿½
+STANDARD-HARD128ï¿½@ ï¿½FSTANDARD-HARDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È’Pï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½nï¿½Ê‚É’ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½128ï¿½ï¿½Ü‚ÅˆÚ“ï¿½ï¿½Eï¿½ï¿½]ï¿½Â”\)
+STANDARD-HOLDNEXTï¿½@ï¿½Fholdnextï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Eï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+STANDARD-Jï¿½@ï¿½@ï¿½@ï¿½@ ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½xï¿½ï¿½
+STANDARD-PLUSï¿½@ï¿½@ï¿½@ï¿½FSTANDARD-FASTï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ÉAï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½0ï¿½É‚ï¿½ï¿½Äƒ\ï¿½tï¿½gï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ã‚°ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½(Blinkï¿½ï¿½ï¿½ï¿½ï¿½)
+STANDARD-SUPER3ï¿½@ï¿½@ï¿½Fï¿½ï¿½]ï¿½@ï¿½ï¿½ï¿½ï¿½STANDARDï¿½Æ“ï¿½ï¿½ï¿½ï¿½Å•ÇRï¿½è‚ªï¿½ï¿½ï¿½Ý‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½
+STANDARD-ZEROï¿½@ï¿½@ï¿½@ï¿½FSTANDARD-PLUSï¿½ï¿½ï¿½xï¿½[ï¿½Xï¿½ÉAï¿½ï¿½sï¿½ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½sï¿½zï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½\ï¿½tï¿½gï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½x20Gï¿½Eï¿½ï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½[ï¿½ï¿½ (Wojtekï¿½ï¿½ï¿½ï¿½ï¿½)
 
-yƒQ[ƒ€ƒ‚[ƒhz
-EMARATHON
-@@10ƒ‰ƒCƒ“Á‚·‚²‚Æ‚ÉƒŒƒxƒ‹‚ªã‚ª‚é‰SŽÒŒü‚¯ƒ‚[ƒh‚Å‚·B
-@@u150ƒ‰ƒCƒ“‚ÅI‚í‚évu200ƒ‰ƒCƒ“‚ÅI‚í‚évu–³ŒÀ‚É‘±‚­v3‚Â‚ÌƒQ[ƒ€ƒ^ƒCƒv‚ð‘I‚×‚Ü‚·B
+ï¿½yï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½z
+ï¿½EMARATHON
+ï¿½@ï¿½@10ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Éƒï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½é‰ï¿½Sï¿½ÒŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½u150ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ÅIï¿½ï¿½ï¿½vï¿½u200ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ÅIï¿½ï¿½ï¿½vï¿½uï¿½ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½ï¿½ï¿½v3ï¿½Â‚ÌƒQï¿½[ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½Iï¿½×‚Ü‚ï¿½ï¿½B
 
-EMARATHON
-@@ƒQ[ƒ€“à—e‚ÍMARATHON‚Ì200ƒ‰ƒCƒ“ƒ^ƒCƒv‚Æ‚Ù‚Ú“¯‚¶‚Å‚·‚ªAƒŒƒxƒ‹20‚ðƒNƒŠƒA‚·‚é‚Æuƒ{[ƒiƒXƒŒƒxƒ‹v(ƒŒƒxƒ‹21)‚É“Ë“ü‚µ‚Ü‚·B
-@@ƒ{[ƒiƒXƒŒƒxƒ‹‚Í–³ŒÀ‚É‘±‚«‚Ü‚·‚ªA’u‚¢‚½ƒuƒƒbƒN‚ª‚½‚Ü‚É‚µ‚©•\Ž¦‚³‚ê‚Ü‚¹‚ñB
+ï¿½EMARATHON
+ï¿½@ï¿½@ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½MARATHONï¿½ï¿½200ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½Æ‚Ù‚Ú“ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½xï¿½ï¿½20ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Æuï¿½{ï¿½[ï¿½iï¿½Xï¿½ï¿½ï¿½xï¿½ï¿½ï¿½v(ï¿½ï¿½ï¿½xï¿½ï¿½21)ï¿½É“Ë“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½{ï¿½[ï¿½iï¿½Xï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Í–ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½uï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚É‚ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-EEXTREME
-@@MARATHON‚ÆŽ—‚Ä‚¢‚é‚¯‚ÇƒuƒƒbƒN‚Ì—Ž‰º‘¬“x‚ª‚·‚²‚­‘‚¢ã‹‰ŽÒŒü‚¯ƒ‚[ƒh‚Å‚·B
+ï¿½EEXTREME
+ï¿½@ï¿½@MARATHONï¿½ÆŽï¿½ï¿½Ä‚ï¿½ï¿½é‚¯ï¿½Çƒuï¿½ï¿½ï¿½bï¿½Nï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ã‹‰ï¿½ÒŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
 
-ELINE RACE
-@@‚Ç‚ê‚¾‚¯‘‚­‹K’èƒ‰ƒCƒ“”‚ðÁ‚¹‚é‚©‹£‚¤ƒ^ƒCƒ€ƒAƒ^ƒbƒNƒ‚[ƒh‚Å‚·B
-@@‹K’èƒ‰ƒCƒ“”‚Í20ƒ‰ƒCƒ“E40ƒ‰ƒCƒ“E100ƒ‰ƒCƒ“‚Ì3Ží—Þ‚©‚ç‘I‘ð‰Â”\‚Å‚·B
+ï¿½ELINE RACE
+ï¿½@ï¿½@ï¿½Ç‚ê‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½èƒ‰ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½Aï¿½^ï¿½bï¿½Nï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Kï¿½èƒ‰ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½20ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½E40ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½E100ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½Þ‚ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
 
-ESCORE RACE
-@@‚Ç‚ê‚¾‚¯‘‚­‹K’èƒXƒRƒA‚É“ž’B‚Å‚«‚é‚©‚ð‹£‚¤ƒ^ƒCƒ€ƒAƒ^ƒbƒNƒ‚[ƒh‚Å‚·B
-@@‹K’èƒXƒRƒA‚Í10000“_E25000“_E30000“_‚Ì3Ží—Þ‚©‚ç‘I‘ð‰Â”\‚Å‚·B
+ï¿½ESCORE RACE
+ï¿½@ï¿½@ï¿½Ç‚ê‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½ï¿½Xï¿½Rï¿½Aï¿½É“ï¿½ï¿½Bï¿½Å‚ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½Aï¿½^ï¿½bï¿½Nï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Kï¿½ï¿½Xï¿½Rï¿½Aï¿½ï¿½10000ï¿½_ï¿½E25000ï¿½_ï¿½E30000ï¿½_ï¿½ï¿½3ï¿½ï¿½Þ‚ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
 
-EDIG RACE
-@@‚Ç‚ê‚¾‚¯‘‚­‚·‚×‚Ä‚ÌŽ×–‚ƒuƒƒbƒN‚ðÁ‚¹‚é‚©‹£‚¤ƒ^ƒCƒ€ƒAƒ^ƒbƒNƒ‚[ƒh‚Å‚·B
-@@Ž×–‚ƒuƒƒbƒN‚Ì”‚Í5ƒ‰ƒCƒ“E10ƒ‰ƒCƒ“E18ƒ‰ƒCƒ“‚©‚ç‘I‘ð‰Â”\‚Å‚·B
+ï¿½EDIG RACE
+ï¿½@ï¿½@ï¿½Ç‚ê‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚Ä‚ÌŽ×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½Aï¿½^ï¿½bï¿½Nï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Ìï¿½ï¿½ï¿½5ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½E10ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½E18ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
 
-ECOMBO RACE
-@@‹K’èƒ‰ƒCƒ“”‚ðÁ‚·‚Ü‚Å‚ÉÅ‘å‚Å‰½ƒRƒ“ƒ{‚Å‚«‚é‚©‚ð‹£‚¢‚Ü‚·B
-@@‹K’èƒ‰ƒCƒ“”‚Í20ƒ‰ƒCƒ“E40ƒ‰ƒCƒ“E100ƒ‰ƒCƒ“EƒGƒ“ƒhƒŒƒX‚©‚ç‘I‘ð‰Â”\‚Å‚·B
-@@ƒGƒ“ƒhƒŒƒX‚Å‚ÍƒRƒ“ƒ{‚ª“rØ‚ê‚é‚Ü‚ÅƒQ[ƒ€‚ª‘±‚«‚Ü‚·B
+ï¿½ECOMBO RACE
+ï¿½@ï¿½@ï¿½Kï¿½èƒ‰ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ÉÅ‘ï¿½Å‰ï¿½ï¿½Rï¿½ï¿½ï¿½{ï¿½Å‚ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Kï¿½èƒ‰ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½20ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½E40ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½E100ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Eï¿½Gï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Gï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Xï¿½Å‚ÍƒRï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½rï¿½Ø‚ï¿½ï¿½Ü‚ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-EULTRA
-@@§ŒÀŽžŠÔ“à‚É‚Ç‚ê‚¾‚¯‘½‚­‚Ì“¾“_‚ð“¾‚ç‚ê‚é‚©A‚Ü‚½‚Í‚Ç‚ê‚¾‚¯‘½‚­‚Ìƒ‰ƒCƒ“‚ðÁ‚¹‚é‚©‚ð‹£‚¤ƒ‚[ƒh‚Å‚·B
-@@§ŒÀŽžŠÔ‚Í1`5•ª‚Ì5Ží—Þ‚©‚ç‘I‘ð‰Â”\‚Å‚·B
+ï¿½EULTRA
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô“ï¿½ï¿½É‚Ç‚ê‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½_ï¿½ð“¾‚ï¿½ï¿½é‚©ï¿½Aï¿½Ü‚ï¿½ï¿½Í‚Ç‚ê‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½1ï¿½`5ï¿½ï¿½ï¿½ï¿½5ï¿½ï¿½Þ‚ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
 
-ETECHNICIAN
-@@‚Å‚«‚é‚¾‚¯‘‚­uGOALv‚ð0‚É‚µ‚ÄŽŸ‚ÌƒŒƒxƒ‹‚Éi‚Þ‚±‚Æ‚ª–Ú“I‚Ìƒ‚[ƒh‚Å‚·B
-@@ƒ‰ƒCƒ“‚ðÁ‹Ž‚·‚é‚È‚Ç‚Ìs“®‚ð‚·‚é‚ÆuGOALv‚ªŒ¸‚èAuGOALv‚Ì•\Ž¦‚ª0‚É‚È‚é‚ÆŽŸ‚ÌƒŒƒxƒ‹‚Éi‚ß‚Ü‚·B
-@@ˆê“x‚É•¡”‚Ìƒ‰ƒCƒ“‚ðÁ‚µ‚½‚èA˜A‘±‚Åƒ‰ƒCƒ“‚ðÁ‚µ‚½‚è‚·‚é‚ÆuGOALv‚ª‘½‚­Œ¸‚è‚Ü‚·B
-@@–Ú“I‚â§ŒÀŽžŠÔ‚ªˆÙ‚È‚é5Ží—Þ‚ÌƒQ[ƒ€ƒ^ƒCƒv‚ð‘I‚×‚Ü‚·B
+ï¿½ETECHNICIAN
+ï¿½@ï¿½@ï¿½Å‚ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uGOALï¿½vï¿½ï¿½0ï¿½É‚ï¿½ï¿½ÄŽï¿½ï¿½Ìƒï¿½ï¿½xï¿½ï¿½ï¿½Éiï¿½Þ‚ï¿½ï¿½Æ‚ï¿½ï¿½Ú“Iï¿½Ìƒï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚Ìsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆuGOALï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½uGOALï¿½vï¿½Ì•\ï¿½ï¿½ï¿½ï¿½0ï¿½É‚È‚ï¿½ÆŽï¿½ï¿½Ìƒï¿½ï¿½xï¿½ï¿½ï¿½Éiï¿½ß‚Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½xï¿½É•ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Aï¿½ï¿½ï¿½Åƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚·ï¿½ï¿½ÆuGOALï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ú“Iï¿½â§ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½Ù‚È‚ï¿½5ï¿½ï¿½Þ‚ÌƒQï¿½[ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½Iï¿½×‚Ü‚ï¿½ï¿½B
 
-@@LV15-EASYF ƒŒƒxƒ‹16‚É“ž’B‚·‚é‚ÆƒQ[ƒ€ƒNƒŠƒA‚É‚È‚è‚Ü‚·B
-@@@@@@@@‚Q•ªˆÈ“à‚ÉƒŒƒxƒ‹ƒAƒbƒv‚·‚é‚Æƒ{[ƒiƒX“¾“_‚ª“ü‚è‚Ü‚·‚ªAŽžŠÔØ‚ê‚É‚È‚Á‚Ä‚àƒyƒiƒ‹ƒeƒB‚Í‚ ‚è‚Ü‚¹‚ñB
-@@LV15-HARDF LV15-EASY‚ÆŽ—‚Ä‚¢‚Ü‚·‚ªA‚Q•ªˆÈ“à‚ÉƒŒƒxƒ‹ƒAƒbƒv‚µ‚È‚¢‚Æ‘¦ƒQ[ƒ€ƒI[ƒo[‚Å‚·B
-@@10MIN-EASYF10•ªŠÔƒvƒŒƒC‚µ‚ÄƒXƒRƒA‚ð‹£‚¤ƒQ[ƒ€ƒ^ƒCƒv‚Å‚·B
-@@@@@@@@‚Q•ªˆÈ“à‚ÉƒŒƒxƒ‹ƒAƒbƒv‚µ‚È‚©‚Á‚½ê‡AuREGRETv‚Æ•\Ž¦‚³‚ê‚ÄGOAL‚ªƒŠƒZƒbƒg‚³‚ê‚Ä‚µ‚Ü‚¢‚Ü‚·B
-@@10MIN-HARDF10MIN-EASY‚Æ‚Ù‚Ú“¯‚¶‚Å‚·‚ªA‚Q•ªˆÈ“à‚ÉƒŒƒxƒ‹ƒAƒbƒv‚µ‚È‚©‚Á‚½ê‡‚Í‘¦ƒQ[ƒ€ƒI[ƒo[‚Å‚·B
-@@SPECIALF@ ƒŒƒxƒ‹ƒAƒbƒv‚·‚é‚½‚Ñ‚É§ŒÀŽžŠÔ‚ª30•b‰„’·‚³‚ê‚éƒQ[ƒ€ƒ^ƒCƒv‚Å‚·B
-@@@@@@@@‘‚­ƒŒƒxƒ‹ƒAƒbƒv‚·‚é‚Æ‚æ‚è’·‚­ƒvƒŒƒC‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
+ï¿½@ï¿½@LV15-EASYï¿½F ï¿½ï¿½ï¿½xï¿½ï¿½16ï¿½É“ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÆƒQï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Aï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Qï¿½ï¿½ï¿½È“ï¿½ï¿½Éƒï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Æƒ{ï¿½[ï¿½iï¿½Xï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÔØ‚ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½yï¿½iï¿½ï¿½ï¿½eï¿½Bï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@LV15-HARDï¿½F LV15-EASYï¿½ÆŽï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½Qï¿½ï¿½ï¿½È“ï¿½ï¿½Éƒï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‘ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@10MIN-EASYï¿½F10ï¿½ï¿½ï¿½Ôƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ÄƒXï¿½Rï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Qï¿½ï¿½ï¿½È“ï¿½ï¿½Éƒï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½uREGRETï¿½vï¿½Æ•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½GOALï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@10MIN-HARDï¿½F10MIN-EASYï¿½Æ‚Ù‚Ú“ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Qï¿½ï¿½ï¿½È“ï¿½ï¿½Éƒï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Í‘ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@SPECIALï¿½Fï¿½@ ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½é‚½ï¿½Ñ‚Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½30ï¿½bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Æ‚ï¿½è’·ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
 
-ESQUARE
-@@c4x‰¡4‚ÌƒTƒCƒY‚Ì³•ûŒ`‚ðì‚Á‚ÄÁ‚µ‚Ä‚¢‚­ƒ‚[ƒh‚Å‚·B
-@@2Ží—ÞˆÈã‚ÌƒuƒƒbƒN‚ðŽg‚Á‚Ä³•ûŒ`‚ðì‚é‚Æ‹âFA1Ží—Þ‚ÌƒuƒƒbƒN‚¾‚¯‚Å³•ûŒ`‚ðì‚é‚Æ‹àF‚É‚È‚è‚Ü‚·B
-@@‹àF‚Ì³•ûŒ`‚ðÁ‚·‚ÆA‹âF‚ðÁ‚µ‚½‚Æ‚«‚Ì2”{‚Ìƒ{[ƒiƒX‚ª“ü‚è‚Ü‚·B
-@@3Ží—Þ‚ÌƒQ[ƒ€ƒ^ƒCƒv‚ð‘I‚×‚Ü‚·B
-@@MARATHON:@ƒGƒ“ƒhƒŒƒX
-@@SPRINT:@@150“_Žæ‚é‚Ü‚Å‚Ìƒ^ƒCƒ€ƒAƒ^ƒbƒN
-@@ULTRA:@@ 3•ªŠÔƒXƒRƒAƒAƒ^ƒbƒN
-@@Šî–{“I‚É‚Ç‚ñ‚Èƒ‹[ƒ‹‚Å‚àˆê‰ž—V‚×‚Ü‚·‚ªAuSQUAREvƒ‹[ƒ‹‚ðŽg‚¤‚Æ³•ûŒ`‚ðì‚èˆÕ‚¢‡”Ô‚ÅƒuƒƒbƒN‚ª—Ž‚¿‚Ä‚«‚Ü‚·B
+ï¿½ESQUARE
+ï¿½@ï¿½@ï¿½c4xï¿½ï¿½4ï¿½ÌƒTï¿½Cï¿½Yï¿½Ìï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@2ï¿½ï¿½ÞˆÈï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹ï¿½Fï¿½A1ï¿½ï¿½Þ‚Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹ï¿½ï¿½Fï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½Fï¿½Ìï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½2ï¿½{ï¿½Ìƒ{ï¿½[ï¿½iï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@3ï¿½ï¿½Þ‚ÌƒQï¿½[ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½Iï¿½×‚Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@MARATHON:ï¿½@ï¿½Gï¿½ï¿½ï¿½hï¿½ï¿½ï¿½X
+ï¿½@ï¿½@SPRINT:ï¿½@ï¿½@150ï¿½_ï¿½ï¿½ï¿½Ü‚Å‚Ìƒ^ï¿½Cï¿½ï¿½ï¿½Aï¿½^ï¿½bï¿½N
+ï¿½@ï¿½@ULTRA:ï¿½@ï¿½@ 3ï¿½ï¿½ï¿½ÔƒXï¿½Rï¿½Aï¿½Aï¿½^ï¿½bï¿½N
+ï¿½@ï¿½@ï¿½ï¿½{ï¿½Iï¿½É‚Ç‚ï¿½Èƒï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ê‰žï¿½Vï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½uSQUAREï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½Õ‚ï¿½ï¿½ï¿½ï¿½Ô‚Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-EDIG CHALLENGE
-@@‰º‚©‚ç‚Ç‚ñ‚Ç‚ñ‚¹‚èã‚ª‚Á‚Ä‚­‚éŽ×–‚ƒuƒƒbƒN‚ð‚Ð‚½‚·‚çÁ‚µ‚Ä‚¢‚­ƒ‚[ƒh‚Å‚·B‘—‚è•Ô‚µ‚½Ž×–‚ƒuƒƒbƒN”‚ª“¾“_‚É‚È‚è‚Ü‚·B
-@@2Ží—Þ‚ÌƒQ[ƒ€ƒ^ƒCƒv‚ð‘I‚×‚Ü‚·B
-@@NORMAL:@@ƒs[ƒX‚ð’u‚­‚Ü‚Å‚¹‚èã‚ª‚ç‚È‚¢‚ªA1ƒ‰ƒCƒ“‚¸‚Â—­‚Ü‚Á‚Ä‚¢‚­
-@@REALTIME:@ƒs[ƒX‚ð’u‚©‚È‚­‚Ä‚à‚¹‚èã‚ª‚é
+ï¿½EDIG CHALLENGE
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ï¿½Ç‚ñ‚¹‚ï¿½ã‚ªï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ð‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@2ï¿½ï¿½Þ‚ÌƒQï¿½[ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½Iï¿½×‚Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@NORMAL:ï¿½@ï¿½@ï¿½sï¿½[ï¿½Xï¿½ï¿½uï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½A1ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Â—ï¿½ï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@REALTIME:ï¿½@ï¿½sï¿½[ï¿½Xï¿½ï¿½uï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½
 
-ERETRO MARATHON
-@@‹Œ–¼CLASSIC MARATHONƒ‚[ƒhB
-@@MARATHON‚Æ‚Ù‚Ú“¯—l‚ÌƒQ[ƒ€‚ª—V‚×‚Ü‚·‚ªƒXƒs[ƒh‚Ìã¸‚ÍŠÉ‚â‚©‚Å‚·B
-@@uNINTENDO-Rvƒ‹[ƒ‹‚ª‚¨‚·‚·‚ß‚Å‚·B
+ï¿½ERETRO MARATHON
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½CLASSIC MARATHONï¿½ï¿½ï¿½[ï¿½hï¿½B
+ï¿½@ï¿½@MARATHONï¿½Æ‚Ù‚Ú“ï¿½ï¿½lï¿½ÌƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Xï¿½sï¿½[ï¿½hï¿½Ìã¸ï¿½ÍŠÉ‚â‚©ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½uNINTENDO-Rï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Å‚ï¿½ï¿½B
 
-ERETRO MASTERY
-@@RETRO MARATHON‚Ìã‹‰ŽÒŒü‚¯ƒo[ƒWƒ‡ƒ“‚Å‚·B‚¢‚©‚É–³‘Ê‚ÈÁ‚µ•û‚ð‚µ‚È‚¢‚©‚ªd—v‚É‚È‚è‚Ü‚·B
-@@uNINTENDO-Rvƒ‹[ƒ‹‚ª‚¨‚·‚·‚ß‚Å‚·B
+ï¿½ERETRO MASTERY
+ï¿½@ï¿½@RETRO MARATHONï¿½Ìã‹‰ï¿½ÒŒï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½É–ï¿½ï¿½Ê‚Èï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½vï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½uNINTENDO-Rï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Å‚ï¿½ï¿½B
 
-ERETRO MANIA
-@@MARATHON‚Æ‚Ù‚Ú“¯—l‚ÌƒQ[ƒ€‚ª—V‚×‚Ü‚·‚ªAƒŒƒxƒ‹ƒAƒbƒv•ûŽ®‚ª“Æ“Á‚ÅA4ƒ‰ƒCƒ“Á‚·‚©‚µ‚Î‚ç‚­‰½‚à‚µ‚È‚¢‚ÆƒŒƒxƒ‹‚ªã‚ª‚è‚Ü‚·B
-@@uCLASSIC0vƒ‹[ƒ‹‚ª‚¨‚·‚·‚ß‚Å‚·B
+ï¿½ERETRO MANIA
+ï¿½@ï¿½@MARATHONï¿½Æ‚Ù‚Ú“ï¿½ï¿½lï¿½ÌƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½×‚Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ÅA4ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‚ç‚­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æƒï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½uCLASSIC0ï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß‚Å‚ï¿½ï¿½B
 
-EGRADE MANIA
-@@ƒŒƒxƒ‹999‚É‚È‚é‚Ü‚Å‚É‚Å‚«‚é‚¾‚¯‚‚¢’iˆÊ‚ð–ÚŽw‚·ƒ‚[ƒh‚Å‚·B
-@@’iˆÊ‚Í“¾“_‚É‰ž‚¶‚Äƒ‰ƒ“ƒNƒAƒbƒv‚µ‚Ü‚·B
-@@ƒŒƒxƒ‹‚ÍƒuƒƒbƒN‚ð’u‚­‚¾‚¯‚Å1‚Âã‚ª‚è‚Ü‚·‚ªAƒŒƒxƒ‹‚Ì––”ö2Œ…‚ª99‚Ì‚Æ‚«A‚¨‚æ‚ÑƒŒƒxƒ‹998‚Å‚Íƒ‰ƒCƒ“‚ðÁ‚³‚È‚¢‚Æã‚ª‚è‚Ü‚¹‚ñB
-@@“ïˆÕ“x‚Í‰SŽÒŒü‚¯‚Å‚·B
+ï¿½EGRADE MANIA
+ï¿½@ï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½999ï¿½É‚È‚ï¿½Ü‚Å‚É‚Å‚ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½Ê‚ï¿½ÚŽwï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½iï¿½Ê‚Í“ï¿½ï¿½_ï¿½É‰ï¿½ï¿½ï¿½ï¿½Äƒï¿½ï¿½ï¿½ï¿½Nï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Íƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½Âã‚ªï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ì–ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½99ï¿½Ì‚Æ‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Ñƒï¿½ï¿½xï¿½ï¿½998ï¿½Å‚Íƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æã‚ªï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½Õ“xï¿½Íï¿½ï¿½Sï¿½ÒŒï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 
-EGRADE MANIA 2
-@@GRADE MANIA‚æ‚è‚à“ïˆÕ“x‚ª‚‚¢’†‹‰ŽÒŒü‚¯ƒ‚[ƒh‚Å‚·B
-@@‚±‚Ìƒ‚[ƒh‚Å‚Í’iˆÊ‚Æ“¾“_‚Í–³ŠÖŒW‚Å‚·B
+ï¿½EGRADE MANIA 2
+ï¿½@ï¿½@GRADE MANIAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ“xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½hï¿½Å‚Í’iï¿½Ê‚Æ“ï¿½ï¿½_ï¿½Í–ï¿½ï¿½ÖŒWï¿½Å‚ï¿½ï¿½B
 
-EGRADE MANIA 3
-@@GRADE MANIA2‚æ‚è‚à‚³‚ç‚É“ïˆÕ“x‚Ì‚‚¢ã‹‰ŽÒŒü‚¯ƒ‚[ƒh‚Å‚·B
-@@ƒvƒŒƒCƒ„[‚Ì˜r‘O‚É‰ž‚¶‚Ä—Ž‰º‘¬“x‚à•Ï‰»‚µ‚Ä‚«‚Ü‚·B
+ï¿½EGRADE MANIA 3
+ï¿½@ï¿½@GRADE MANIA2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½Õ“xï¿½Ìï¿½ï¿½ï¿½ï¿½ã‹‰ï¿½ÒŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì˜rï¿½Oï¿½É‰ï¿½ï¿½ï¿½ï¿½Ä—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ï‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-ESCORE ATTACK
-@@ƒŒƒxƒ‹300‚É“ž’B‚·‚é‚Ü‚Å‚É‰Ò‚¢‚¾“¾“_‚ð‹£‚¤ƒ‚[ƒh‚Å‚·B
-@@“ïˆÕ“x‚Í‰SŽÒŒü‚¯‚Å‚·B
+ï¿½ESCORE ATTACK
+ï¿½@ï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½300ï¿½É“ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Ü‚Å‚É‰Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½Õ“xï¿½Íï¿½ï¿½Sï¿½ÒŒï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 
-ESPEED MANIA
-@@GRADE MANIA‚ÆŽ—‚½ƒVƒXƒeƒ€‚ð—p‚¢‚½A—Ž‰º‘¬“x‚ª‘¬‚¢’†‹‰ŽÒŒü‚¯ƒ‚[ƒh‚Å‚·B
-@@ƒŒƒxƒ‹500ˆÈ~‚És‚­‚É‚Í‚»‚ê‚È‚è‚Ì˜r‘O‚ª•K—v‚Æ‚È‚è‚Ü‚·B
+ï¿½ESPEED MANIA
+ï¿½@ï¿½@GRADE MANIAï¿½ÆŽï¿½ï¿½ï¿½ï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½500ï¿½È~ï¿½Ésï¿½ï¿½ï¿½É‚Í‚ï¿½ï¿½ï¿½È‚ï¿½Ì˜rï¿½Oï¿½ï¿½ï¿½Kï¿½vï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B
 
-ESPEED MANIA 2
-@@SPEED MANIA‚ð‘å‚«‚­’´‚¦‚é‘¬“x‚ÅƒuƒƒbƒN‚ª~‚Á‚Ä‚­‚éã‹‰ŽÒŒü‚¯ƒ‚[ƒh‚Å‚·B
-@@ƒŒƒxƒ‹500‚É“ž’B‚·‚é‚Æ‰½‚©‚ª‹N‚±‚è‚Ü‚·B
+ï¿½ESPEED MANIA 2
+ï¿½@ï¿½@SPEED MANIAï¿½ï¿½å‚«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‘¬ï¿½xï¿½Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ã‹‰ï¿½ÒŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½xï¿½ï¿½500ï¿½É“ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½Æ‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-EGARBAGE MANIA
-@@ŽžXŠDF‚ÌƒuƒƒbƒN‚ª‰º‚©‚ç‚¹‚èã‚ª‚Á‚Ä‚­‚éƒ‚[ƒh‚Å‚·B
-@@Œã”¼‚É‚È‚é‚Ù‚Ç‚¹‚èã‚ª‚è‚Ìƒy[ƒX‚ªã‚ª‚Á‚Ä‚«‚Ü‚·B
+ï¿½EGARBAGE MANIA
+ï¿½@ï¿½@ï¿½ï¿½ï¿½Xï¿½Dï¿½Fï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç‚¹ï¿½ï¿½ã‚ªï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éƒ‚ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ã”¼ï¿½É‚È‚ï¿½Ù‚Ç‚ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½Ìƒyï¿½[ï¿½Xï¿½ï¿½ï¿½ã‚ªï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-EPHANTOM MANIA
-@@SPEED MANIAƒ‚[ƒh‚ÆŽ—‚Ä‚¢‚Ü‚·‚ªA‚±‚Ìƒ‚[ƒh‚Å‚Í’u‚¢‚½ƒuƒƒbƒN‚ª‘S‚­Œ©‚¦‚Ü‚¹‚ñB
-@@’u‚¢‚½ƒuƒƒbƒN‚ÌêŠ‚âƒtƒB[ƒ‹ƒh‚Ì’nŒ`‚ð‹L‰¯‚·‚é‚±‚Æ‚ªd—v‚Æ‚È‚è‚Ü‚·B
+ï¿½EPHANTOM MANIA
+ï¿½@ï¿½@SPEED MANIAï¿½ï¿½ï¿½[ï¿½hï¿½ÆŽï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½hï¿½Å‚Í’uï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÌêŠï¿½ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ì’nï¿½`ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½dï¿½vï¿½Æ‚È‚ï¿½Ü‚ï¿½ï¿½B
 
-EFINAL
-@@íŽ¯ŠO‚Ì‘¬“x‚ÅƒuƒƒbƒN‚ª—Ž‚¿‚Ä‚­‚éƒ‚[ƒh‚Å‚·B’´ã‹‰ŽÒê—pB
+ï¿½EFINAL
+ï¿½@ï¿½@ï¿½íŽ¯ï¿½Oï¿½Ì‘ï¿½ï¿½xï¿½Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éƒ‚ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½ã‹‰ï¿½Òï¿½pï¿½B
 
-ETIME ATTACK
-@@‚Å‚«‚é‚¾‚¯‘¬‚­150ƒ‰ƒCƒ“‚Ü‚½‚Í200ƒ‰ƒCƒ“Á‚·‚±‚Æ‚ª–Ú“I‚Ìƒ‚[ƒh‚Å‚·B
-@@ŠeƒŒƒxƒ‹‚É‚Í§ŒÀŽžŠÔ‚ªÝ’è‚³‚ê‚Ä‚¨‚èA‚±‚ÌŽžŠÔ“à‚ÉŽŸ‚ÌƒŒƒxƒ‹‚És‚©‚È‚¢‚ÆƒQ[ƒ€ƒI[ƒo[‚É‚È‚è‚Ü‚·B
-@@10ƒ‰ƒCƒ“Á‚·‚½‚Ñ‚ÉƒŒƒxƒ‹‚ªã‚ª‚èA§ŒÀŽžŠÔ‚à‰ñ•œ‚µ‚Ü‚·B
+ï¿½ETIME ATTACK
+ï¿½@ï¿½@ï¿½Å‚ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½150ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½200ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ú“Iï¿½Ìƒï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½eï¿½ï¿½ï¿½xï¿½ï¿½ï¿½É‚Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½Ý’è‚³ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÌŽï¿½ï¿½Ô“ï¿½ï¿½ÉŽï¿½ï¿½Ìƒï¿½ï¿½xï¿½ï¿½ï¿½Ésï¿½ï¿½ï¿½È‚ï¿½ï¿½ÆƒQï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@10ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ‚Éƒï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ñ•œ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@@150ƒ‰ƒCƒ“ƒ^ƒCƒv(‰E‚És‚­‚Ù‚Ç“ï‚µ‚¢):
-@@@NORMALƒHIGH SPEED 1ƒHIGH SPEED 2ƒANOTHERƒANOTHER2
-@@200ƒ‰ƒCƒ“ƒ^ƒCƒv(‰E‚És‚­‚Ù‚Ç“ï‚µ‚¢):
-@@@NORMAL 200ƒANOTHER 200ƒBASICƒHELLàHELL-XƒVOID
+ï¿½@ï¿½@150ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½^ï¿½Cï¿½v(ï¿½Eï¿½Ésï¿½ï¿½ï¿½Ù‚Ç“ï‚µï¿½ï¿½):
+ï¿½@ï¿½@ï¿½@NORMALï¿½ï¿½HIGH SPEED 1ï¿½ï¿½HIGH SPEED 2ï¿½ï¿½ANOTHERï¿½ï¿½ANOTHER2
+ï¿½@ï¿½@200ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½^ï¿½Cï¿½v(ï¿½Eï¿½Ésï¿½ï¿½ï¿½Ù‚Ç“ï‚µï¿½ï¿½):
+ï¿½@ï¿½@ï¿½@NORMAL 200ï¿½ï¿½ANOTHER 200ï¿½ï¿½BASICï¿½ï¿½HELLï¿½ï¿½HELL-Xï¿½ï¿½VOID
 
-EPRACTICE
-@@D‚«‚È‘¬“x‚ðÝ’è‚µ‚Ä—ûK‚ª‚Å‚«‚éƒ‚[ƒh‚Å‚·B
-@@oŒ»‚·‚éƒuƒƒbƒN‚ÌŽí—Þ‚àÝ’è‚Å‚«‚Ü‚·B
+ï¿½EPRACTICE
+ï¿½@ï¿½@ï¿½Dï¿½ï¿½ï¿½È‘ï¿½ï¿½xï¿½ï¿½Ý’è‚µï¿½Ä—ï¿½ï¿½Kï¿½ï¿½ï¿½Å‚ï¿½ï¿½éƒ‚ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÌŽï¿½Þ‚ï¿½ï¿½Ý’ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-EGEM MANIA
-@@ƒtƒB[ƒ‹ƒh‚É”z’u‚³‚ê‚½•óÎƒuƒƒbƒN‚ð‚Å‚«‚é‚¾‚¯‘¬‚­‚·‚×‚ÄÁ‹Ž‚·‚é‚±‚Æ‚ª–Ú“I‚Ìƒ‚[ƒh‚Å‚·B
-@@uƒXƒe[ƒWƒ^ƒCƒ€v‚ÆuƒŠƒ~ƒbƒgƒ^ƒCƒ€v‚Ì2Ží—Þ‚Ì§ŒÀŽžŠÔ‚ª‘¶Ý‚µ‚Ü‚·B
-@@ƒXƒe[ƒWƒ^ƒCƒ€‚ÍŠeƒXƒe[ƒW‚Ì§ŒÀŽžŠÔ‚ÅAƒXƒe[ƒWŠJŽnŽž‚É1•ª‚©‚çŽn‚Ü‚èA0‚É‚È‚é‚Æ‹­§“I‚ÉŽŸ‚ÌƒXƒe[ƒW‚Öi‚Ü‚³‚ê‚Ü‚·B
-@@ƒŠƒ~ƒbƒgƒ^ƒCƒ€‚ÍƒQ[ƒ€‘S‘Ì‚Ì§ŒÀŽžŠÔ‚ÅA‚±‚ê‚ª0‚É‚È‚é‚ÆƒQ[ƒ€ƒI[ƒo[‚Å‚·B
-@@ƒŠƒ~ƒbƒgƒ^ƒCƒ€‚ÍŠeƒXƒe[ƒW‚ð20•bˆÈ“à‚ÉƒNƒŠƒA‚·‚é‚Æ­‚µ‰ñ•œ‚µ‚Ü‚·B
+ï¿½EGEM MANIA
+ï¿½@ï¿½@ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½É”zï¿½uï¿½ï¿½ï¿½ê‚½ï¿½ï¿½Îƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×‚Äï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Ú“Iï¿½Ìƒï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½uï¿½Xï¿½eï¿½[ï¿½Wï¿½^ï¿½Cï¿½ï¿½ï¿½vï¿½Æuï¿½ï¿½ï¿½~ï¿½bï¿½gï¿½^ï¿½Cï¿½ï¿½ï¿½vï¿½ï¿½2ï¿½ï¿½Þ‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Xï¿½eï¿½[ï¿½Wï¿½^ï¿½Cï¿½ï¿½ï¿½ÍŠeï¿½Xï¿½eï¿½[ï¿½Wï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ÅAï¿½Xï¿½eï¿½[ï¿½Wï¿½Jï¿½nï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½A0ï¿½É‚È‚ï¿½Æ‹ï¿½ï¿½ï¿½ï¿½Iï¿½ÉŽï¿½ï¿½ÌƒXï¿½eï¿½[ï¿½Wï¿½Öiï¿½Ü‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½~ï¿½bï¿½gï¿½^ï¿½Cï¿½ï¿½ï¿½ÍƒQï¿½[ï¿½ï¿½ï¿½Sï¿½Ì‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ÅAï¿½ï¿½ï¿½ê‚ª0ï¿½É‚È‚ï¿½ÆƒQï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½~ï¿½bï¿½gï¿½^ï¿½Cï¿½ï¿½ï¿½ÍŠeï¿½Xï¿½eï¿½[ï¿½Wï¿½ï¿½20ï¿½bï¿½È“ï¿½ï¿½ÉƒNï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½ñ•œ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-EVS-BATTLE
-@@lŠÔ‚Ü‚½‚ÍƒRƒ“ƒsƒ…[ƒ^‚Æ‘Îí‚·‚éƒ‚[ƒh‚Å‚·B
-@@ˆê“x‚É•¡”‚Ìƒ‰ƒCƒ“‚ðÁ‚·‚Æ‚¨Ž×–‚ƒuƒƒbƒN‚ð‘ŠŽè‚É‘—‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-@@‚¨Ž×–‚ƒuƒƒbƒN‚Å‘ŠŽè‚ðƒQ[ƒ€ƒI[ƒo[‚É‚³‚¹‚é‚ÆŸ—˜‚Å‚·B
+ï¿½EVS-BATTLE
+ï¿½@ï¿½@ï¿½lï¿½Ô‚Ü‚ï¿½ï¿½ÍƒRï¿½ï¿½ï¿½sï¿½ï¿½ï¿½[ï¿½^ï¿½Æ‘Îí‚·ï¿½éƒ‚ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½xï¿½É•ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ð‘ŠŽï¿½É‘ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Å‘ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 
-ETOOL-VS MAP EDIT
-@@‚±‚Ìƒ‚[ƒh‚ÍŒµ–§‚ÉŒ¾‚¤‚ÆuƒQ[ƒ€vƒ‚[ƒh‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
-@@VS-BATTLE‚ÆƒlƒbƒgƒvƒŒƒC‚ÅŽg—p‚Å‚«‚éƒ}ƒbƒv‚ðì¬‚Å‚«‚éƒ‚[ƒh‚Å‚·B
-@@[ƒtƒB[ƒ‹ƒh•ÒW‰æ–Ê‚Ì‚Æ‚«‚Ì‘€ì•û–@]
-@@@Up/Down/Left/Right: ƒJ[ƒ\ƒ‹‚ð“®‚©‚·
-@@@A: ƒJ[ƒ\ƒ‹ˆÊ’u‚ÉƒuƒƒbƒN‚ð’u‚­
-@@@B: ƒƒjƒ…[‚É–ß‚é
-@@@C+Left/Right: ”z’u‚·‚éƒuƒƒbƒN‚ÌF‚ð‘I‚Ô
-@@@D: ƒJ[ƒ\ƒ‹ˆÊ’u‚É‚ ‚éƒuƒƒbƒN‚ðÁ‚·
+ï¿½ETOOL-VS MAP EDIT
+ï¿½@ï¿½@ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½hï¿½ÍŒï¿½ï¿½ï¿½ï¿½ÉŒï¿½ï¿½ï¿½ï¿½Æuï¿½Qï¿½[ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@VS-BATTLEï¿½Æƒlï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ÅŽgï¿½pï¿½Å‚ï¿½ï¿½ï¿½}ï¿½bï¿½vï¿½ï¿½ï¿½ì¬ï¿½Å‚ï¿½ï¿½éƒ‚ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@[ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ÒWï¿½ï¿½Ê‚Ì‚Æ‚ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½@]
+ï¿½@ï¿½@ï¿½@Up/Down/Left/Right: ï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½ð“®‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@A: ï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Ê’uï¿½Éƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½uï¿½ï¿½
+ï¿½@ï¿½@ï¿½@B: ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½É–ß‚ï¿½
+ï¿½@ï¿½@ï¿½@C+Left/Right: ï¿½zï¿½uï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÌFï¿½ï¿½Iï¿½ï¿½
+ï¿½@ï¿½@ï¿½@D: ï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Ê’uï¿½É‚ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-EAVALANCHE 1P (RC1)
-@@“¯‚¶F‚ÌƒuƒƒbƒN‚ðc‚©‰¡‚É4‚ÂˆÈãŒq‚°‚ÄÁ‚µ‚Ä‚¢‚­ƒ‚[ƒh‚Å‚·B“r’†‚ÅÜ‚ê‹È‚ª‚Á‚Ä‚¢‚Ä‚àOK‚Å‚·‚ªAŽÎ‚ß‚É‚Í‚­‚Á‚Â‚«‚Ü‚¹‚ñB
-@@‹ó’†‚É•‚‚¢‚½ƒuƒƒbƒN‚Í‘S‚Äd—Í‚É]‚Á‚Ä—Ž‰º‚µ‚Ü‚·B‚±‚ê‚ð—˜—p‚µ‚Ä˜A½‚à‰Â”\‚Å‚·B
-@@‘I‚×‚éƒQ[ƒ€ƒ^ƒCƒv‚ÍSQUAREƒ‚[ƒh‚Æ“¯‚¶‚Å‚·B
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuAVALANCHEvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½EAVALANCHE 1P (RC1)
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4ï¿½ÂˆÈï¿½qï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½Bï¿½rï¿½ï¿½ï¿½ÅÜ‚ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ä‚ï¿½OKï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½Î‚ß‚É‚Í‚ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ó’†‚É•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Í‘Sï¿½Ädï¿½Í‚É]ï¿½ï¿½ï¿½Ä—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½Ä˜Aï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Iï¿½×‚ï¿½Qï¿½[ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½SQUAREï¿½ï¿½ï¿½[ï¿½hï¿½Æ“ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuAVALANCHEï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-EAVALANCHE 1P FEVER MARATHON (RC1)
-@@˜A½‚Ìƒ^ƒli‚ ‚ç‚©‚¶‚ßŠÈ’P‚É˜A½‚Å‚«‚é‚æ‚¤‚É‘g‚Ü‚ê‚½ƒuƒƒbƒNj‚ªÏ‚Ü‚ê‚½ó‘Ô‚ÅƒQ[ƒ€‚ªŽn‚Ü‚è‚Ü‚·B
-@@ˆê”Ô’·‚¢˜A½‚ª‚Å‚«‚é‚ÆŽv‚¤‚Æ‚±‚ë‚ÉƒuƒƒbƒN‚ð’u‚¢‚ÄA˜A½‚ðƒXƒ^[ƒg‚³‚¹‚Ä‚­‚¾‚³‚¢B
-@@˜A½I—¹ŒãAV‚µ‚¢˜A½‚Ìƒ^ƒl‚ªoŒ»‚µ‚Ü‚·B‚¤‚Ü‚­˜A½‚Å‚«‚ê‚ÎAŽŸ‚ÉoŒ»‚·‚é˜A½‚Ìƒ^ƒl‚ª‘å‚«‚­‚È‚èA§ŒÀŽžŠÔ‚à‘‚¦‚Ü‚·B
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuAVALANCHEvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½EAVALANCHE 1P FEVER MARATHON (RC1)
+ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½Ìƒ^ï¿½lï¿½iï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ßŠÈ’Pï¿½É˜Aï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‘gï¿½Ü‚ê‚½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½jï¿½ï¿½ï¿½Ï‚Ü‚ê‚½ï¿½ï¿½Ô‚ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½Ô’ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Éƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½uï¿½ï¿½ï¿½ÄAï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½Aï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒ^ï¿½lï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ÎAï¿½ï¿½ï¿½Éoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒ^ï¿½lï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½È‚ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuAVALANCHEï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-EAVALANCHE VS-BATTLE (RC1)
-@@AVALANCHE 1Pƒ‚[ƒh‚ÆŽ—‚½ƒ‹[ƒ‹‚Å‘Îí‚µ‚Ü‚·B˜A½‚ÅƒuƒƒbƒN‚ðÁ‚·‚Æ‘ŠŽè‚ÉŽ×–‚ƒuƒƒbƒN‚ð‘—‚èž‚Þ‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuAVALANCHEvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½EAVALANCHE VS-BATTLE (RC1)
+ï¿½@ï¿½@AVALANCHE 1Pï¿½ï¿½ï¿½[ï¿½hï¿½ÆŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å‘Îí‚µï¿½Ü‚ï¿½ï¿½Bï¿½Aï¿½ï¿½ï¿½Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½ï¿½ÉŽ×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ð‘—‚èžï¿½Þ‚ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuAVALANCHEï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-EAVALANCHE VS FEVER MARATHON (RC1)
-@@˜A½‚Ìƒ^ƒli‚ ‚ç‚©‚¶‚ßŠÈ’P‚É˜A½‚Å‚«‚é‚æ‚¤‚É‘g‚Ü‚ê‚½ƒuƒƒbƒNj‚ªÏ‚Ü‚ê‚½ó‘Ô‚ÅƒQ[ƒ€‚ªŽn‚Ü‚è‚Ü‚·B
-@@˜A½‚·‚é‚ÆAHANDICAP—“‚Ì”Žš‚ªŒ¸‚Á‚Ä‚¢‚«‚Ü‚·B‚±‚ê‚ª0‚É‚È‚é‚ÆA‘ŠŽè‚ÉŽÀÛ‚ÉUŒ‚‚Å‚«‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuAVALANCHEvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½EAVALANCHE VS FEVER MARATHON (RC1)
+ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½Ìƒ^ï¿½lï¿½iï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ßŠÈ’Pï¿½É˜Aï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‘gï¿½Ü‚ê‚½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½jï¿½ï¿½ï¿½Ï‚Ü‚ê‚½ï¿½ï¿½Ô‚ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆAHANDICAPï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ê‚ª0ï¿½É‚È‚ï¿½ÆAï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½Û‚ÉUï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuAVALANCHEï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-EAVALANCHE VS DIG RACE (RC1)
-@@‘ŠŽè‚æ‚èæ‚ÉA7F‚ÉŒõ‚é•óÎƒuƒƒbƒN‚ðÁ‚·‚±‚Æ‚ª–Ú“I‚Ìƒ‚[ƒh‚Å‚·B•óÎƒuƒƒbƒN‚Í‘¼‚ÌƒuƒƒbƒN‚Ì‰º‚É–„‚à‚ê‚Ä‚¢‚Ü‚·B
-@@‘å‚«‚È˜A½‚ð‚·‚é‚Æ‘ŠŽè‚ÉŽ×–‚ƒuƒƒbƒN‚ð‘—‚é‚±‚Æ‚ªo—ˆ‚Ü‚·‚ªA’v–½‚ð—^‚¦‚é‚Ù‚Ç‚ÌUŒ‚—Í‚Í‚ ‚è‚Ü‚¹‚ñB
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuAVALANCHEvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½EAVALANCHE VS DIG RACE (RC1)
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉA7ï¿½Fï¿½ÉŒï¿½ï¿½ï¿½ï¿½Îƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ú“Iï¿½Ìƒï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½Bï¿½ï¿½Îƒuï¿½ï¿½ï¿½bï¿½Nï¿½Í‘ï¿½ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½Ì‰ï¿½ï¿½É–ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½å‚«ï¿½È˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½ï¿½ÉŽ×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ð‘—‚é‚±ï¿½Æ‚ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½Ù‚Ç‚ÌUï¿½ï¿½ï¿½Í‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuAVALANCHEï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-EPHYSICIAN (RC1)
-@@‚ ‚ç‚©‚¶‚ßƒtƒB[ƒ‹ƒh“à‚É’u‚©‚ê‚Ä‚¢‚éƒEƒCƒ‹ƒXi•óÎƒuƒƒbƒNj‚ðAã‚©‚ç—Ž‚¿‚Ä‚­‚é3F‚ÌƒJƒvƒZƒ‹i’ÊíƒuƒƒbƒNj‚ðŽg‚Á‚ÄÁ‚µ‚Ä‚¢‚­ƒ‚[ƒh‚Å‚·B
-@@ƒJƒvƒZƒ‹‚Íc‚©‰¡‚É4‚ÂˆÈã•À‚×‚é‚ÆÁ‚¦‚Ü‚·BŒq‚ª‚Á‚Ä‚¢‚é“¯F‚ÌƒEƒCƒ‹ƒX‚àˆê‚ÉÁ‚¦‚Ü‚·B
-@@‘S‚Ä‚ÌƒEƒCƒ‹ƒX‚ðÁ‚·‚ÆƒXƒe[ƒWƒNƒŠƒA‚Å‚·B
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuPHYSICIANvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½EPHYSICIAN (RC1)
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ßƒtï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½É’uï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Eï¿½Cï¿½ï¿½ï¿½Xï¿½iï¿½ï¿½Îƒuï¿½ï¿½ï¿½bï¿½Nï¿½jï¿½ï¿½ï¿½Aï¿½ã‚©ï¿½ç—Žï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½3ï¿½Fï¿½ÌƒJï¿½vï¿½Zï¿½ï¿½ï¿½iï¿½Êï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½jï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Jï¿½vï¿½Zï¿½ï¿½ï¿½Ícï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4ï¿½ÂˆÈï¿½ï¿½ï¿½×‚ï¿½Æï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½qï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é“¯ï¿½Fï¿½ÌƒEï¿½Cï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½êï¿½Éï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Sï¿½Ä‚ÌƒEï¿½Cï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆƒXï¿½eï¿½[ï¿½Wï¿½Nï¿½ï¿½ï¿½Aï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuPHYSICIANï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-EPHYSICIAN VS-BATTLE (RC1)
-@@PHYSICIANƒ‚[ƒh‚Ìƒ‹[ƒ‹‚Å‘Îí‚µ‚Ü‚·B
-@@‘ŠŽè‚ªƒQ[ƒ€ƒI[ƒo[‚É‚È‚é‚©Aæ‚ÉƒEƒCƒ‹ƒX‚ð‘S‚ÄÁ‚·‚ÆŸ—˜‚Å‚·B
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuPHYSICIANvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½EPHYSICIAN VS-BATTLE (RC1)
+ï¿½@ï¿½@PHYSICIANï¿½ï¿½ï¿½[ï¿½hï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Å‘Îí‚µï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½è‚ªï¿½Qï¿½[ï¿½ï¿½ï¿½Iï¿½[ï¿½oï¿½[ï¿½É‚È‚é‚©ï¿½Aï¿½ï¿½ÉƒEï¿½Cï¿½ï¿½ï¿½Xï¿½ï¿½Sï¿½Äï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuPHYSICIANï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-ESPF VS-BATTLE (BETA)
-@@ã‚©‚ç—Ž‚¿‚Ä‚­‚éƒm[ƒ}ƒ‹ƒWƒFƒ€i’ÊíƒuƒƒbƒNj‚ðÏ‚Ýã‚°AŽžX—Ž‚¿‚Ä‚­‚éƒNƒ‰ƒbƒVƒ…ƒWƒFƒ€i•óÎƒuƒƒbƒNj‚ðŽg‚Á‚Äƒm[ƒ}ƒ‹ƒWƒFƒ€‚ðÁ‚µ‚Ä‚¢‚«‚Ü‚·B
-@@2~2ˆÈã‚Ì‘å‚«‚³‚Å“¯F‚Ìƒm[ƒ}ƒ‹ƒWƒFƒ€‚ðŽlŠpŒ`Œ^‚É‘g‚Ý‡‚í‚¹‚é‚ÆA‚æ‚è‹­—Í‚Èƒpƒ[ƒWƒFƒ€‚É•Ï‰»‚µ‚Ü‚·B
-@@ƒm[ƒ}ƒ‹ƒWƒFƒ€‚âƒpƒ[ƒWƒFƒ€‚Í‚¢‚­‚ç‚Å‚àŒq‚°‚Ä‚¢‚­‚±‚Æ‚ª‚Å‚«‚Ü‚·‚ªAƒNƒ‰ƒbƒVƒ…ƒWƒFƒ€‚ðŽg‚í‚È‚¢ŒÀ‚èÁ‚·‚±‚Æ‚ª‚Å‚«‚Ü‚¹‚ñB
-@@ƒNƒ‰ƒbƒVƒ…ƒWƒFƒ€‚ðŽg‚Á‚ÄƒWƒFƒ€‚ðÁ‚·‚ÆA‘ŠŽè‚ÉƒJƒEƒ“ƒ^[ƒWƒFƒ€iŽ×–‚ƒuƒƒbƒNj‚ð‘—‚èž‚Þ‚±‚Æ‚ª‚Å‚«‚Ü‚·B
-@@‚Ü‚Æ‚à‚ÉƒvƒŒƒC‚·‚éê‡‚ÍuSPFvƒ‹[ƒ‹‚ðŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½ESPF VS-BATTLE (BETA)
+ï¿½@ï¿½@ï¿½ã‚©ï¿½ç—Žï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½mï¿½[ï¿½}ï¿½ï¿½ï¿½Wï¿½Fï¿½ï¿½ï¿½iï¿½Êï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½jï¿½ï¿½Ï‚Ýã‚°ï¿½Aï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Wï¿½Fï¿½ï¿½ï¿½iï¿½ï¿½Îƒuï¿½ï¿½ï¿½bï¿½Nï¿½jï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Äƒmï¿½[ï¿½}ï¿½ï¿½ï¿½Wï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@2ï¿½~2ï¿½Èï¿½Ì‘å‚«ï¿½ï¿½ï¿½Å“ï¿½ï¿½Fï¿½Ìƒmï¿½[ï¿½}ï¿½ï¿½ï¿½Wï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½lï¿½pï¿½`ï¿½^ï¿½É‘gï¿½Ýï¿½ï¿½í‚¹ï¿½ï¿½ÆAï¿½ï¿½è‹­ï¿½Í‚Èƒpï¿½ï¿½ï¿½[ï¿½Wï¿½Fï¿½ï¿½ï¿½É•Ï‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½mï¿½[ï¿½}ï¿½ï¿½ï¿½Wï¿½Fï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½[ï¿½Wï¿½Fï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½qï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½Nï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Wï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Nï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Wï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÄƒWï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½ï¿½ÉƒJï¿½Eï¿½ï¿½ï¿½^ï¿½[ï¿½Wï¿½Fï¿½ï¿½ï¿½iï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½jï¿½ð‘—‚èžï¿½Þ‚ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Ü‚Æ‚ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍuSPFï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-yBGM‚ð–Â‚ç‚·‚É‚Íz
-‚Ü‚¾BGM‚Í•W€‚Å‚Í•t‚¢‚Ä‚¢‚Ü‚¹‚ñ‚ªA”CˆÓ‚Ì‰¹Šyƒtƒ@ƒCƒ‹‚ðÄ¶‚Å‚«‚Ü‚·B
-BGM‚ÌÝ’è‚ð‚·‚é‚É‚Íƒ~ƒ…[ƒWƒbƒNƒŠƒXƒgƒGƒfƒBƒ^(musiclisteditor.bat)‚ðŽg‚Á‚Ä‚­‚¾‚³‚¢B
-‘Î‰žŒ`Ž®‚Í‚½‚Ô‚ñu.oggvu.wavvu.xmvu.modvu.aifvu.aiffv‚Ì6Ží—Þ‚Å‚·B
+ï¿½yBGMï¿½ï¿½Â‚ç‚·ï¿½É‚Íz
+ï¿½Ü‚ï¿½BGMï¿½Í•Wï¿½ï¿½ï¿½Å‚Í•tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½Cï¿½Ó‚Ì‰ï¿½ï¿½yï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+BGMï¿½ÌÝ’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚Íƒ~ï¿½ï¿½ï¿½[ï¿½Wï¿½bï¿½Nï¿½ï¿½ï¿½Xï¿½gï¿½Gï¿½fï¿½Bï¿½^(musiclisteditor.bat)ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½Î‰ï¿½ï¿½`ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ô‚ï¿½u.oggï¿½vï¿½u.wavï¿½vï¿½u.xmï¿½vï¿½u.modï¿½vï¿½u.aifï¿½vï¿½u.aiffï¿½vï¿½ï¿½6ï¿½ï¿½Þ‚Å‚ï¿½ï¿½B
 
-‹‘å‚Èoggƒtƒ@ƒCƒ‹‚ð“ü‚ê‚é‚Æƒ‹[ƒv‚·‚éŽž‚É—Ž‚¿‚é‚æ‚¤‚Å‚·B
+ï¿½ï¿½ï¿½ï¿½ï¿½oggï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½éŽžï¿½É—ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Å‚ï¿½ï¿½B
 
-yƒlƒbƒgƒvƒŒƒC(ƒÀ”Å)z
-[‚Å‚«‚é‚±‚Æ]
-E‘¼‚ÌƒvƒŒƒCƒ„[‚Æ‘Îí(Å‘å6l)
-EV‚µ‚¢ƒ‹[ƒ€‚ðì‚é
-E‚·‚Å‚É‚ ‚éƒ‹[ƒ€‚É“ü‚é
-EŠÈ’P‚Èƒ`ƒƒƒbƒg‹@”\
-EŠÏí
-[‚Å‚«‚È‚¢‚±‚Æ]
-E‚»‚Ì‘¼‚Ù‚Æ‚ñ‚Ç‘S•”
+ï¿½yï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½C(ï¿½ï¿½ï¿½ï¿½)ï¿½z
+[ï¿½Å‚ï¿½ï¿½é‚±ï¿½ï¿½]
+ï¿½Eï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Æ‘Îï¿½(ï¿½Å‘ï¿½6ï¿½l)
+ï¿½Eï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Eï¿½ï¿½ï¿½Å‚É‚ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½
+ï¿½Eï¿½È’Pï¿½Èƒ`ï¿½ï¿½ï¿½bï¿½gï¿½@ï¿½\
+ï¿½Eï¿½Ïï¿½
+[ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½]
+ï¿½Eï¿½ï¿½ï¿½Ì‘ï¿½ï¿½Ù‚Æ‚ï¿½Ç‘Sï¿½ï¿½
 
-[ƒlƒbƒgƒvƒŒƒC‚Ì‚Í‚¶‚ß•û]
-ƒlƒbƒgƒvƒŒƒCƒ‚[ƒh‚É“ü‚é•û–@:
-@1. •’Ê‚ÉƒQ[ƒ€‚ð‹N“®‚µ‚Ü‚·B3‚Â‚ ‚é‚Ç‚Ìƒo[ƒWƒ‡ƒ“‚Å‚àOK‚Å‚·B
-@2. Swingƒo[ƒWƒ‡ƒ“‚Å‚ÍAƒtƒ@ƒCƒ‹ƒƒjƒ…[‚©‚çuƒlƒbƒgƒvƒŒƒCv‚ð‘I‘ð‚µ‚Ü‚·B
-@   ‚»‚Ì‘¼‚Ìƒo[ƒWƒ‡ƒ“‚Å‚ÍAƒgƒbƒvƒƒjƒ…[‚©‚çuNETPLAYv‚ð‘I‘ð‚µ‚ÄAƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚Ü‚·B
-@3. uNullpoMino NetLobbyv‚Æ‚¢‚¤ƒEƒBƒ“ƒhƒE‚ªŒ»‚ê‚Ü‚·B
+[ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Ì‚Í‚ï¿½ï¿½ß•ï¿½]
+ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½hï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½@:
+ï¿½@1. ï¿½ï¿½ï¿½Ê‚ÉƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B3ï¿½Â‚ï¿½ï¿½ï¿½Ç‚Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½OKï¿½Å‚ï¿½ï¿½B
+ï¿½@2. Swingï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ÍAï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½uï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½vï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@   ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ÍAï¿½gï¿½bï¿½vï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½uNETPLAYï¿½vï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@3. ï¿½uNullpoMino NetLobbyï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-V‚µ‚¢ƒT[ƒo[‚ðƒŠƒXƒg‚É’Ç‰Á‚·‚é•û–@:
-@1. ƒT[ƒo[‘I‘ð‰æ–Ê(NullpoMino NetLobby‚Æ‚¢‚¤ƒEƒBƒ“ƒhƒE‚ªoŒ»‚µ‚½’¼Œã‚Ìó‘Ô)‚Åu’Ç‰Ávƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-@2. ƒzƒXƒg–¼(‚Ü‚½‚ÍIPƒAƒhƒŒƒX)‚Æƒ|[ƒg”Ô†‚ð“ü‚ê‚é‰æ–Ê‚ªo‚Ä‚«‚Ü‚·B
-@   uƒzƒXƒg–¼‚Ü‚½‚ÍIPƒAƒhƒŒƒX:ƒ|[ƒg”Ô†v‚ÌŒ`Ž®‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B(ƒzƒXƒg–¼‚Æƒ|[ƒg”Ô†‚ðƒRƒ“ƒ}u:v‚Å‹æØ‚è‚Ü‚·)
-@   ƒT[ƒo[‘¤‚Ìƒ|[ƒg”Ô†‚ª9200‚Ìê‡‚Íu:9200v‚ðƒzƒXƒg–¼‚ÌŒã‚ë‚É‚Â‚¯‚é•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
-@3. “ü—Í‚µ‚½‚çOKƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½gï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@:
+ï¿½@1. ï¿½Tï¿½[ï¿½oï¿½[ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½(NullpoMino NetLobbyï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½)ï¿½Åuï¿½Ç‰ï¿½ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@2. ï¿½zï¿½Xï¿½gï¿½ï¿½(ï¿½Ü‚ï¿½ï¿½ï¿½IPï¿½Aï¿½hï¿½ï¿½ï¿½X)ï¿½Æƒ|ï¿½[ï¿½gï¿½Ôï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½oï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@   ï¿½uï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½IPï¿½Aï¿½hï¿½ï¿½ï¿½X:ï¿½|ï¿½[ï¿½gï¿½Ôï¿½ï¿½vï¿½ÌŒ`ï¿½ï¿½ï¿½Å“ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B(ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½Æƒ|ï¿½[ï¿½gï¿½Ôï¿½ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½}ï¿½u:ï¿½vï¿½Å‹ï¿½Ø‚ï¿½Ü‚ï¿½)
+ï¿½@   ï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½Ìƒ|ï¿½[ï¿½gï¿½Ôï¿½ï¿½ï¿½9200ï¿½Ìê‡ï¿½Íu:9200ï¿½vï¿½ï¿½ï¿½zï¿½Xï¿½gï¿½ï¿½ï¿½ÌŒï¿½ï¿½É‚Â‚ï¿½ï¿½ï¿½Kï¿½vï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@3. ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½OKï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-@ƒ[ƒJƒ‹‚ÅƒlƒbƒgƒvƒŒƒC‚ðŽŽ‚·‚É‚ÍAnetserver.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚µ‚ÄƒT[ƒo[‚ð‹N“®‚µ
-@u127.0.0.1v‚ðƒT[ƒo[ƒŠƒXƒg‚É’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½@ï¿½ï¿½ï¿½[ï¿½Jï¿½ï¿½ï¿½Åƒlï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ÍAnetserver.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ÄƒTï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½u127.0.0.1ï¿½vï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½Xï¿½gï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-@harddrop.com‚ÌŠF‚³‚ñ‚ªƒlƒbƒgƒvƒŒƒCƒT[ƒo[‚ð’ñ‹Ÿ‚µ‚Ä‚¢‚Ü‚·Bharddrop.com‚ÌŠF‚³‚ñ‚ ‚è‚ª‚Æ‚¤I
+ï¿½@harddrop.comï¿½ÌŠFï¿½ï¿½ï¿½ñ‚ªƒlï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ñ‹Ÿ‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bharddrop.comï¿½ÌŠFï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I
 harddrop.com
 
-’Ç‰Á‚µ‚½ƒT[ƒo[‚ÉÚ‘±‚·‚é•û–@:
-@1. –¼‘O‚ÆƒgƒŠƒbƒv‚ðƒjƒbƒNƒl[ƒ€—“‚É“ü—Í‚µ‚Ü‚·i”CˆÓj
-@   –¼‘O‚àƒgƒŠƒbƒv‚à“ü—Í‚µ‚È‚¢ê‡‚ÍŽ©“®“I‚É–¼‘O‚ªunonamev‚É‚È‚è‚Ü‚·B
-@   ƒgƒŠƒbƒv‚Í2ch‚Æ‚©‚É‚ ‚é‚æ‚¤‚ÈŒÂlŽ¯•Ê‹@”\‚Å‚·BƒjƒbƒNƒl[ƒ€—“‚É#‹L†‚ÌŒã‚ÉƒpƒXƒ[ƒh‚ð“ü‚ê‚é‚ÆˆÃ†‰»‚³‚ê‚½•¶Žš—ñ‚ª•\Ž¦‚³‚ê‚Ü‚·B
-@    Wikipedia‚Å‚ÌƒgƒŠƒbƒv‚Ì‹LŽ–F
-@    http://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AA%E3%83%83%E3%83%97_(%E9%9B%BB%E5%AD%90%E6%8E%B2%E7%A4%BA%E6%9D%BF)
-@2. Ú‘±‚µ‚½‚¢ƒT[ƒo[‚ðƒŠƒXƒgƒ{ƒbƒNƒX‚©‚ç‘I‚Ñ‚Ü‚·B(ƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚Æ‘¦Ú‘±‚Å‚«‚Ü‚·)
-@3. uÚ‘±vƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B‰æ–Ê‚ªƒƒr[‰æ–Ê‚ÉØ‚è‘Ö‚í‚è‚Ü‚·B
+ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½[ï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@:
+ï¿½@1. ï¿½ï¿½ï¿½Oï¿½Æƒgï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½jï¿½bï¿½Nï¿½lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½iï¿½Cï¿½Ój
+ï¿½@   ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½gï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Iï¿½É–ï¿½ï¿½Oï¿½ï¿½ï¿½unonameï¿½vï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@   ï¿½gï¿½ï¿½ï¿½bï¿½vï¿½ï¿½2chï¿½Æ‚ï¿½ï¿½É‚ï¿½ï¿½ï¿½æ‚¤ï¿½ÈŒÂlï¿½ï¿½ï¿½Ê‹@ï¿½\ï¿½Å‚ï¿½ï¿½Bï¿½jï¿½bï¿½Nï¿½lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½#ï¿½Lï¿½ï¿½ï¿½ÌŒï¿½Éƒpï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆˆÃï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚ª•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@    Wikipediaï¿½Å‚Ìƒgï¿½ï¿½ï¿½bï¿½vï¿½Ì‹Lï¿½ï¿½ï¿½F
+ï¿½@    http://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AA%E3%83%83%E3%83%97_(%E9%9B%BB%E5%AD%90%E6%8E%B2%E7%A4%BA%E6%9D%BF)
+ï¿½@2. ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½gï¿½{ï¿½bï¿½Nï¿½Xï¿½ï¿½ï¿½ï¿½Iï¿½Ñ‚Ü‚ï¿½ï¿½B(ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½Ú‘ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½)
+ï¿½@3. ï¿½uï¿½Ú‘ï¿½ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½Ê‚ÉØ‚ï¿½Ö‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-V‚µ‚¢i‘Îí—p‚Ìjƒ‹[ƒ€‚ðì¬‚·‚é•û–@:
-@1. ‰æ–Êã•”‚É‚ ‚éuƒ‹[ƒ€ì¬vƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-@2. ƒ‹[ƒ€‚Ì–¼‘O(È—ª‰Â)‚ÆŽQ‰Á‰Â”\‚ÈÅ‘ål”‚ð“ü—Í‚µ‚Ü‚·B
-@3. OKƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
+ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½iï¿½Îï¿½pï¿½Ìjï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@:
+ï¿½@1. ï¿½ï¿½Êã•”ï¿½É‚ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@2. ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì–ï¿½ï¿½O(ï¿½È—ï¿½ï¿½ï¿½)ï¿½ÆŽQï¿½ï¿½ï¿½Â”\ï¿½ÈÅ‘ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@3. OKï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-1lƒvƒŒƒC—pƒ‹[ƒ€‚ðì¬‚·‚é•û–@:
-@1. ‰æ–Êã•”‚É‚ ‚éu1lƒvƒŒƒCvƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
-@2. ƒvƒŒƒC‚·‚éƒ‚[ƒh‚Æƒ‹[ƒ‹‚ð‘I‘ð‚µ‚Ü‚·B
-@3. OKƒ{ƒ^ƒ“‚ðƒNƒŠƒbƒN‚µ‚Ü‚·B
+1ï¿½lï¿½vï¿½ï¿½ï¿½Cï¿½pï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@:
+ï¿½@1. ï¿½ï¿½Êã•”ï¿½É‚ï¿½ï¿½ï¿½u1ï¿½lï¿½vï¿½ï¿½ï¿½Cï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@2. ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½éƒ‚ï¿½[ï¿½hï¿½Æƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@3. OKï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-‚·‚Å‚É‚ ‚éƒ‹[ƒ€‚É“ü‚é•û–@:
-@ƒ‹[ƒ€ˆê——•\‚Å“ü‚è‚½‚¢ƒ‹[ƒ€–¼‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚¾‚¯‚Å‚·B
-@ŠÏí‚¾‚¯‚µ‚½‚¢ê‡‚ÍAŠÏí‚µ‚½‚¢ƒ‹[ƒ€–¼‚ð‰EƒNƒŠƒbƒN‚µ‚ÄAo‚Ä‚«‚½‰EƒNƒŠƒbƒNƒƒjƒ…[‚©‚çuŠÏív‚ð‘I‚Ñ‚Ü‚·B
+ï¿½ï¿½ï¿½Å‚É‚ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½@:
+ï¿½@ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ê——ï¿½\ï¿½Å“ï¿½ï¿½è‚½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½Ïí‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍAï¿½Ïí‚µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ÄAï¿½oï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Eï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½uï¿½Ïï¿½vï¿½ï¿½Iï¿½Ñ‚Ü‚ï¿½ï¿½B
 
-OKƒVƒOƒiƒ‹‚ðo‚·:
-@1. ƒQ[ƒ€ƒEƒBƒ“ƒhƒE(•’i1PƒQ[ƒ€‚ð—V‚ÔƒEƒBƒ“ƒhƒE)‚ðƒNƒŠƒbƒN‚µ‚ÄAƒQ[ƒ€ƒEƒBƒ“ƒhƒE‚É‘€ì‚ðˆÚ‚µ‚Ü‚·B
-@2. Aƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚Ü‚·BuOKv‚ÆŽ©•ª‚ÌƒtƒB[ƒ‹ƒh‚Éo‚Ä‚«‚½‚çŠ®—¹‚Å‚·B
-@3. ‚»‚Ì•”‰®‚É‚¢‚é‘Sˆõ‚ªOKƒVƒOƒiƒ‹‚ðo‚·‚ÆƒQ[ƒ€‚ªŽn‚Ü‚è‚Ü‚·B
+OKï¿½Vï¿½Oï¿½iï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½:
+ï¿½@1. ï¿½Qï¿½[ï¿½ï¿½ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½E(ï¿½ï¿½ï¿½i1Pï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½Vï¿½ÔƒEï¿½Bï¿½ï¿½ï¿½hï¿½E)ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ÄAï¿½Qï¿½[ï¿½ï¿½ï¿½Eï¿½Bï¿½ï¿½ï¿½hï¿½Eï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@2. Aï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½uOKï¿½vï¿½ÆŽï¿½ï¿½ï¿½ï¿½Ìƒtï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Éoï¿½Ä‚ï¿½ï¿½ï¿½ï¿½çŠ®ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+ï¿½@3. ï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½OKï¿½Vï¿½Oï¿½iï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½ÆƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Ü‚ï¿½ï¿½B
 
-[ƒT[ƒo[‚É‚Â‚¢‚Ä]
-netserver.bat‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆƒT[ƒo[‚ª‹N“®‚µ‚Ü‚·‚ªA‚±‚Ìê‡‚Ìƒ|[ƒg”Ô†‚ÍƒfƒtƒHƒ‹ƒg‚Ì9200‚ÅŒÅ’è‚Å‚·B
-‘¼‚Ìƒ|[ƒg‚É•Ï‚¦‚½‚¢ê‡A‚¨‚æ‚ÑLinux‚Ü‚½‚ÍMac OS X‚ðŽg‚Á‚Ä‚¢‚éê‡‚ÍˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ðŽg‚Á‚Ä‚­‚¾‚³‚¢B
+[ï¿½Tï¿½[ï¿½oï¿½[ï¿½É‚Â‚ï¿½ï¿½ï¿½]
+netserver.batï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ÆƒTï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìê‡ï¿½Ìƒ|ï¿½[ï¿½gï¿½Ôï¿½ï¿½Íƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½9200ï¿½ÅŒÅ’ï¿½Å‚ï¿½ï¿½B
+ï¿½ï¿½ï¿½Ìƒ|ï¿½[ï¿½gï¿½É•Ï‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Linuxï¿½Ü‚ï¿½ï¿½ï¿½Mac OS Xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½ÍˆÈ‰ï¿½ï¿½ÌƒRï¿½}ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
 Windows:
-java -cp NullpoMino.jar;lib\log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ƒ|[ƒg”Ô†]
+java -cp NullpoMino.jar;lib\log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ï¿½|ï¿½[ï¿½gï¿½Ôï¿½]
 Linux/MacOS:
-java -cp NullpoMino.jar:lib/log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ƒ|[ƒg”Ô†]
+java -cp NullpoMino.jar:lib/log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ï¿½|ï¿½[ï¿½gï¿½Ôï¿½]
 
-2”Ô–Ú‚Ìˆø”‚ðÝ’è‚·‚é‚±‚Æ‚ÅA•Ê‚Ìnetserver.cfg‚©‚çÝ’è‚ð“Ç‚Ýž‚Þ‚±‚Æ‚à‚Å‚«‚Ü‚·B
+2ï¿½Ô–Ú‚Ìˆï¿½ï¿½ï¿½ï¿½ï¿½Ý’è‚·ï¿½é‚±ï¿½Æ‚ÅAï¿½Ê‚ï¿½netserver.cfgï¿½ï¿½ï¿½ï¿½Ý’ï¿½ï¿½Ç‚Ýï¿½ï¿½Þ‚ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 Windows:
-java -cp NullpoMino.jar;lib\log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ƒ|[ƒg”Ô†] [netserver.cfg‚ÌêŠ]
+java -cp NullpoMino.jar;lib\log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ï¿½|ï¿½[ï¿½gï¿½Ôï¿½] [netserver.cfgï¿½ÌêŠ]
 Linux/MacOS:
-java -cp NullpoMino.jar:lib/log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ƒ|[ƒg”Ô†] [netserver.cfg‚ÌêŠ]
+java -cp NullpoMino.jar:lib/log4j-1.2.15.jar mu.nu.nullpo.game.net.NetServer [ï¿½|ï¿½[ï¿½gï¿½Ôï¿½] [netserver.cfgï¿½ÌêŠ]
 
-yFAQz
-Q: Slick”Å‚ÅƒWƒ‡ƒCƒXƒeƒBƒbƒN‚ª“®‚©‚È‚¢
-A: GENERAL CONFIG‰æ–Ê‚Ì"JOYSTICK METHOD"‚ÌÝ’è‚ðLWGJL‚É•Ï‚¦‚ÄAJOYSTICK SETTING‰æ–Ê‚ÌÝ’è‚ð‚¢‚ë‚¢‚ë˜M‚Á‚Ä‚­‚¾‚³‚¢B
-   Slick”Å‚ÌƒWƒ‡ƒCƒXƒeƒBƒbƒNƒTƒ|[ƒg‚ÍSDL”Å‚Ù‚Ç—Ç‚­‚È‚¢‚Å‚·B
+ï¿½yFAQï¿½z
+Q: Slickï¿½Å‚ÅƒWï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
+A: GENERAL CONFIGï¿½ï¿½Ê‚ï¿½"JOYSTICK METHOD"ï¿½ÌÝ’ï¿½ï¿½LWGJLï¿½É•Ï‚ï¿½ï¿½ÄAJOYSTICK SETTINGï¿½ï¿½Ê‚ÌÝ’ï¿½ï¿½ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½Mï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+   Slickï¿½Å‚ÌƒWï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½Tï¿½|ï¿½[ï¿½gï¿½ï¿½SDLï¿½Å‚Ù‚Ç—Ç‚ï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½B
 
-Q: SDL”Å‚ÌƒlƒbƒgƒvƒŒƒC‚ÅŽg—pRAM‚ªŒƒ‘‚·‚é
-A: Swing”Å‚©Slick”Å‚ðŽg‚Á‚Ä‚­‚¾‚³‚¢B¡‚Ì‚Æ‚±‚ë‚Ü‚Æ‚à‚È‰ðŒˆ•û–@‚Í‚ ‚è‚Ü‚¹‚ñBSDL‚©SDLJava‘¤‚Ì–â‘è‚Á‚Û‚¢‚Å‚·B
+Q: SDLï¿½Å‚Ìƒlï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ÅŽgï¿½pRAMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+A: Swingï¿½Å‚ï¿½Slickï¿½Å‚ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½Ü‚Æ‚ï¿½ï¿½È‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½BSDLï¿½ï¿½SDLJavaï¿½ï¿½ï¿½Ì–ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Å‚ï¿½ï¿½B
 
-Q: 64bit‚ÌOS‚ðŽg‚Á‚Ä‚¢‚Ü‚·BSDL”Å‚ª“®‚«‚Ü‚¹‚ñB
-A: –³—B
+Q: 64bitï¿½ï¿½OSï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½BSDLï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+A: ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-Q: ƒlƒbƒgƒvƒŒƒC‚ÅƒŒ[ƒg‚â1lƒvƒŒƒC‚Ì‹L˜^‚ª•Û‘¶‚³‚ê‚È‚¢
-A: –¼‘O‚ÉƒgƒŠƒbƒv‚ª“ü‚Á‚Ä‚¢‚È‚¢‚Æ‹L˜^‚Í•Û‘¶‚³‚ê‚Ü‚¹‚ñB
-   ƒgƒŠƒbƒv‚ð‚Â‚¯‚é‚É‚ÍA–¼‘O‚ÌŒã‚ë‚ÉƒVƒƒ[ƒv‹L†i#j‚ÆƒpƒXƒ[ƒh‚ð“ü‚ê‚Ä‚­‚¾‚³‚¢B
-   i—á‚¦‚ÎA–¼‘O—“‚É"ABCDEF#nullpomino"‚Æ“ü‚ê‚ÄÚ‘±‚·‚é‚Æ"ABCDEF ŸgN6kJVofq6"‚É‚È‚è‚Ü‚·)
+Q: ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Åƒï¿½ï¿½[ï¿½gï¿½ï¿½1ï¿½lï¿½vï¿½ï¿½ï¿½Cï¿½Ì‹Lï¿½^ï¿½ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
+A: ï¿½ï¿½ï¿½Oï¿½Éƒgï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Æ‹Lï¿½^ï¿½Í•Û‘ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+   ï¿½gï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½É‚ÍAï¿½ï¿½ï¿½Oï¿½ÌŒï¿½ï¿½ÉƒVï¿½ï¿½ï¿½[ï¿½vï¿½Lï¿½ï¿½ï¿½i#ï¿½jï¿½Æƒpï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+   ï¿½iï¿½á‚¦ï¿½ÎAï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½"ABCDEF#nullpomino"ï¿½Æ“ï¿½ï¿½ï¿½ÄÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"ABCDEF ï¿½ï¿½gN6kJVofq6"ï¿½É‚È‚ï¿½Ü‚ï¿½)
 
-y»ìEŽÓŽ«z
-»ìF
-	NullNoname ŸbzEQ7554bc (•Ê–¼pbomqlu910963AŒ³–¼–³‚µ) pbomqlu910963@gmail.com
+ï¿½yï¿½ï¿½ï¿½ï¿½Eï¿½ÓŽï¿½ï¿½z
+ï¿½ï¿½ï¿½ï¿½F
+	NullNoname ï¿½ï¿½bzEQ7554bc (ï¿½Ê–ï¿½pbomqlu910963ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) pbomqlu910963@gmail.com
 	Zircean
-	Poochy.EXEiƒ|ƒ`ƒGƒOƒ[j
+	Poochy.EXEï¿½iï¿½|ï¿½`ï¿½Gï¿½Oï¿½[ï¿½j
 	Wojtek (aka dodd)
 	Spirale (olivier.vidal1 on the SVN)
 	kitaru2004
@@ -534,19 +534,19 @@ A: –¼‘O‚ÉƒgƒŠƒbƒv‚ª“ü‚Á‚Ä‚¢‚È‚¢‚Æ‹L˜^‚Í•Û‘¶‚³‚ê‚Ü‚¹‚ñB
 	delvalle.jacobo (aka clincher)
 	bob.inside (aka xlro)
 
-	Google Code‚ÌPeopleƒy[ƒW:
+	Google Codeï¿½ï¿½Peopleï¿½yï¿½[ï¿½W:
 	http://code.google.com/p/nullpomino/people/list
 
-‚±‚ÌƒQ[ƒ€‚ÍˆÈ‰º‚Ìƒc[ƒ‹Eƒ‰ƒCƒuƒ‰ƒŠE‘fÞ‚ðŽg—p‚µ‚Ü‚µ‚½B
-‚±‚Ìê‚ðŽØ‚è‚Ä‚¨—ç\‚µã‚°‚Ü‚·B
+ï¿½ï¿½ï¿½ÌƒQï¿½[ï¿½ï¿½ï¿½ÍˆÈ‰ï¿½ï¿½Ìƒcï¿½[ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½fï¿½Þ‚ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½Ø‚ï¿½Ä‚ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ã‚°ï¿½Ü‚ï¿½ï¿½B
 
-Eƒc[ƒ‹
+ï¿½Eï¿½cï¿½[ï¿½ï¿½
 	Eclipse 3.6
 	http://www.eclipse.org/
 	PictBear SE
 	http://www20.pos.to/~sleipnir/
 
-Eƒ‰ƒCƒuƒ‰ƒŠ
+ï¿½Eï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½
 	Slick - 2D Game Library based on LWJGL
 	http://slick.cokeandcode.com/
 	Lightweight Java Game Library (LWJGL)
@@ -564,21 +564,21 @@ A: –¼‘O‚ÉƒgƒŠƒbƒv‚ª“ü‚Á‚Ä‚¢‚È‚¢‚Æ‹L˜^‚Í•Û‘¶‚³‚ê‚Ü‚¹‚ñB
 	Crypt.java (Java-based implementation of the unix crypt(3) command)
 	http://www.cacas.org/java/gnu/tools/
 
-EŒø‰Ê‰¹
-	ƒUEƒ}ƒbƒ`ƒƒCƒJƒ@ƒY
+ï¿½Eï¿½ï¿½ï¿½Ê‰ï¿½
+	ï¿½Uï¿½Eï¿½}ï¿½bï¿½`ï¿½ï¿½ï¿½Cï¿½Jï¿½@ï¿½Y
 	http://osabisi.sakura.ne.jp/m2/
 	TAM Music Factory
 	http://www.tam-music.com/
 
-E”wŒi (res/graphics/oldbg)
-	‚ä‚ñƒtƒŠ[ŽÊ^‘fÞW
+ï¿½Eï¿½wï¿½i (res/graphics/oldbg)
+	ï¿½ï¿½ï¿½tï¿½ï¿½ï¿½[ï¿½Ê^ï¿½fï¿½ÞW
 	http://www.yunphoto.net/
 
-EƒtƒHƒ“ƒg
-	ƒIƒŠƒWƒiƒ‹ƒtƒHƒ“ƒgy‚Ý‚©‚¿‚á‚ñz
+ï¿½Eï¿½tï¿½Hï¿½ï¿½ï¿½g
+	ï¿½Iï¿½ï¿½ï¿½Wï¿½iï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½yï¿½Ý‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½z
 	http://www001.upp.so-net.ne.jp/mikachan/
 
-EAlso thanks to:
+ï¿½EAlso thanks to:
 	Lee
 	Burbruee
 	Steve
@@ -596,424 +596,424 @@ A: –¼‘O‚ÉƒgƒŠƒbƒv‚ª“ü‚Á‚Ä‚¢‚È‚¢‚Æ‹L˜^‚Í•Û‘¶‚³‚ê‚Ü‚¹‚ñB
 	  NullpoMino on HD wiki: http://harddrop.com/wiki/index.php?title=NullpoMino)
 	Puyo Nexus http://www.puyonexus.net/
 
-yGoogle Code‚ÌƒvƒƒWƒFƒNƒgƒy[ƒWz
+ï¿½yGoogle Codeï¿½Ìƒvï¿½ï¿½ï¿½Wï¿½Fï¿½Nï¿½gï¿½yï¿½[ï¿½Wï¿½z
 http://code.google.com/p/nullpomino/
 
-yXV—š—ðz
-+‚ÍV‹@”\A-‚ÍƒoƒOC³A*‚Í‚»‚Ì‘¼‚ÌC³A#‚Í‚»‚Ì‘¼ƒƒ‚‚ðˆÓ–¡‚µ‚Ü‚·B
+ï¿½yï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½z
++ï¿½ÍVï¿½@ï¿½\ï¿½A-ï¿½Íƒoï¿½Oï¿½Cï¿½ï¿½ï¿½A*ï¿½Í‚ï¿½ï¿½Ì‘ï¿½ï¿½ÌCï¿½ï¿½ï¿½A#ï¿½Í‚ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó–ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
 Version 7.5.0 (2011/01/21) {r518-r716; Stable Release}
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç7.4.0‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+Swing/Slick: ‰æ–ÊƒTƒCƒYÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+Slick/SDL: ƒ‚[ƒhƒtƒHƒ‹ƒ_‹@”\‚ð’Ç‰Á‚µASTART‚ð‘I‚ñ‚¾’¼Œã‚Í‚¨‚·‚·‚ßƒ‚[ƒhˆê——‚ªo‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
-+Slick: LWGJL‚Ìƒo[ƒWƒ‡ƒ“‚ð2.6‚Éã‚°‚Ü‚µ‚½B
-+DIG CHALLENGEƒ‚[ƒh‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+Practice: Hebo HiddenƒIƒvƒVƒ‡ƒ“‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+AI: Avalancheƒ‚[ƒh—pAI"Avalanche-R"ACombo Raceƒ‚[ƒh—pAI"Combo Race"A’èÎƒtƒ@ƒCƒ‹‚ðŽg‚¤"Ranks AI"‚ÆA’èÎƒtƒ@ƒCƒ‹‚ð¶¬‚·‚éRanks AI Tool‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+ƒXƒeƒBƒbƒL[‚ÈƒuƒƒbƒNƒXƒLƒ“‚ð’Ç‰Á‚µ‚Ü‚µ‚½i#9‚Æ#27j
-+NetServer: ˆÀ’è«‚ªƒAƒbƒv‚µ‚Ü‚µ‚½BCPUè—L—¦100%ƒoƒO‚àC³‚µ‚Ü‚µ‚½B
-#ƒlƒbƒgƒvƒŒƒC‚Ì‹­‰»F
- +ƒŒ[ƒg‚ ‚è‚Ìƒ‹[ƒ€‚ÍƒvƒŠƒZƒbƒgŒ`Ž®‚É‚È‚è‚Ü‚µ‚½BŽg—p‚·‚éƒ‹[ƒ‹‚ÍŠel‚ªŽ©—R‚É‘I‚×‚Ü‚·B
- +ƒIƒ“ƒ‰ƒCƒ“‚Ì1lƒvƒŒƒC‚ÉMARATHON, MARATHON+, EXTREME, DIG RACE, COMBO RACE, ULTRA, TECHNICIAN, TIME ATTACKƒ‚[ƒh‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
- +ƒIƒ“ƒ‰ƒCƒ“‚Ì1lƒvƒŒƒC‚É‘Sƒ‹[ƒ‹‹¤’Ê‚Ìƒ‰ƒ“ƒLƒ“ƒO‚ð’Ç‰Á‚µ‚Ü‚µ‚½Bƒ‹[ƒ‹‘I‘ð‚Åu(¡Žg—p’†‚Ìƒ‹[ƒ‹)v‚ð‘I‚Ô‚ÆŽg‚í‚ê‚Ü‚·B
- +ƒƒr[‚Æƒ‹[ƒ€‚É“üŽº‚µ‚½’¼Œã‚ÉÅ‹ß‚Ìƒ`ƒƒƒbƒg—š—ð‚ª•\Ž¦‚³‚ê‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B
- +ƒ`[ƒ€í‚Å–¼‘O‚ªF•ª‚¯‚³‚ê‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½B
- +“GƒvƒŒƒCƒ„[”‚É‰ž‚¶‚ÄŒŠ‚ÌˆÊ’u‚ª•Ï‚í‚éÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
- *‚»‚Ì‘¼‚¢‚ë‚¢‚ë
--PoochyBot‚Ì‚¢‚ë‚¢‚ë‚ÈƒoƒOC³‚ð‚µ‚Ü‚µ‚½B‚Ü‚½AæsŽvlƒIƒvƒVƒ‡ƒ“‚ðAIÝ’è‰æ–Ê‚É’Ç‰Á‚µA"No Prethink"”Å‚Í”pŽ~‚µ‚Ü‚µ‚½B
--‚»‚Ì‘¼‚Ì‚¢‚ë‚¢‚ë‚ÈƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
-*ƒAƒCƒRƒ“‚ªV‚µ‚­‚È‚è‚Ü‚µ‚½BƒfƒtƒHƒ‹ƒg‚Ì‚à‚Ì‚Ígif‚³‚ñA‚»‚êˆÈŠO‚Ì‚Ívirulent‚³‚ñì¬‚Å‚·B‚ ‚è‚ª‚Æ‚¤I
-*Readme‚ÆLICENCE.txtˆÈŠO‚ÌƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚ð"doc"ƒtƒHƒ‹ƒ_‚ÉˆÚ‚µ‚Ü‚µ‚½B
-#‘¼‚Ì×‚©‚¢•ÏX“à—e‚Ídoc/svnlog7_5_0.txt‚É‚ ‚è‚Ü‚·(‰pŒê‚Å‚·‚ªc)
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½7.4.0ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++Swing/Slick: ï¿½ï¿½ÊƒTï¿½Cï¿½Yï¿½Ý’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Slick/SDL: ï¿½ï¿½ï¿½[ï¿½hï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ASTARTï¿½ï¿½Iï¿½ñ‚¾’ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßƒï¿½ï¿½[ï¿½hï¿½ê——ï¿½ï¿½ï¿½oï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Slick: LWGJLï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2.6ï¿½Éã‚°ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++DIG CHALLENGEï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Practice: Hebo Hiddenï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++AI: Avalancheï¿½ï¿½ï¿½[ï¿½hï¿½pAI"Avalanche-R"ï¿½ACombo Raceï¿½ï¿½ï¿½[ï¿½hï¿½pAI"Combo Race"ï¿½Aï¿½ï¿½Îƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½"Ranks AI"ï¿½ÆAï¿½ï¿½Îƒtï¿½@ï¿½Cï¿½ï¿½ï¿½ð¶ï¿½ï¿½ï¿½ï¿½ï¿½Ranks AI Toolï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++ï¿½Xï¿½eï¿½Bï¿½bï¿½Lï¿½[ï¿½Èƒuï¿½ï¿½ï¿½bï¿½Nï¿½Xï¿½Lï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½i#9ï¿½ï¿½#27ï¿½j
++NetServer: ï¿½ï¿½ï¿½è«ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BCPUï¿½ï¿½Lï¿½ï¿½100%ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+#ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Ì‹ï¿½ï¿½ï¿½ï¿½F
+ +ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Íƒvï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½`ï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½gï¿½pï¿½ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½ÍŠeï¿½lï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½É‘Iï¿½×‚Ü‚ï¿½ï¿½B
+ +ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½1ï¿½lï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½MARATHON, MARATHON+, EXTREME, DIG RACE, COMBO RACE, ULTRA, TECHNICIAN, TIME ATTACKï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ +ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½1ï¿½lï¿½vï¿½ï¿½ï¿½Cï¿½É‘Sï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Ìƒï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Åu(ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½)ï¿½vï¿½ï¿½Iï¿½Ô‚ÆŽgï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ +ï¿½ï¿½ï¿½rï¿½[ï¿½Æƒï¿½ï¿½[ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉÅ‹ß‚Ìƒ`ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ +ï¿½`ï¿½[ï¿½ï¿½ï¿½ï¿½Å–ï¿½ï¿½Oï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ +ï¿½Gï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½ÄŒï¿½ï¿½ÌˆÊ’uï¿½ï¿½ï¿½Ï‚ï¿½ï¿½Ý’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ *ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½
+-PoochyBotï¿½Ì‚ï¿½ï¿½ë‚¢ï¿½ï¿½Èƒoï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½sï¿½vï¿½lï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AIï¿½Ý’ï¿½ï¿½Ê‚É’Ç‰ï¿½ï¿½ï¿½ï¿½A"No Prethink"ï¿½Å‚Í”pï¿½~ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½Ì‚ï¿½ï¿½ë‚¢ï¿½ï¿½Èƒoï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+*ï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ì‚ï¿½ï¿½Ì‚ï¿½gifï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ÈŠOï¿½Ì‚ï¿½virulentï¿½ï¿½ï¿½ï¿½ì¬ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½I
+*Readmeï¿½ï¿½LICENCE.txtï¿½ÈŠOï¿½Ìƒeï¿½Lï¿½Xï¿½gï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½"doc"ï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ÉˆÚ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+#ï¿½ï¿½ï¿½Ì×‚ï¿½ï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½eï¿½ï¿½doc/svnlog7_5_0.txtï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½(ï¿½pï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½c)
 
 Version 7.4.0 (2010/10/29) {r277-r517; Unstable Release}
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç7.3.0‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+Swing/Slick/SDL: ‚æ‚è‘å‚«‚¢‰¡NEXT•\Ž¦‚ð’Ç‰Á‚µ‚Ü‚µ‚½B (GENERAL OPTIONS‚Ì"SHOW NEXT ON SIDE"‚Æ"BIG SIDE NEXT"‚Ì—¼•û‚ð—LŒø‚É‚µ‚Ä‚­‚¾‚³‚¢)
-+Swing/Slick/SDL: ƒƒjƒ…[‰æ–Ê‚ÅƒQ[ƒ€’†‚Æ‚Í•Ê‚ÌƒL[”z’u‚ðŽg‚¤‚æ‚¤‚É‚µ‚Ü‚µ‚½B(Ž^”Û—¼˜_‚È‚Ì‚Å‚²ˆÓŒ©•åW’†)
-+Swing/Slick/SDL: ƒfƒtƒHƒ‹ƒg‚Ì‰ñ“]•ûŒü‚ð¶‚É•Ï‚¦‚Ü‚µ‚½BAUTO‚É–ß‚·‚É‚Í"GAME TUNING"ƒƒjƒ…[‚Ì"A BUTTON ROTATE"‚ÌÝ’è‚ð•ÏX‚µ‚Ä‚­‚¾‚³‚¢B
-+Swing/Slick/SDL: ‚¨‚·‚·‚ßƒ‹[ƒ‹‘I‘ð‰æ–Ê‚ð’Ç‰Á‚µ‚Ü‚µ‚½(ƒ‚[ƒh‘I‘ðŒã‚ÉoŒ»)B
-+Slick/SDL: ƒL[Ý’è‰æ–Ê‚ÅƒL[‚ðŒÂ•Ê‚É•ÏX‚Å‚«‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
-+Slick/SDL: ‰‰ñ‹N“®Žž‚ÌÝ’è‰æ–Ê‚ðÁ‚µ‚Ü‚µ‚½BƒL[”z’u‚Ì‰ŠúÝ’è‚ÍBlockboxƒXƒ^ƒCƒ‹‚É‚È‚Á‚Ä‚¢‚Ü‚·B
-+Slick/SDL: ‚¢‚­‚Â‚©‚Ìƒƒjƒ…[‚Åƒ}ƒEƒX‚ªŽg‚¦‚é‚æ‚¤‚É‚È‚è‚Ü‚µ‚½(•sŠ®‘S)
-+Slick: "NullpoMino.exe"‚ð’Ç‰Á‚µ‚Ü‚µ‚½Bƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚ÆSlick”Å‚ª‹N“®‚µ‚Ü‚·B
-+Avalanche/SPF: ƒQ[ƒ€‰æ–Ê‚Ì•\Ž¦‚ð‘å‚«‚¢‚à‚Ì‚É•ÏX‚Å‚«‚éÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+V‚µ‚¢ƒXƒLƒ“‚ð’Ç‰Á‚µ‚Ü‚µ‚½(4matsy‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-#ƒlƒbƒgƒvƒŒƒC‚ÉV‹@”\‚ð‘½”’Ç‰Á‚µ‚Ü‚µ‚½F
- +ƒŒ[ƒg•Ï“®‚Ì‚ ‚éƒ‹[ƒ€‚ÆƒŒ[ƒgƒ‰ƒ“ƒLƒ“ƒO
- +ƒ‹[ƒ€“à‚Å‚àƒƒr[‚ðŒ©‚ê‚é
- +NetServerŠÇ—ƒc[ƒ‹"NetAdmin"
- +1lƒvƒŒƒCƒ‹[ƒ€ (¡‚Ì‚Æ‚±‚ëLINE RACE‚ÆSCORE RACEƒ‚[ƒh‚Ì‚Ý)
-#‘¼‚Ì×‚©‚¢•ÏX“à—e‚Ísvnlog7_4_0.txt‚É‚ ‚è‚Ü‚·(‰pŒê‚Å‚·‚ªc)
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½7.3.0ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++Swing/Slick/SDL: ï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½ï¿½NEXTï¿½\ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B (GENERAL OPTIONSï¿½ï¿½"SHOW NEXT ON SIDE"ï¿½ï¿½"BIG SIDE NEXT"ï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
++Swing/Slick/SDL: ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½Ê‚ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í•Ê‚ÌƒLï¿½[ï¿½zï¿½uï¿½ï¿½ï¿½gï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½^ï¿½Û—ï¿½ï¿½_ï¿½È‚Ì‚Å‚ï¿½ï¿½ÓŒï¿½ï¿½ï¿½Wï¿½ï¿½)
++Swing/Slick/SDL: ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ì‰ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É•Ï‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BAUTOï¿½É–ß‚ï¿½ï¿½É‚ï¿½"GAME TUNING"ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½"A BUTTON ROTATE"ï¿½ÌÝ’ï¿½ï¿½ÏXï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
++Swing/Slick/SDL: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßƒï¿½ï¿½[ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½Ê‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½[ï¿½hï¿½Iï¿½ï¿½ï¿½ï¿½Éoï¿½ï¿½)ï¿½B
++Slick/SDL: ï¿½Lï¿½[ï¿½Ý’ï¿½ï¿½Ê‚ÅƒLï¿½[ï¿½ï¿½ï¿½Â•Ê‚É•ÏXï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Slick/SDL: ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ÌÝ’ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Lï¿½[ï¿½zï¿½uï¿½Ìï¿½ï¿½ï¿½ï¿½Ý’ï¿½ï¿½Blockboxï¿½Xï¿½^ï¿½Cï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
++Slick/SDL: ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ìƒï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Åƒ}ï¿½Eï¿½Xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½(ï¿½sï¿½ï¿½ï¿½S)
++Slick: "NullpoMino.exe"ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Slickï¿½Å‚ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++Avalanche/SPF: ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚Ì•\ï¿½ï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚É•ÏXï¿½Å‚ï¿½ï¿½ï¿½Ý’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½Lï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½(4matsyï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+#ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ÉVï¿½@ï¿½\ï¿½ð‘½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½F
+ +ï¿½ï¿½ï¿½[ï¿½gï¿½Ï“ï¿½ï¿½Ì‚ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½Æƒï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½O
+ +ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ +NetServerï¿½Ç—ï¿½ï¿½cï¿½[ï¿½ï¿½"NetAdmin"
+ +1ï¿½lï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ (ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½LINE RACEï¿½ï¿½SCORE RACEï¿½ï¿½ï¿½[ï¿½hï¿½Ì‚ï¿½)
+#ï¿½ï¿½ï¿½Ì×‚ï¿½ï¿½ï¿½ï¿½ÏXï¿½ï¿½ï¿½eï¿½ï¿½svnlog7_4_0.txtï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½(ï¿½pï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½c)
 
 Version 7.3.0 (2010/08/09) {r1-r276; Stable Release}
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç7.2.0‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-#‚±‚Ìƒo[ƒWƒ‡ƒ“ˆÈ‘O‚ÌƒŠƒvƒŒƒC‚Í‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚çŒ©‚ê‚Ü‚¹‚ñB
-+Swing/Slick/SDL: ƒŠƒvƒŒƒC‚ð•Û‘¶‚·‚é‚Æ‚«AreplayƒtƒHƒ‹ƒ_‚ª–³‚¢ê‡‚ÍŽ©“®“I‚Éì¬‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
-+Swing/Slick/SDL: oŒ»ˆÊ’u•â³‚ª‚ ‚éƒ‹[ƒ‹‚ÅANEXTƒs[ƒX‚ª³‚µ‚¢ˆÊ’u‚É•\Ž¦‚³‚ê‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
-+Swing/Slick/SDL: ƒtƒB[ƒ‹ƒh‚Ì‰¡‚ÉNEXT‚ð•\Ž¦‚·‚éÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+Slick: PERFECT FPSƒIƒvƒVƒ‡ƒ“‚ð’Ç‰Á‚µ‚Ü‚µ‚½B(ƒtƒŒ[ƒ€ƒŒ[ƒg‚ª‚æ‚è³Šm‚É‚È‚è‚Ü‚·‚ªA‚æ‚è‘½‚­‚ÌCPUƒpƒ[‚ðŽg—p‚µ‚Ü‚·Bƒƒjƒ…[‰æ–Ê‚Å‚Í“®‚«‚Ü‚¹‚ñB)
-+Slick: LWJGL‚ð2.5‚ÉASlick‚ðbuild 274‚Éƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚µ‚Ü‚µ‚½B
-+ˆÈ‰º‚Ìƒ‚[ƒh‚ð’Ç‰Á‚µ‚Ü‚µ‚½:COMBO RACE, SQUARE, RETRO MASTERY, AVALANCHE 1P, AVALANCHE 1P FEVER MARATHON, AVALANCHE VS-BATTLE, AVALANCHE VS FEVER MARATHON, AVALANCHE VS DIG RACE, PHYSICIAN, PHYSICIAN VS-BATTLE, SPF VS-BATTLE
- ƒ‰ƒCƒ“Á‹ŽŒ^‚Å‚È‚¢ƒ‚[ƒh‚ÍAƒŠƒŠ[ƒXŒó•â”Å(AVALANCHE, PHYSICIAN)‚Ü‚½‚Íƒx[ƒ^”Å(SPF)‚Å‚·B
- ƒXƒyƒVƒƒƒ‹ƒTƒ“ƒNƒX:Puyo Nexus‚³‚ñ(˜A½‚Ìƒ^ƒl‚Ìƒf[ƒ^‚ð‚¨ŽØ‚è‚µ‚Ü‚µ‚½B‚ ‚è‚ª‚Æ‚¤I)
-+STANDARD-HOLDNEXT, SQUARE, AVALANCHE, PHYSICIAN, SPFƒ‹[ƒ‹‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+CLASSIC MARATHONƒ‚[ƒh‚ðRETRO MARATHON‚É‰ü–¼‚µ‚Ü‚µ‚½B
-+Randomizer: NEXT‡¶¬ƒAƒ‹ƒSƒŠƒYƒ€‚ÌƒVƒXƒeƒ€‚ð‘å•‚É•ÏX‚µA•¡”‚ÌV‚µ‚¢‚à‚Ì‚ð’Ç‰Á‚µ‚Ü‚µ‚½B‚±‚Ì‚½‚ßA‚±‚Ìƒo[ƒWƒ‡ƒ“ˆÈ‘O‚ÌƒŠƒvƒŒƒC‚Í‚à‚¤Œ©‚ê‚Ü‚¹‚ñB
-+Sequencer: oŒ»‰Â”\ƒs[ƒX‚ÌÝ’è‰æ–Ê‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+AI: "Defensive"‚Æ"No Prethink"ƒo[ƒWƒ‡ƒ“‚ÌPoochyBot‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+Engine: “¯‚¶F‚ÌƒuƒƒbƒN‚ð•À‚×‚ÄÁ‚·ƒ^ƒCƒv‚Ìƒ‚[ƒh(AVALANCHE, PHYSICIAN, SPF)—p‚Ì‹@”\‚ð‘½”’Ç‰Á‚µ‚Ü‚µ‚½B
-+Engine: 7F‚ÉŒõ‚éƒŒƒCƒ“ƒ{[ƒuƒƒbƒN‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+Engine: DTET‚âSTANDARD-SUPER3ƒ‹[ƒ‹—p‚É‘Ò‚¿ŽžŠÔƒLƒƒƒ“ƒZƒ‹‚Ì‹@”\‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+Engine: ‰¡—­‚ßŠÖ˜A‚Ì‹@”\‚ðŠg[‚µ‚Ü‚µ‚½B’Ç‰Á‚³‚ê‚½‹@”\‚Ì‘½‚­‚ÍNINTENDOŒnƒ‹[ƒ‹‚ÅŽg‚í‚ê‚Ä‚¢‚Ü‚·B
-+Engine: ƒ[ƒvˆÚ“®(Instant DAS)‚ÆƒhƒƒbƒvƒL[‚ð—£‚·‚Ü‚Å‰¡—­‚ßˆÚ“®‚ð‚µ‚È‚¢‹@”\(Shift Lock)‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+Engine: ƒn[ƒhƒuƒƒbƒN‚ÆŒÅ‚¢Ž×–‚ƒuƒƒbƒN‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+NetPlay/NetServer: ƒ‹[ƒ€ì¬‰æ–Ê‚É‚æ‚è‘½‚­‚ÌÝ’è€–Ú‚ð’Ç‰Á‚µ‚Ü‚µ‚½B‚Ü‚½A‘½‚­‚ÌÝ’è€–Ú‚ðV‚µ‚­‚Å‚«‚½ƒ^ƒu‚ÉˆÚ‚µ‚Ü‚µ‚½B
- Ž×–‚ƒuƒƒbƒN: B2B‚ÅŒŠ‚ÌˆÊ’u‚ð•Ï‚¦‚éA1‰ñ‚ÌUŒ‚‚²‚Æ‚ÉŽ×–‚ƒuƒƒbƒN‚ÌŒŠ‚ÌˆÊ’u‚ð•Ï‚¦‚éAŒŠ‚ÌˆÊ’u‚ª•Ï‚í‚éŠm—¦A‚¹‚èã‚ª‚è—}§A‘ŠŽE
- ƒ{[ƒiƒX: ƒXƒsƒ“”»’èƒ^ƒCƒvA‘SÁ‚µƒ{[ƒiƒX
--NetPlay: SDL”Å‚ÅƒlƒbƒgƒvƒŒƒCŽž‚É‚Í³‚µ‚­60FPSŒÅ’è‚É‚È‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
--NetPlay: ƒQ[ƒ€‰æ–Ê‚ð’¼Ú•Â‚¶‚½‚èJava‚ÌƒvƒƒZƒX‚ð‹­§I—¹‚µ‚Ä‚àƒ`ƒƒƒbƒgƒƒO‚ª³‚µ‚­•Û‘¶‚³‚ê‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
--NetPlay: ƒ‹[ƒ‹ŒÅ’è‚ª‚È‚¢’èˆõ2–¼‚Ìƒ‹[ƒ€‚Å‚àA‘ŠŽè‚ÌNEXT‚ÆHOLD‚ªŒ©‚¦‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
--NetServer: —H—ì•”‰®ƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
--Slick/SDL: ‹N“®Œã‚ÉƒŠƒvƒŒƒC‚ðíœ‚·‚é‚ÆƒŠƒvƒŒƒC‘I‘ð‰æ–Ê‚Å—Ž‚¿‚é‰Â”\«‚ª‚ ‚éƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
-+‚æ‚è‘½‚­‚Ìƒ}ƒbƒv‚ð’Ç‰Á (Jenn‚³‚ñASecretSalamender‚³‚ñAMagnanimous‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-*Mac‚ÆLinux—p‚Ì‹N“®—pƒVƒFƒ‹ƒXƒNƒŠƒvƒg‚ð’Ç‰Á‚µ‚Ü‚µ‚½B(croikle‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-*‘¼‚Ìƒ‹[ƒ‹–¼‚Æ‚Ì®‡«‚Ì‚½‚ßAStandard-GIZAƒ‹[ƒ‹‚Ì–¼‘O‚ÉƒnƒCƒtƒ“‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-*JRE1.5‚Æ‚ÌŒÝŠ·«‚ª•œŠˆ‚µ‚Ü‚µ‚½B
-*[“à•”•ÏX] ƒƒCƒ“‚ÌƒpƒbƒP[ƒW–¼‚ðmu.nu.nullpo‚É•ÏX‚µ‚Ü‚µ‚½B
-*[“à•”•ÏX] ‚¢‚­‚Â‚©‚Ìƒ\[ƒX’†‚ÌƒRƒƒ“ƒg‚ª‰pŒê‚É‚È‚è‚Ü‚µ‚½B
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½7.2.0ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½È‘Oï¿½Ìƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Í‚ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½çŒ©ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
++Swing/Slick/SDL: ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Areplayï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Iï¿½Éì¬ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Swing/Slick/SDL: ï¿½oï¿½ï¿½ï¿½Ê’uï¿½â³ï¿½ï¿½ï¿½ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½ÅANEXTï¿½sï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê’uï¿½É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Swing/Slick/SDL: ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ì‰ï¿½ï¿½ï¿½NEXTï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Slick: PERFECT FPSï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½è³ï¿½mï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½è‘½ï¿½ï¿½ï¿½ï¿½CPUï¿½pï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½Ê‚Å‚Í“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B)
++Slick: LWJGLï¿½ï¿½2.5ï¿½ÉASlickï¿½ï¿½build 274ï¿½Éƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++ï¿½È‰ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½:COMBO RACE, SQUARE, RETRO MASTERY, AVALANCHE 1P, AVALANCHE 1P FEVER MARATHON, AVALANCHE VS-BATTLE, AVALANCHE VS FEVER MARATHON, AVALANCHE VS DIG RACE, PHYSICIAN, PHYSICIAN VS-BATTLE, SPF VS-BATTLE
+ ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Å‚È‚ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½ÍAï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½(AVALANCHE, PHYSICIAN)ï¿½Ü‚ï¿½ï¿½Íƒxï¿½[ï¿½^ï¿½ï¿½(SPF)ï¿½Å‚ï¿½ï¿½B
+ ï¿½Xï¿½yï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½Nï¿½X:Puyo Nexusï¿½ï¿½ï¿½ï¿½(ï¿½Aï¿½ï¿½ï¿½Ìƒ^ï¿½lï¿½Ìƒfï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½Ø‚è‚µï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½è‚ªï¿½Æ‚ï¿½ï¿½I)
++STANDARD-HOLDNEXT, SQUARE, AVALANCHE, PHYSICIAN, SPFï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++CLASSIC MARATHONï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½RETRO MARATHONï¿½É‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Randomizer: NEXTï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ÌƒVï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½å•ï¿½É•ÏXï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÌVï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ßAï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½È‘Oï¿½Ìƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
++Sequencer: ï¿½oï¿½ï¿½ï¿½Â”\ï¿½sï¿½[ï¿½Xï¿½ÌÝ’ï¿½ï¿½Ê‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++AI: "Defensive"ï¿½ï¿½"No Prethink"ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½PoochyBotï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Engine: ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½×‚Äï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½Ìƒï¿½ï¿½[ï¿½h(AVALANCHE, PHYSICIAN, SPF)ï¿½pï¿½Ì‹@ï¿½\ï¿½ð‘½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Engine: 7ï¿½Fï¿½ÉŒï¿½ï¿½éƒŒï¿½Cï¿½ï¿½ï¿½{ï¿½[ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Engine: DTETï¿½ï¿½STANDARD-SUPER3ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½pï¿½É‘Ò‚ï¿½ï¿½ï¿½ï¿½ÔƒLï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½Ì‹@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Engine: ï¿½ï¿½ï¿½ï¿½ï¿½ßŠÖ˜Aï¿½Ì‹@ï¿½\ï¿½ï¿½ï¿½gï¿½[ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½@ï¿½\ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½ï¿½NINTENDOï¿½nï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÅŽgï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
++Engine: ï¿½ï¿½ï¿½[ï¿½vï¿½Ú“ï¿½(Instant DAS)ï¿½Æƒhï¿½ï¿½ï¿½bï¿½vï¿½Lï¿½[ï¿½ð—£‚ï¿½ï¿½Ü‚Å‰ï¿½ï¿½ï¿½ï¿½ßˆÚ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½@ï¿½\(Shift Lock)ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++Engine: ï¿½nï¿½[ï¿½hï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÆŒÅ‚ï¿½ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++NetPlay/NetServer: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½Ê‚É‚ï¿½è‘½ï¿½ï¿½ï¿½ÌÝ’è€ï¿½Ú‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÌÝ’è€ï¿½Ú‚ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½^ï¿½uï¿½ÉˆÚ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½N: B2Bï¿½ÅŒï¿½ï¿½ÌˆÊ’uï¿½ï¿½Ï‚ï¿½ï¿½ï¿½A1ï¿½ï¿½ÌUï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ÉŽ×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÌŒï¿½ï¿½ÌˆÊ’uï¿½ï¿½Ï‚ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ÌˆÊ’uï¿½ï¿½ï¿½Ï‚ï¿½ï¿½mï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½}ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½E
+ ï¿½{ï¿½[ï¿½iï¿½X: ï¿½Xï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½Aï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½{ï¿½[ï¿½iï¿½X
+-NetPlay: SDLï¿½Å‚Åƒlï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½É‚Íï¿½ï¿½ï¿½ï¿½ï¿½60FPSï¿½Å’ï¿½É‚È‚ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetPlay: ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚ð’¼Ú•Â‚ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½Ìƒvï¿½ï¿½ï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½`ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å’è‚ªï¿½È‚ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½NEXTï¿½ï¿½HOLDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetServer: ï¿½Hï¿½ì•”ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-Slick/SDL: ï¿½Nï¿½ï¿½ï¿½ï¿½Éƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Iï¿½ï¿½ï¿½ï¿½Ê‚Å—ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++ï¿½ï¿½è‘½ï¿½ï¿½ï¿½Ìƒ}ï¿½bï¿½vï¿½ï¿½Ç‰ï¿½ (Jennï¿½ï¿½ï¿½ï¿½ASecretSalamenderï¿½ï¿½ï¿½ï¿½AMagnanimousï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+*Macï¿½ï¿½Linuxï¿½pï¿½Ì‹Nï¿½ï¿½ï¿½pï¿½Vï¿½Fï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(croikleï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+*ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ßAStandard-GIZAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì–ï¿½ï¿½Oï¿½Éƒnï¿½Cï¿½tï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+*JRE1.5ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+*[ï¿½ï¿½ï¿½ï¿½ï¿½ÏX] ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ìƒpï¿½bï¿½Pï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½mu.nu.nullpoï¿½É•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+*[ï¿½ï¿½ï¿½ï¿½ï¿½ÏX] ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ìƒ\ï¿½[ï¿½Xï¿½ï¿½ï¿½ÌƒRï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½pï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 
 Version 7.2.0 (2010/06/19)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç7.1.*‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+Slick/SDL: V‚µ‚¢ƒ^ƒCƒgƒ‹‰æ–Ê‚ð’Ç‰Á‚µ‚Ü‚µ‚½B(Zircean‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-+Swing/Slick/SDL: ƒS[ƒXƒg‚ð˜gü‚Å•\Ž¦‚·‚éÝ’è("OUTLINE GHOST PIECE")‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+NET-VS MAP EDIT: V‚µ‚¢‹@”\uGRAY->?v‚ð’Ç‰Á‚µ‚Ü‚µ‚½BŽg—p‚·‚é‚ÆAƒtƒB[ƒ‹ƒh‚Ì‚·‚×‚Ä‚ÌŠDFƒuƒƒbƒN‚Éƒ‰ƒ“ƒ_ƒ€‚ÉF‚ð•t‚¯‚Ü‚·B
-+NetPlay/NetServer: ƒ‹[ƒ‹ƒf[ƒ^Aƒ}ƒbƒvƒf[ƒ^A(•K—v‚È‚Æ‚«‚Ì‚Ý)ƒtƒB[ƒ‹ƒhƒf[ƒ^‚ðˆ³k‚µ‚Ä‘—M‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B(“]‘——ÊíŒ¸‚Å‚«‚é‚©‚àH)
--Slick: ƒ^ƒCƒgƒ‹‰æ–Ê‚É–ß‚Á‚Ä‚àƒ^ƒCƒgƒ‹ƒo[‚Éƒ‚[ƒh–¼‚ªŽc‚Á‚½‚Ü‚Ü‚É‚È‚éƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
--NetPlay: ‰pŒêUI‚Ì‚Æ‚«–{•¨ƒgƒŠƒbƒv‚Æ‹UƒgƒŠƒbƒv‚Ì‹æ•Ê‚ª•t‚©‚È‚¢ƒoƒO‚ðC³‚µ‚Ü‚µ‚½B“ú–{ŒêUI‚Å‚ÍŒ³X‚±‚ÌƒoƒO‚Í‚ ‚è‚Ü‚¹‚ñB(Wojtek‚³‚ñ‚ ‚è‚ª‚Æ‚¤!)
--NetPlay: Ø’f‚µ‚Ä‚àƒ‹[ƒ€ˆê——‚ªŽc‚Á‚½‚Ü‚Ü‚É‚È‚éƒoƒO‚ðC³‚µ‚Ü‚µ‚½B(hebo-MAI‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
--NetServer: onAccept()‚ÅCPU100%‚É‚È‚é‰Â”\«‚ª‚ ‚é‰ÓŠ‚ðC³‚µ‚Ü‚µ‚½B
--GRADE MANIA 2: 20G‚ªON‚Ìê‡‚Íƒ‰ƒ“ƒLƒ“ƒO‚ª•\Ž¦‚³‚ê‚È‚¢‚æ‚¤‚É‚µ‚Ü‚µ‚½B (2chƒXƒŒ‚Ì>>779‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-*hebo-MAI‚³‚ñ‚ÌuStandardGIZAvƒ‹[ƒ‹‚ðÅV”Å‚ÉXV‚µ‚Ü‚µ‚½Bƒ\ƒtƒgƒhƒƒbƒv‘¬“x‚ª‘O‚æ‚è‚àã‚ª‚Á‚Ä‚¢‚Ü‚·B
-*AI‚ªƒvƒŒƒC‚µ‚½ê‡‚Íƒ‰ƒ“ƒLƒ“ƒO‚ÉŽc‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ü‚µ‚½BƒŠƒvƒŒƒC‚Í‚¿‚á‚ñ‚ÆŽc‚è‚Ü‚·B(SWR‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-*[“à•”•ÏX] ‚·‚×‚Ä‚ÌAIƒvƒŒƒCƒ„[‚ªDummyAI‚ðŒp³‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
- ]—ˆ‚ÍAIPlayerƒCƒ“ƒ^[ƒtƒF[ƒX‚ðŽÀ‘•‚µ‚Ä‚¢‚Ü‚µ‚½‚ªA‚±‚Ì•ÏXˆÈ~‚ÍAIPlayer‚ÉV‚µ‚¢ƒƒ\ƒbƒh‚ª’Ç‰Á‚³‚ê‚Ä‚àŠù‘¶‚ÌƒR[ƒh‚Ì•ÏX‚ª•K—v–³‚­‚È‚è‚Ü‚·B
-*[“à•”•ÏX] PoochyBot/Crypt: •Ê‚ÌƒpƒbƒP[ƒW‚ÉˆÚ“®‚µ‚Ü‚µ‚½B(‘OŽÒ‚Ínet.tetrisconcept.poochy.nullpomino.aiAŒãŽÒ‚Íorg.cacas.java.gnu.tools)
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½7.1.*ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++Slick/SDL: ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½Ê‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(Zirceanï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
++Swing/Slick/SDL: ï¿½Sï¿½[ï¿½Xï¿½gï¿½ï¿½gï¿½ï¿½ï¿½Å•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½("OUTLINE GHOST PIECE")ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++NET-VS MAP EDIT: ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½uGRAY->?ï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ÆAï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Ì‚ï¿½ï¿½×‚Ä‚ÌŠDï¿½Fï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Éƒï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ÉFï¿½ï¿½tï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++NetPlay/NetServer: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½fï¿½[ï¿½^ï¿½Aï¿½}ï¿½bï¿½vï¿½fï¿½[ï¿½^ï¿½A(ï¿½Kï¿½vï¿½È‚Æ‚ï¿½ï¿½Ì‚ï¿½)ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½kï¿½ï¿½ï¿½Ä‘ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½]ï¿½ï¿½ï¿½ÊíŒ¸ï¿½Å‚ï¿½ï¿½é‚©ï¿½ï¿½ï¿½H)
+-Slick: ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½Ê‚É–ß‚ï¿½ï¿½Ä‚ï¿½ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½oï¿½[ï¿½Éƒï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Ü‚É‚È‚ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetPlay: ï¿½pï¿½ï¿½UIï¿½Ì‚Æ‚ï¿½ï¿½{ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½bï¿½vï¿½Æ‹Uï¿½gï¿½ï¿½ï¿½bï¿½vï¿½Ì‹ï¿½Ê‚ï¿½ï¿½tï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½{ï¿½ï¿½UIï¿½Å‚ÍŒï¿½ï¿½Xï¿½ï¿½ï¿½Ìƒoï¿½Oï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B(Wojtekï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½!)
+-NetPlay: ï¿½Ø’fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ê——ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Ü‚É‚È‚ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(hebo-MAIï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+-NetServer: onAccept()ï¿½ï¿½CPU100%ï¿½É‚È‚ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-GRADE MANIA 2: 20Gï¿½ï¿½ONï¿½Ìê‡ï¿½Íƒï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B (2chï¿½Xï¿½ï¿½ï¿½ï¿½>>779ï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+*hebo-MAIï¿½ï¿½ï¿½ï¿½ÌuStandardGIZAï¿½vï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÅVï¿½Å‚ÉXï¿½Vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½\ï¿½tï¿½gï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+*AIï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Íƒï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½ÉŽcï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Í‚ï¿½ï¿½ï¿½ï¿½ÆŽcï¿½ï¿½Ü‚ï¿½ï¿½B(SWRï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+*[ï¿½ï¿½ï¿½ï¿½ï¿½ÏX] ï¿½ï¿½ï¿½×‚Ä‚ï¿½AIï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½DummyAIï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ ï¿½]ï¿½ï¿½ï¿½ï¿½AIPlayerï¿½Cï¿½ï¿½ï¿½^ï¿½[ï¿½tï¿½Fï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ì•ÏXï¿½È~ï¿½ï¿½AIPlayerï¿½ÉVï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒRï¿½[ï¿½hï¿½Ì•ÏXï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½B
+*[ï¿½ï¿½ï¿½ï¿½ï¿½ÏX] PoochyBot/Crypt: ï¿½Ê‚Ìƒpï¿½bï¿½Pï¿½[ï¿½Wï¿½ÉˆÚ“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Oï¿½Ò‚ï¿½net.tetrisconcept.poochy.nullpomino.aiï¿½Aï¿½ï¿½Ò‚ï¿½org.cacas.java.gnu.tools)
 
 Version 7.1.0 (2010/06/15)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç7.0.*‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-#ìŽÒ‚Í‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚çuNullNoname ŸbzEQ7554bcv‚Ì–¼‘O‚ÆƒgƒŠƒbƒv‚ðŽg‚¢‚Ü‚·B
-+Poochy‚³‚ñ§ì‚ÌAIuPoochyBot v1.21v‚ð’Ç‰Á‚µ‚Ü‚µ‚½BPoochy‚³‚ñ‚ ‚è‚ª‚Æ‚¤I
-+Swing/NetPlay: ƒlƒbƒgƒvƒŒƒCƒT[ƒo[‚ÌuŠÄŽ‹v‹@”\‚ªSwing”Å‚É‘Î‰ž‚µ‚Ü‚µ‚½B
-+NetPlay: ƒQ[ƒ€Œ‹‰Ê•\‚ÉV‚½‚ÉuKOvuŸ—˜”vuŽŽ‡”v‚Ì€–Ú‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+NetPlay: ƒ`ƒƒƒbƒgƒƒO‚ðŽ©“®“I‚ÉlogƒtƒHƒ‹ƒ_“à‚É•Û‘¶‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
-+NetServer: ƒgƒŠƒbƒv‹@”\‚ð’Ç‰Á‚µ‚Ü‚µ‚½(2ch‚É‚ ‚é‚æ‚¤‚È‚ ‚ê‚Å‚·)B
- –¼‘O—“‚É#‹L†‚ÌŒã‚ÉƒpƒXƒ[ƒh‚ð“ü‚ê‚é‚ÆˆÃ†‰»‚³‚ê‚½•¶Žš—ñ‚ª•\Ž¦‚³‚ê‚Ü‚·B
- Wikipedia‚Å‚ÌƒgƒŠƒbƒv‚Ì‹LŽ–F
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½7.0.*ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+#ï¿½ï¿½Ò‚Í‚ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uNullNoname ï¿½ï¿½bzEQ7554bcï¿½vï¿½Ì–ï¿½ï¿½Oï¿½Æƒgï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++Poochyï¿½ï¿½ï¿½ñ§ï¿½ï¿½AIï¿½uPoochyBot v1.21ï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BPoochyï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I
++Swing/NetPlay: ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Tï¿½[ï¿½oï¿½[ï¿½Ìuï¿½ÄŽï¿½ï¿½vï¿½@ï¿½\ï¿½ï¿½Swingï¿½Å‚É‘Î‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++NetPlay: ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ê•\ï¿½ÉVï¿½ï¿½ï¿½ÉuKOï¿½vï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Ìï¿½ï¿½Ú‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++NetPlay: ï¿½`ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½logï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½É•Û‘ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++NetServer: ï¿½gï¿½ï¿½ï¿½bï¿½vï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½(2chï¿½É‚ï¿½ï¿½ï¿½æ‚¤ï¿½È‚ï¿½ï¿½ï¿½Å‚ï¿½)ï¿½B
+ ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½#ï¿½Lï¿½ï¿½ï¿½ÌŒï¿½Éƒpï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆˆÃï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ñ‚ª•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ Wikipediaï¿½Å‚Ìƒgï¿½ï¿½ï¿½bï¿½vï¿½Ì‹Lï¿½ï¿½ï¿½F
  http://ja.wikipedia.org/wiki/%E3%83%88%E3%83%AA%E3%83%83%E3%83%97_(%E9%9B%BB%E5%AD%90%E6%8E%B2%E7%A4%BA%E6%9D%BF)
-+NetServer: ‘Sˆõ‚ÌIP‚Ü‚½‚ÍƒzƒXƒg–¼‚ðŒöŠJ‚·‚é‹@”\‚ð’Ç‰Á‚µ‚Ü‚µ‚½B•\Ž¦ƒ^ƒCƒv‚ÍAˆÃ†‰»‚³‚ê‚Ä‚¢‚È‚¢•½•¶‚ÆAˆÃ†‰»‚³‚ê‚½•¶Žš—ñ‚Ì2Ží—Þ‚©‚ç‘I‚×‚Ü‚·B
- "config/etc/netserver.cfg"‚ð”CˆÓ‚ÌƒeƒLƒXƒgƒGƒfƒBƒ^‚Å•ÒW‚µ‚ÄÝ’è‚ð•ÏX‚µ‚Ü‚·B
-+hebo-MAI‚³‚ñì¬‚Ìƒ‹[ƒ‹uStandardGIZAv‚ð’Ç‰Á‚µ‚Ü‚µ‚½B(hebo-MAI‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
--PHANTOM MANIA: Lv400‚Ü‚½‚Í900‚É‚È‚Á‚½‚Æ‚«‚É’iˆÊ•\Ž¦‚ªÄ“x“_–Å‚·‚éƒoƒO‚ðC³‚µ‚Ü‚µ‚½B (Zircean‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
--GRADE MANIA 3: Žb’èGM‚ªMM‚Å‚Í‚È‚­GM‚Æ‚µ‚Ä•\Ž¦‚³‚ê‚éƒoƒO‚ðC³‚µ‚Ü‚µ‚½B (Zircean‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
- Œ‹‰Ê‰æ–Ê‚ÅŽb’èGM‚ÍŒõ‚éMM‚Æ‚µ‚Ä•\Ž¦‚³‚ê‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
--NetPlay: 3lˆÈã‚Ì‘Îí‚Å’N‚©‚ª’E—Ž‚µ‚Ä‚àBGM‚ªŽ~‚Ü‚ç‚È‚¢‚æ‚¤‚É‚µ‚Ü‚µ‚½B (SWR‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-*NetServer: ƒƒbƒZ[ƒW‘—M‚ªŽ¸”s‚µ‚½‚ç‘¦ƒNƒ‰ƒCƒAƒ“ƒg‚ðØ’f‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B(CPU100%ƒoƒO‘Îô)
-*NetServer: ‘Sˆõ‚ªØ’f‚µ‚½‚çƒ‹[ƒ€ˆê——‚âŠeŽíƒƒ‚ƒŠ“à—e‚Ì‘|œ‚ð‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B(—H—ì•”‰®ƒoƒO‘Îô)
-*NetPlay: Wojtek‚³‚ñ‚ÌV‚µ‚¢’f•Ð“IŽ×–‚ƒuƒƒbƒNƒVƒXƒeƒ€‚ðÌ—p‚µ‚Ü‚µ‚½B
-*‚·‚×‚Ä‚ÌƒƒOƒtƒ@ƒCƒ‹‚ªlogƒtƒHƒ‹ƒ_‚É•Û‘¶‚³‚ê‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
++NetServer: ï¿½Sï¿½ï¿½ï¿½ï¿½IPï¿½Ü‚ï¿½ï¿½Íƒzï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½\ï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ÍAï¿½Ãï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆAï¿½Ãï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½Þ‚ï¿½ï¿½ï¿½Iï¿½×‚Ü‚ï¿½ï¿½B
+ "config/etc/netserver.cfg"ï¿½ï¿½Cï¿½Ó‚Ìƒeï¿½Lï¿½Xï¿½gï¿½Gï¿½fï¿½Bï¿½^ï¿½Å•ÒWï¿½ï¿½ï¿½ÄÝ’ï¿½ï¿½ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++hebo-MAIï¿½ï¿½ï¿½ï¿½ì¬ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½uStandardGIZAï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(hebo-MAIï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+-PHANTOM MANIA: Lv400ï¿½Ü‚ï¿½ï¿½ï¿½900ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½É’iï¿½Ê•\ï¿½ï¿½ï¿½ï¿½ï¿½Ä“xï¿½_ï¿½Å‚ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B (Zirceanï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+-GRADE MANIA 3: ï¿½bï¿½ï¿½GMï¿½ï¿½MMï¿½Å‚Í‚È‚ï¿½GMï¿½Æ‚ï¿½ï¿½Ä•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B (Zirceanï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+ ï¿½ï¿½ï¿½Ê‰ï¿½Ê‚ÅŽbï¿½ï¿½GMï¿½ÍŒï¿½ï¿½ï¿½MMï¿½Æ‚ï¿½ï¿½Ä•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetPlay: 3ï¿½lï¿½Èï¿½Ì‘Îï¿½Å’Nï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½BGMï¿½ï¿½ï¿½~ï¿½Ü‚ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B (SWRï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+*NetServer: ï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½Mï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ç‘¦ï¿½Nï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½Ø’fï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(CPU100%ï¿½oï¿½Oï¿½Îï¿½)
+*NetServer: ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½Ø’fï¿½ï¿½ï¿½ï¿½ï¿½çƒ‹ï¿½[ï¿½ï¿½ï¿½ê——ï¿½ï¿½eï¿½íƒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Ì‘|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½Hï¿½ì•”ï¿½ï¿½ï¿½oï¿½Oï¿½Îï¿½)
+*NetPlay: Wojtekï¿½ï¿½ï¿½ï¿½ÌVï¿½ï¿½ï¿½ï¿½ï¿½fï¿½Ð“Iï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ï¿½Ì—pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+*ï¿½ï¿½ï¿½×‚Ä‚Ìƒï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½logï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½É•Û‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 
 Version 7.0.2 (2010/06/06)
-#ƒlƒbƒgƒvƒŒƒC‹@”\‚Í7.0.0‚ÌƒT[ƒo[‚ÆŒÝŠ·«‚ª‚ ‚è‚Ü‚·BƒT[ƒo[‚É•ÏX‚Í‚ ‚è‚Ü‚¹‚ñB
-+NetPlay: ƒ‹[ƒ€ì¬‰æ–Ê‚Ìˆê•”‚ÌÝ’è€–Ú‚Éƒc[ƒ‹ƒ`ƒbƒv‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
--NetPlay: Ž©•ª‚ÌƒuƒƒbƒN‚ÌŠG•¿‚ª‘¼‚Ì‚à‚Ì‚É‚·‚è‘Ö‚í‚éƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
--NetPlay: ‘¼l‚ªì‚Á‚½•”‰®‚ÅuÝ’èŠm”Fvƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚Æƒ‹[ƒ€ì¬‰æ–Ê‚ÌƒfƒtƒHƒ‹ƒg’l‚ª‘¼l‚Ìƒ‹[ƒ€‚Ì‚à‚Ì‚É‚È‚Á‚Ä‚µ‚Ü‚¤ƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
--‘O‚Ìƒo[ƒWƒ‡ƒ“‚Å‚¢‚ë‚¢‚ë‚ÈƒlƒCƒeƒBƒuƒ‰ƒCƒuƒ‰ƒŠ‚ª“ü‚Á‚Ä‚È‚©‚Á‚½‚Ì‚ðC³‚µ‚Ü‚µ‚½B
+#ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½@ï¿½\ï¿½ï¿½7.0.0ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½ÆŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Tï¿½[ï¿½oï¿½[ï¿½É•ÏXï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
++NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½Ê‚Ìˆê•”ï¿½ÌÝ’è€ï¿½Ú‚Éƒcï¿½[ï¿½ï¿½ï¿½`ï¿½bï¿½vï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetPlay: ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ÌŠGï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚É‚ï¿½ï¿½ï¿½Ö‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetPlay: ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åuï¿½Ý’ï¿½mï¿½Fï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½Ê‚Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½lï¿½ï¿½ï¿½ï¿½ï¿½lï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-ï¿½Oï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ë‚¢ï¿½ï¿½Èƒlï¿½Cï¿½eï¿½Bï¿½uï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 
 Version 7.0.1 (2010/06/06)
-#ƒlƒbƒgƒvƒŒƒC‹@”\‚Í7.0.0‚ÌƒT[ƒo[‚ÆŒÝŠ·«‚ª‚ ‚è‚Ü‚·BƒT[ƒo[‚É•ÏX‚Í‚ ‚è‚Ü‚¹‚ñB
-+XVƒ`ƒFƒbƒN‹@”\‚ð’Ç‰Á‚µ‚Ü‚µ‚½BV‚µ‚¢ƒo[ƒWƒ‡ƒ“‚ªŒöŠJ‚³‚ê‚é‚Æƒ^ƒCƒgƒ‹‰æ–Ê(Swing”Å‚Å‚Íƒ‚[ƒhƒZƒŒƒNƒg‰æ–Ê)‚Å’Ê’m‚³‚ê‚Ü‚·B
- ¡‚Ì‚Æ‚±‚ëXVƒ`ƒFƒbƒN‚ÌÝ’è‰æ–Ê‚ÍSwing”Å‚¾‚¯‚Å‚·B
- ƒfƒtƒHƒ‹ƒg‚Å‚ÍÅV”Å‚Ìƒ`ƒFƒbƒN‚ÉBurbruee‚³‚ñ‚ÌXML‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·BŽg—p‚·‚éXML‚ÍSwing”Å‚ÌÝ’è‰æ–Ê‚©‚ç•ÏX‚Å‚«‚Ü‚·‚é
-+ƒS[ƒXƒgƒs[ƒX‚Ì^ã‚ÉNEXT‚ð•\Ž¦‚·‚éÝ’è‚ð3‚Â‚·‚×‚Ä‚Ìƒo[ƒWƒ‡ƒ“‚É’Ç‰Á‚µ‚Ü‚µ‚½B(Wojtek‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-+Slick: ƒL[ƒ{[ƒhÝ’è‰æ–Ê‚ÅƒL[ƒR[ƒh‚Å‚Í‚È‚­ƒL[‚Ì–¼‘O‚ªo‚é‚æ‚¤‚ÉC³
-+NetPlay: ƒ‹[ƒ€‰æ–Ê‚ÉuÝ’èŠm”Fvƒ{ƒ^ƒ“‚ð’Ç‰Á‚µ‚Ü‚µ‚½Bƒ‹[ƒ€‚©‚ço‚é‚±‚Æ‚È‚­ŠeŽíÝ’è‚ðŠm”F‚Å‚«‚Ü‚·B
--NetPlay: ƒoƒO‚ð”ð‚¯‚é‚½‚ßAŽQí/ŠÏíƒ{ƒ^ƒ“‚Í‰Ÿ‚µ‚½‚ ‚ÆƒT[ƒo[‚©‚ç•Ô“š‚ª—ˆ‚é‚Ü‚Å–³Œø‰»(Wojtek‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
--NetPlay: ŠÏíƒ{ƒ^ƒ“‚Æƒ`[ƒ€•ÏXƒ{ƒ^ƒ“‚ÍŽQí’†‚©‚ÂƒQ[ƒ€’†‚Í–³Œø‰»(ƒQ[ƒ€’†‚É‚±‚ê‚ç‚Ìƒ{ƒ^ƒ“‚Í‚à‚Æ‚à‚ÆŒø‰Ê‚ª‚È‚©‚Á‚½‚©‚ç)
-*NetPlay: ’f•Ð“IŽ×–‚ƒuƒƒbƒNƒVƒXƒeƒ€Žg—pŽž‚ÌŽ×–‚ƒuƒƒbƒNƒ[ƒ^[‚Ì•\Ž¦‚ð‰ü‘P
-*STANDARD-ZEROƒ‹[ƒ‹‚ðÅV”Å‚ÉXV(‰ñ“]ƒ{ƒ^ƒ“‚Í‘¼‚ÌSTANDARDŒn‚Æ“¯‚¶‚É‚È‚è‚Ü‚µ‚½)
-*XVƒ`ƒFƒbƒN‹@”\‚Ìˆê•”‚ÉJRE1.6ˆÈã‚ª•K—v‚É‚È‚Á‚½‚Ì‚ÅAJRE1.5ˆÈ‰º‚Å‚Í“®ì‚µ‚È‚­‚È‚è‚Ü‚µ‚½B
-*LWJGL 2.4.2‚ðlib/LWJGL2_4_2ƒtƒHƒ‹ƒ_ˆÈ‰º‚É“¯«
- (64bit‚ÌWindows‚Ìl‚Å‚»‚Ì‚Ü‚Ü‚¾‚Æ“®‚©‚È‚¢ê‡‚Í‚±‚Ì’†‚Ì‘Sƒtƒ@ƒCƒ‹‚ðlibƒtƒHƒ‹ƒ_‚ÉƒRƒs[‚µ‚Ä‚Ý‚Ä‚­‚¾‚³‚¢)
+#ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½@ï¿½\ï¿½ï¿½7.0.0ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½ÆŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Tï¿½[ï¿½oï¿½[ï¿½É•ÏXï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
++ï¿½Xï¿½Vï¿½`ï¿½Fï¿½bï¿½Nï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Æƒ^ï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½ï¿½(Swingï¿½Å‚Å‚Íƒï¿½ï¿½[ï¿½hï¿½Zï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½)ï¿½Å’Ê’mï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ï¿½Xï¿½Vï¿½`ï¿½Fï¿½bï¿½Nï¿½ÌÝ’ï¿½ï¿½Ê‚ï¿½Swingï¿½Å‚ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
+ ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚ÍÅVï¿½Å‚Ìƒ`ï¿½Fï¿½bï¿½Nï¿½ï¿½Burbrueeï¿½ï¿½ï¿½ï¿½ï¿½XMLï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½gï¿½pï¿½ï¿½ï¿½ï¿½XMLï¿½ï¿½Swingï¿½Å‚ÌÝ’ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ÏXï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
++ï¿½Sï¿½[ï¿½Xï¿½gï¿½sï¿½[ï¿½Xï¿½Ì^ï¿½ï¿½ï¿½NEXTï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½ï¿½3ï¿½Â‚ï¿½ï¿½×‚Ä‚Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½É’Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(Wojtekï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
++Slick: ï¿½Lï¿½[ï¿½{ï¿½[ï¿½hï¿½Ý’ï¿½ï¿½Ê‚ÅƒLï¿½[ï¿½Rï¿½[ï¿½hï¿½Å‚Í‚È‚ï¿½ï¿½Lï¿½[ï¿½Ì–ï¿½ï¿½Oï¿½ï¿½ï¿½oï¿½ï¿½æ‚¤ï¿½ÉCï¿½ï¿½
++NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚Éuï¿½Ý’ï¿½mï¿½Fï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½é‚±ï¿½Æ‚È‚ï¿½ï¿½eï¿½ï¿½Ý’ï¿½ï¿½ï¿½mï¿½Fï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+-NetPlay: ï¿½oï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ßAï¿½Qï¿½ï¿½/ï¿½Ïï¿½{ï¿½^ï¿½ï¿½ï¿½Í‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆƒTï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½ï¿½Ô“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å–ï¿½ï¿½ï¿½ï¿½ï¿½(Wojtekï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+-NetPlay: ï¿½Ïï¿½{ï¿½^ï¿½ï¿½ï¿½Æƒ`ï¿½[ï¿½ï¿½ï¿½ÏXï¿½{ï¿½^ï¿½ï¿½ï¿½ÍŽQï¿½í’†ï¿½ï¿½ï¿½ÂƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Í–ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½Ìƒ{ï¿½^ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Æ‚ï¿½ï¿½ÆŒï¿½ï¿½Ê‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+*NetPlay: ï¿½fï¿½Ð“Iï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½ÌŽ×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½Ì•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½P
+*STANDARD-ZEROï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÅVï¿½Å‚ÉXï¿½V(ï¿½ï¿½]ï¿½{ï¿½^ï¿½ï¿½ï¿½Í‘ï¿½ï¿½ï¿½STANDARDï¿½nï¿½Æ“ï¿½ï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½)
+*ï¿½Xï¿½Vï¿½`ï¿½Fï¿½bï¿½Nï¿½@ï¿½\ï¿½Ìˆê•”ï¿½ï¿½JRE1.6ï¿½Èã‚ªï¿½Kï¿½vï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Ì‚ÅAJRE1.5ï¿½È‰ï¿½ï¿½Å‚Í“ï¿½ï¿½ì‚µï¿½È‚ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+*LWJGL 2.4.2ï¿½ï¿½lib/LWJGL2_4_2ï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½È‰ï¿½ï¿½É“ï¿½ï¿½ï¿½
+ (64bitï¿½ï¿½Windowsï¿½Ìlï¿½Å‚ï¿½ï¿½Ì‚Ü‚Ü‚ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½Í‚ï¿½ï¿½Ì’ï¿½ï¿½Ì‘Sï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½libï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½ÉƒRï¿½sï¿½[ï¿½ï¿½ï¿½Ä‚Ý‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 
 Version 7.0.0 (2010/06/04)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç6.9.0.*‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+‚sˆÈŠO‚ÌƒXƒsƒ“”»’è‚ð’Ç‰Á(T-Spinƒ{[ƒiƒX‚ª‚ ‚éƒ‚[ƒh‚ÅAuSPIN BONUSv‚ÌÝ’è‚ðuALLv‚É•Ï‚¦‚é‚Æ—LŒø‰»‚Å‚«‚Ü‚·)
-+VS-BATTLE/NetPlay: ƒ}ƒbƒv‚ÌÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½Bƒ}ƒbƒv‚ð—LŒø‚É‚µ‚Ä‚¢‚éê‡Aˆê’è‚Ìƒpƒ^[ƒ“‚ÅƒuƒƒbƒN‚ªÏ‚Ýã‚ª‚Á‚½ó‘Ô‚ÅƒQ[ƒ€‚ªŽn‚Ü‚è‚Ü‚·B
- ƒ}ƒbƒv‚ÍV‚µ‚­’Ç‰Á‚³‚ê‚½uTOOL-VS MAP EDITvƒ‚[ƒh‚Åì¬‚Å‚«‚Ü‚·B
-+NetPlay: u’f•Ð“IŽ×–‚ƒuƒƒbƒNƒVƒXƒeƒ€‚ðŽg‚¤v‚ÌÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
- 3lˆÈã‚ÌƒQ[ƒ€‚ÅAUŒ‚—Í‚ªŽQ‰Ál”‚É‰ž‚¶‚ÄŠ„‚èŽZ‚³‚ê‚Ü‚·B‚±‚ê‚É‚æ‚è¬”“_ˆÈ‰º‚ÌUŒ‚(0.5‚È‚Ç)‚à”­¶‚·‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
- ¬”“_ˆÈ‰º‚ÌUŒ‚‚ÍAŽ×–‚ƒuƒƒbƒNƒ[ƒ^[‚ª1.0ˆÈã‚É‚È‚é‚Ü‚Å‚¹‚èã‚ª‚è‚Ü‚¹‚ñ‚ªA‚±‚¿‚ç‚ÌUŒ‚‚Å‘ŠŽE‚µ‚Ä0‚É‚µ‚È‚¢ŒÀ‚è‘ŠŽè‚ÉUŒ‚‚Å‚«‚Ü‚¹‚ñB
-+NetPlay: u’N‚©‚ªƒLƒƒƒ“ƒZƒ‹‚µ‚½‚çƒ^ƒCƒ}[–³Œø‰»v‚ÌÝ’è‚ð’Ç‰Á(6.9.0.1‚Åíœ‚µ‚½‹@”\‚ðŽ©—R‚ÉØ‚è‘Ö‚¦‚Å‚«‚é‚æ‚¤‚É‚µ‚Ä•œŠˆ)
-+NetPlay: ƒ‹[ƒ€ì¬‰æ–Ê‚ÌÝ’è‚ðƒ^ƒu‚É•ª‚¯‚Ü‚µ‚½B‘¬“xŠÖ˜A‚ÌÝ’è‚Íu‘¬“x‚ÌÝ’èvƒ^ƒu‚ÉˆÚ‚µ‚Ü‚µ‚½B
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½6.9.0.*ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++ï¿½sï¿½ÈŠOï¿½ÌƒXï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½(T-Spinï¿½{ï¿½[ï¿½iï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½éƒ‚ï¿½[ï¿½hï¿½ÅAï¿½uSPIN BONUSï¿½vï¿½ÌÝ’ï¿½ï¿½ï¿½uALLï¿½vï¿½É•Ï‚ï¿½ï¿½ï¿½Æ—Lï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½)
++VS-BATTLE/NetPlay: ï¿½}ï¿½bï¿½vï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½}ï¿½bï¿½vï¿½ï¿½Lï¿½ï¿½ï¿½É‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½ï¿½ï¿½Ìƒpï¿½^ï¿½[ï¿½ï¿½ï¿½Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Ï‚Ýã‚ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Ü‚ï¿½ï¿½B
+ ï¿½}ï¿½bï¿½vï¿½ÍVï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½uTOOL-VS MAP EDITï¿½vï¿½ï¿½ï¿½[ï¿½hï¿½Åì¬ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
++NetPlay: ï¿½uï¿½fï¿½Ð“Iï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Vï¿½Xï¿½eï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½vï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ 3ï¿½lï¿½Èï¿½ÌƒQï¿½[ï¿½ï¿½ï¿½ÅAï¿½Uï¿½ï¿½ï¿½Í‚ï¿½ï¿½Qï¿½ï¿½ï¿½lï¿½ï¿½ï¿½É‰ï¿½ï¿½ï¿½ï¿½ÄŠï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½É‚ï¿½è¬ï¿½ï¿½ï¿½_ï¿½È‰ï¿½ï¿½ÌUï¿½ï¿½(0.5ï¿½È‚ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½È‰ï¿½ï¿½ÌUï¿½ï¿½ï¿½ÍAï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½ï¿½1.0ï¿½Èï¿½É‚È‚ï¿½Ü‚Å‚ï¿½ï¿½ï¿½ã‚ªï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌUï¿½ï¿½ï¿½Å‘ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½0ï¿½É‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½è‘Šï¿½ï¿½ÉUï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
++NetPlay: ï¿½uï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½}ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½(6.9.0.1ï¿½Åíœï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½ÉØ‚ï¿½Ö‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ä•ï¿½ï¿½ï¿½)
++NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½Ê‚ÌÝ’ï¿½ï¿½ï¿½^ï¿½uï¿½É•ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½xï¿½Ö˜Aï¿½ÌÝ’ï¿½Íuï¿½ï¿½ï¿½xï¿½ÌÝ’ï¿½vï¿½^ï¿½uï¿½ÉˆÚ‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 
 Version 6.9.0.2 (2010/05/08)
-#ƒlƒbƒgƒvƒŒƒC‹@”\‚Í6.9.0.*‚ÌƒT[ƒo[‚Æ‚Ü‚¾ŒÝŠ·«‚ª‚ ‚è‚Ü‚·‚ªA‚±‚Ìƒo[ƒWƒ‡ƒ“‚ÌƒT[ƒo[‚É‚¢‚­‚Â‚©‚ÌƒoƒOC³‚ª‚ ‚è‚Ü‚·B
-+NetPlay: ƒ`[ƒ€•ÏXƒ{ƒ^ƒ“‚ðƒƒr[‰æ–Ê‚Æƒ‹[ƒ€‰æ–Ê‚É’Ç‰Á
-+Swing: ƒ‚[ƒh–¼‚ðƒ_ƒuƒ‹ƒNƒŠƒbƒN‚·‚é‚¾‚¯‚ÅƒQ[ƒ€‚ðŠJŽn‰Â”\
--Slick: 64bit‚ÌLWJGL‚Ìƒ‰ƒCƒuƒ‰ƒŠ‚ª2.1.0—p‚É–ß‚Á‚Ä‚¢‚È‚©‚Á‚½‚Ì‚ðC³
--NetPlay: ƒtƒB[ƒ‹ƒhXVˆ—‚ÅArrayIndexOutOfBoundsException‚ª”­¶‚·‚éƒoƒO‚ðC³
--NetServer: ƒ`[ƒ€í‚Ì‚¢‚ë‚¢‚ë‚ÈƒoƒO‚ðC³
--NetServer: ‡”Ô‘Ò‚¿‚ª³‚µ‚­“®‚¢‚Ä‚¢‚È‚¢ƒoƒO‚ª’¼‚Á‚½‚©‚à
+#ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½@ï¿½\ï¿½ï¿½6.9.0.*ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚Ü‚ï¿½ï¿½ÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½É‚ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ìƒoï¿½Oï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++NetPlay: ï¿½`ï¿½[ï¿½ï¿½ï¿½ÏXï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½Ê‚Æƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚É’Ç‰ï¿½
++Swing: ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½uï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½nï¿½Â”\
+-Slick: 64bitï¿½ï¿½LWJGLï¿½Ìƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2.1.0ï¿½pï¿½É–ß‚ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Cï¿½ï¿½
+-NetPlay: ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ArrayIndexOutOfBoundsExceptionï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+-NetServer: ï¿½`ï¿½[ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½ë‚¢ï¿½ï¿½Èƒoï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+-NetServer: ï¿½ï¿½ï¿½Ô‘Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 Version 6.9.0.1 (2010/05/07)
-#ƒT[ƒo[‚É¬‚³‚¢•ÏX“_‚ª‚ ‚è‚Ü‚·‚ªAƒlƒbƒgƒvƒŒƒC‹@”\‚Í6.9.0.0‚ÌƒT[ƒo[‚Æ‚Ü‚¾ŒÝŠ·«‚ª‚ ‚è‚Ü‚·B
-+STANDARD-PLUS(Blink‚³‚ñì)‚ÆSTANDARD-ZEROƒ‹[ƒ‹(Wojtek‚³‚ñì)‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+‹N“®—pƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ð32bit‚Æ64bit‚Ì—¼•û‚Å“®‚­ƒo[ƒWƒ‡ƒ“‚É•Ï‚¦‚Ü‚µ‚½B(dodd‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-+NetPlay: ‚Ü‚¾‚Ü‚Æ‚à‚ÈGUI‚Í‚ ‚è‚Ü‚¹‚ñ‚ªAƒ`[ƒ€‚ðƒƒr[‚Ü‚½‚Íƒ‹[ƒ€‰æ–Ê‚©‚ç•Ï‚¦‚ç‚ê‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
- ƒ`ƒƒƒbƒg“ü—Í—“‚Éu/team <ƒ`[ƒ€–¼>v‚Æ“ü—Í‚µ‚ÄEnterƒL[‚ð‰Ÿ‚·‚ÆŠ‘®‚·‚éƒ`[ƒ€‚ð•ÏX‚Å‚«‚Ü‚·B
- ƒ`[ƒ€–³‚µ‚É‚·‚é‚É‚Íu/teamv‚Æ‚¾‚¯“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B
-*NetPlay: Ping(Ú‘±ƒeƒXƒgƒƒbƒZ[ƒW)‚ðƒT[ƒo[‚É‘Å‚ÂŠÔŠu‚ð10•b‚É•ÏX‚µ‚Ü‚µ‚½B‚Ü‚½A30•bˆÈãƒT[ƒo[‚©‚ç‰ž“š‚ª‚È‚¢ê‡‚ÍØ’f‚µ‚Ü‚·B
-*NetServer: uOK•\Ž¦‚ðŽæ‚èÁ‚·‚Æƒ^ƒCƒ}[–³Œø‰»v‹@”\‚ðíœ‚µ‚Ü‚µ‚½B(ŽŸƒo[ƒWƒ‡ƒ“‚Å”CˆÓ‚ÉON/OFF‚Å‚«‚éŒ`‚Å•œŠˆ—\’è)
-*Slick: LWJGL‚Ìƒo[ƒWƒ‡ƒ“‚ð2.1.0‚É–ß‚µ‚Ü‚µ‚½B(2.4.2‚Å•s‹ï‡‚ªo‚él‚ª‘½‚©‚Á‚½‚Ì‚Å)
+#ï¿½Tï¿½[ï¿½oï¿½[ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏXï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½@ï¿½\ï¿½ï¿½6.9.0.0ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚Ü‚ï¿½ï¿½ÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++STANDARD-PLUS(Blinkï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½STANDARD-ZEROï¿½ï¿½ï¿½[ï¿½ï¿½(Wojtekï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++ï¿½Nï¿½ï¿½ï¿½pï¿½oï¿½bï¿½`ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½32bitï¿½ï¿½64bitï¿½Ì—ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½É•Ï‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(doddï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
++NetPlay: ï¿½Ü‚ï¿½ï¿½Ü‚Æ‚ï¿½ï¿½ï¿½GUIï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ñ‚ªAï¿½`ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½Ü‚ï¿½ï¿½Íƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ ï¿½`ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½Í—ï¿½ï¿½Éu/team <ï¿½`ï¿½[ï¿½ï¿½ï¿½ï¿½>ï¿½vï¿½Æ“ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Enterï¿½Lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½[ï¿½ï¿½ï¿½ï¿½ÏXï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ ï¿½`ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½É‚Íu/teamï¿½vï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+*NetPlay: Ping(ï¿½Ú‘ï¿½ï¿½eï¿½Xï¿½gï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½W)ï¿½ï¿½ï¿½Tï¿½[ï¿½oï¿½[ï¿½É‘Å‚ÂŠÔŠuï¿½ï¿½10ï¿½bï¿½É•ÏXï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½Ü‚ï¿½ï¿½A30ï¿½bï¿½Èï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½ç‰žï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ÍØ’fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+*NetServer: ï¿½uOKï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒ^ï¿½Cï¿½}ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½@ï¿½\ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(ï¿½ï¿½ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Å”Cï¿½Ó‚ï¿½ON/OFFï¿½Å‚ï¿½ï¿½ï¿½`ï¿½Å•ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½)
+*Slick: LWJGLï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2.1.0ï¿½É–ß‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B(2.4.2ï¿½Å•sï¿½ï‡ï¿½ï¿½ï¿½oï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½)
 
 Version 6.9.0.0 (2010/05/06)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç6.8‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+uDIG RACEvƒ‚[ƒh‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
-+GARBAGE MANIA: BIG—LŒøŽž‚Å‚à³í‚ÉƒvƒŒƒC‰Â”\‚É‚È‚è‚Ü‚µ‚½B
-+SDL/Slick: ‰‰ñ‹N“®Žž‚ÌƒL[ƒ{[ƒhÝ’è‰æ–Ê‚Ì‚ ‚ÆAƒ‹[ƒ‹‘I‘ð‰æ–Ê‚ªo‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
-+NetPlay: ŽÀŒ±“I‚Èƒ`[ƒ€ƒvƒŒƒC‹@”\‚ð’Ç‰Á‚µ‚Ü‚µ‚½B“¯‚¶ƒ`[ƒ€‚ÉŠ‘®‚·‚éƒvƒŒƒCƒ„[‚ÍUŒ‚‚ðŽó‚¯‚½‚èA—^‚¦‚½‚è‚·‚é‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñB
- ’N‚©‚ª’E—Ž‚µAŽc‚Á‚½ƒvƒŒƒCƒ„[‘Sˆõ‚ª“¯‚¶ƒ`[ƒ€‚ÉŠ‘®‚µ‚Ä‚¢‚½ê‡‚Í‚»‚ÌŽž“_‚ÅƒQ[ƒ€‚ªI—¹‚µAŸ—˜‚µ‚½ƒ`[ƒ€–¼‚ªƒ`ƒƒƒbƒgƒƒO‚É•\Ž¦‚³‚ê‚Ü‚·B
-+NetPlay: uTNET2Œ^‚ÌŽ©“®ƒXƒ^[ƒgƒ^ƒCƒ}[‚ðŽg‚¤v‚ÌÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½BON‚É‚·‚é‚ÆŽ©“®ƒXƒ^[ƒg‹@”\‚ÉˆÈ‰º‚Ì•Ï‰»‚ªŒ»‚ê‚Ü‚·B
- 1.2lˆÈã‚ªOK•\Ž¦‚ðo‚·‚Ü‚Åƒ^ƒCƒ}[‚ªŽn‚Ü‚ç‚È‚­‚È‚é
- 2.ƒ^ƒCƒ}[‚ª0‚É‚È‚Á‚½‚Æ‚«AOK•\Ž¦‚ðo‚µ‚Ä‚¢‚È‚¢ƒvƒŒƒCƒ„[‘Sˆõ‚ªŽ©“®“I‚ÉŠÏíƒ‚[ƒh‚É‚È‚é
- 3.’N‚©‚ªOK•\Ž¦‚ðŽæ‚èÁ‚µ‚½‚Æ‚«AŽŸ‚ÌƒQ[ƒ€‚ªŽn‚Ü‚é‚Ü‚Åƒ^ƒCƒ}[‚ªì“®‚µ‚È‚­‚È‚é
--NetPlay: ˆÈ‰º‚ÌƒoƒO‚ðC³‚µ‚Ü‚µ‚½B
- 1.ƒQ[ƒ€is’†‚Ì•”‰®‚É“ü‚Á‚½‚Æ‚«‚ÉAŽ©•ª‚ÌƒtƒB[ƒ‹ƒh‚ÌŽ×–‚ƒuƒƒbƒNƒ[ƒ^[‚ª—­‚Ü‚Á‚Ä‚¢‚­(Œx‰¹‚à–Â‚é)‚±‚Æ‚ª‚ ‚é
- 2.Ž×–‚ƒuƒƒbƒNƒ[ƒ^[‚É20ƒ‰ƒCƒ“ˆÈã‚ÌŽ×–‚ƒuƒƒbƒN‚ª—­‚Ü‚Á‚Ä‚¢‚é‚ÆA•‚¢ü‚ªƒ[ƒ^[•t‹ß‚É•\Ž¦‚³‚ê‚é
- 3.1l‚ðœ‚­‘Sˆõ‚ªOK•\Ž¦‚ðo‚µ‚Ä‚¢‚é‚Æ‚«A‚»‚Ì1l‚ªŠÏíƒ‚[ƒh‚ÉˆÚs‚·‚é‚©‘Þo‚·‚é‚ÆAƒQ[ƒ€‚ªŽn‚Ü‚ç‚È‚¢
- 4.‡”Ô‘Ò‚¿‚µ‚Ä‚¢‚é‚Æ‚«‚É’N‚©‚ª‘Þo‚µ‚Ä‚»‚Ìl‚Æ“ü‚ê‘Ö‚í‚Á‚Ä‚àAƒtƒB[ƒ‹ƒh•\Ž¦‚ª¬‚³‚¢‚Ü‚Ü‚ÅAOK•\Ž¦‚ào‚¹‚È‚¢
- ƒoƒO”­Œ©‚µ‚½dodd‚³‚ñ‚ ‚è‚ª‚Æ‚¤I
-*Slick: LWGJL‚Ìƒo[ƒWƒ‡ƒ“‚ð2.4.2‚ÉXV‚µ‚Ü‚µ‚½B
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½6.8ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++ï¿½uDIG RACEï¿½vï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++GARBAGE MANIA: BIGï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½Éƒvï¿½ï¿½ï¿½Cï¿½Â”\ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++SDL/Slick: ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ÌƒLï¿½[ï¿½{ï¿½[ï¿½hï¿½Ý’ï¿½ï¿½Ê‚Ì‚ï¿½ï¿½ÆAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½Ê‚ï¿½ï¿½oï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++NetPlay: ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½Èƒ`ï¿½[ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½[ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ÍUï¿½ï¿½ï¿½ï¿½ï¿½ó‚¯‚ï¿½ï¿½ï¿½Aï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½è‚·ï¿½é‚±ï¿½Æ‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½cï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½[ï¿½ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Í‚ï¿½ï¿½ÌŽï¿½ï¿½_ï¿½ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½Oï¿½É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++NetPlay: ï¿½uTNET2ï¿½^ï¿½ÌŽï¿½ï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½^ï¿½Cï¿½}ï¿½[ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½vï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½BONï¿½É‚ï¿½ï¿½ï¿½ÆŽï¿½ï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½@ï¿½\ï¿½ÉˆÈ‰ï¿½ï¿½Ì•Ï‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ 1.2ï¿½lï¿½Èã‚ªOKï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ü‚Åƒ^ï¿½Cï¿½}ï¿½[ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½È‚ï¿½ï¿½È‚ï¿½
+ 2.ï¿½^ï¿½Cï¿½}ï¿½[ï¿½ï¿½0ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½AOKï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ÉŠÏíƒ‚ï¿½[ï¿½hï¿½É‚È‚ï¿½
+ 3.ï¿½Nï¿½ï¿½ï¿½ï¿½OKï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Aï¿½ï¿½ï¿½ÌƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½Ü‚Åƒ^ï¿½Cï¿½}ï¿½[ï¿½ï¿½ï¿½ì“®ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½
+-NetPlay: ï¿½È‰ï¿½ï¿½Ìƒoï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ 1.ï¿½Qï¿½[ï¿½ï¿½ï¿½iï¿½sï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÉAï¿½ï¿½ï¿½ï¿½ï¿½Ìƒtï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ÌŽ×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½(ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½)ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½
+ 2.ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½ï¿½20ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Èï¿½ÌŽ×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½^ï¿½[ï¿½tï¿½ß‚É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ 3.1ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½OKï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½1ï¿½lï¿½ï¿½ï¿½Ïíƒ‚ï¿½[ï¿½hï¿½ÉˆÚsï¿½ï¿½ï¿½é‚©ï¿½Þoï¿½ï¿½ï¿½ï¿½ÆAï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½È‚ï¿½
+ 4.ï¿½ï¿½ï¿½Ô‘Ò‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½É’Nï¿½ï¿½ï¿½ï¿½ï¿½Þoï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ìlï¿½Æ“ï¿½ï¿½ï¿½Ö‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Aï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Ü‚ÅAOKï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½È‚ï¿½
+ ï¿½oï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½doddï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I
+*Slick: LWGJLï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2.4.2ï¿½ÉXï¿½Vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 
 Version 6.8.0.0 (2010/04/30)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç6.7‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+GAME TUNING(ƒ`ƒ…[ƒjƒ“ƒOÝ’è)‚ð’Ç‰Á‚µ‚Ü‚µ‚½Bˆê•”‚ÌÝ’è‚ðŽg—p‚·‚éƒ‹[ƒ‹‚ÉŠÖŒW‚È‚­ŒÅ’è‚Å‚«‚Ü‚·B
- Aƒ{ƒ^ƒ“‚Ì‰ñ“]•ûŒüAƒuƒƒbƒN‚ÌŠG•¿A‰¡—­‚ß‚Æ‰¡ˆÚ“®‘¬“x‚ð•ÏX‚Å‚«‚Ü‚·B
- SDL/Slick”Å‚Å‚ÍCONFIG‰æ–Ê‚ÌuGAME TUNINGv‚ÉASwing”Å‚Å‚ÍuÝ’è¨1P(2P) ƒ`ƒ…[ƒjƒ“ƒOÝ’èv‚É‚ ‚è‚Ü‚·B
- Ý’è“à—e‚ÍSDL/Slick/Swing‘S‚Ä‚Å‹¤—L‚³‚êAƒlƒbƒgƒvƒŒƒC‚Å‚àŽg—p‚Å‚«‚Ü‚·B(ƒ‹[ƒ‹ŒÅ’è•”‰®‚Å‚àŽg—p‰Â”\)
-+SDL/Slick: ƒWƒ‡ƒCƒXƒeƒBƒbƒN‚ÌÝ’è‰æ–Ê‚ð‹­‰»•ƒWƒ‡ƒCƒXƒeƒBƒbƒNƒeƒXƒg‰æ–Ê‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
- ‚Ù‚Æ‚ñ‚Ç‚ÌƒWƒ‡ƒCƒXƒeƒBƒbƒNÝ’è‚ÍGENERAL OPTIONS‚©‚ç‚±‚±‚ÉˆÚ“®‚µ‚Ü‚µ‚½B
-+NetPlay: ƒ‹[ƒ€ì¬‰æ–Ê‚Éu3lˆÈã‚Ì‘Îí‚Å‚ÍUŒ‚—Í‚ðŒ¸‚ç‚·v‚ÌÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
- 3lˆÈã‚Å‘Îí‚µ‚½‚Æ‚«A‘Sˆõ‚ÌUŒ‚—Í‚ª2l‘Îí‚Ì‚Æ‚«‚Æ”ä‚×‚Ä—}‚¦‹C–¡‚É‚È‚è‚Ü‚·B
- ’E—ŽŽÒ‚ª‘‚¦‚é‚ÆUŒ‚—Í‚Í‘‚µ‚Äs‚«‚Ü‚·B
-+VS-BATTLE/NetPlay: HURRY UPŠÖ˜A‚ÌÝ’è‚ð’Ç‰Á‚µ‚Ü‚µ‚½B
- Žw’è‚µ‚½•b”‚ªŒo‰ß‚·‚é‚ÆƒAƒ‰[ƒ€‰¹‚ª–Â‚èA‰º‚©‚çÁ‚¹‚È‚¢°ƒuƒƒbƒN‚ª‚¹‚è‚ ‚ª‚Á‚Ä‚«‚Ü‚·B
- ƒfƒtƒHƒ‹ƒg‚Å‚Í5‰ñƒuƒƒbƒNƒs[ƒX‚ð’u‚­‚Æ°ƒuƒƒbƒN‚ªã‚ª‚è‚Ü‚·‚ªA‚±‚ê‚àÝ’è‚Å•ÏX‚Å‚«‚Ü‚·B
- (VS-BATTLE‚Å‚ÍuINTERVALvAƒlƒbƒgƒvƒŒƒC‚Å‚ÍuHURRY UPŒãA°‚ðã‚°‚éŠÔŠuv‚Å•ÏX‰Â”\)
-+NetPlay: 1‰ñŒˆ’…‚ª‚Â‚­‚²‚Æ‚ÉƒKƒx[ƒWƒRƒŒƒNƒVƒ‡ƒ“‚ðŽÀs‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
--NetPlay: ƒ‹[ƒ€î•ñ‚ðíœ‚·‚é‚Æ‚«‚É‚»‚Ìƒ‹[ƒ€‚ÌƒvƒŒƒCƒ„[ƒŠƒXƒg‚ðŠ®‘S‚É‘|œ‚·‚é‚æ‚¤‚É
--NetServer: •sŠ®‘SƒpƒPƒbƒg‚ªŽc‚Á‚Ä‚¢‚éƒvƒŒƒCƒ„[‚ªØ’f‚µ‚½ê‡‚É‚»‚Ì•sŠ®‘SƒpƒPƒbƒg‚ªŽc‚è‘±‚¯‚éƒoƒO‚ðC³
--SDL/Slick: "SCREEN SHOT"‚ª"SCRREN SHOT"‚É‚È‚Á‚Ä‚¢‚½‰ÓŠ‚ðC³
-*GEM MANIA: Ready&Go‚ÌŽžŠÔ‚ð’Zk
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½6.7ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++GAME TUNING(ï¿½`ï¿½ï¿½ï¿½[ï¿½jï¿½ï¿½ï¿½Oï¿½Ý’ï¿½)ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½ê•”ï¿½ÌÝ’ï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½éƒ‹ï¿½[ï¿½ï¿½ï¿½ÉŠÖŒWï¿½È‚ï¿½ï¿½Å’ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ Aï¿½{ï¿½^ï¿½ï¿½ï¿½Ì‰ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÌŠGï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ß‚Æ‰ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ÏXï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ SDL/Slickï¿½Å‚Å‚ï¿½CONFIGï¿½ï¿½Ê‚ÌuGAME TUNINGï¿½vï¿½ÉASwingï¿½Å‚Å‚Íuï¿½Ý’è¨1P(2P) ï¿½`ï¿½ï¿½ï¿½[ï¿½jï¿½ï¿½ï¿½Oï¿½Ý’ï¿½vï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ ï¿½Ý’ï¿½ï¿½ï¿½eï¿½ï¿½SDL/Slick/Swingï¿½Sï¿½Ä‚Å‹ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½Aï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Å‚ï¿½ï¿½gï¿½pï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B(ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å’è•”ï¿½ï¿½ï¿½Å‚ï¿½ï¿½gï¿½pï¿½Â”\)
++SDL/Slick: ï¿½Wï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½ÌÝ’ï¿½ï¿½Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½eï¿½Xï¿½gï¿½ï¿½Ê‚ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ ï¿½Ù‚Æ‚ï¿½Ç‚ÌƒWï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½Ý’ï¿½ï¿½GENERAL OPTIONSï¿½ï¿½ï¿½ç‚±ï¿½ï¿½ï¿½ÉˆÚ“ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
++NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½Ê‚Éu3ï¿½lï¿½Èï¿½Ì‘Îï¿½Å‚ÍUï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½ç‚·ï¿½vï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ 3ï¿½lï¿½Èï¿½Å‘Îí‚µï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Aï¿½Sï¿½ï¿½ï¿½ÌUï¿½ï¿½ï¿½Í‚ï¿½2ï¿½lï¿½Îï¿½Ì‚Æ‚ï¿½ï¿½Æ”ï¿½×‚Ä—}ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ ï¿½Eï¿½ï¿½ï¿½Ò‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆUï¿½ï¿½ï¿½Í‚Í‘ï¿½ï¿½ï¿½ï¿½Äsï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++VS-BATTLE/NetPlay: HURRY UPï¿½Ö˜Aï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+ ï¿½wï¿½è‚µï¿½ï¿½ï¿½bï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ß‚ï¿½ï¿½ï¿½ÆƒAï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½è‚ ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ ï¿½fï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Å‚ï¿½5ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½sï¿½[ï¿½Xï¿½ï¿½uï¿½ï¿½ï¿½Æï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ã‚ªï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½Å•ÏXï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ (VS-BATTLEï¿½Å‚ÍuINTERVALï¿½vï¿½Aï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Å‚ÍuHURRY UPï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ã‚°ï¿½ï¿½ÔŠuï¿½vï¿½Å•ÏXï¿½Â”\)
++NetPlay: 1ï¿½ñŒˆ’ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Æ‚ÉƒKï¿½xï¿½[ï¿½Wï¿½Rï¿½ï¿½ï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
+-NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½É‚ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½É‘|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½
+-NetServer: ï¿½sï¿½ï¿½ï¿½Sï¿½pï¿½Pï¿½bï¿½gï¿½ï¿½ï¿½cï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ø’fï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É‚ï¿½ï¿½Ì•sï¿½ï¿½ï¿½Sï¿½pï¿½Pï¿½bï¿½gï¿½ï¿½ï¿½cï¿½è‘±ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+-SDL/Slick: "SCREEN SHOT"ï¿½ï¿½"SCRREN SHOT"ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Óï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½
+*GEM MANIA: Ready&Goï¿½ÌŽï¿½ï¿½Ô‚ï¿½Zï¿½k
 
 Version 6.7.0.0a (2010/04/12)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚Í¬‚³‚¢ƒoƒOC³ƒpƒbƒ`‚Å‚·BŽg‚¤‚É‚Í‘Oƒo[ƒWƒ‡ƒ“(6.7.0.0)‚Éã‘‚«‚ª•K—v‚Å‚·B
-#C³‚·‚é‚Ì‚ÍƒlƒbƒgƒvƒŒƒC—pƒT[ƒo[‚¾‚¯‚ÅƒQ[ƒ€“à—e‚É•ÏX‚Í‚ ‚è‚Ü‚¹‚ñB
--NetServer: "broken pipe"‚ÌIOException‚ªdoWrite(SocketChannel)‚Å‘å—Ê‚Éo‚éƒoƒO‚Ì‘Îô
- 1.doWrite(SocketChannel)‚ÌƒƒOƒŒƒxƒ‹‚ðerror‚©‚çdebug‚Éˆø‚«‰º‚°
- 2.‘—MƒGƒ‰[‚ª”­¶‚µ‚½‚Æ‚«‚Í‚»‚ÌƒNƒ‰ƒCƒAƒ“ƒg‚ðØ’f‚·‚é‚æ‚¤‚É(‚½‚Ô‚ñ‚à‚¤‚»‚ÌƒNƒ‰ƒCƒAƒ“ƒg‚É‘Î‚µ‚Ä‚Í‰½‚à‘—M‚Å‚«‚È‚¢‚Ì‚Å)
--PHANTOM MANIA‚ÌÅV”Åƒ\[ƒX‚ª‘Oƒo[ƒWƒ‡ƒ“‚É“ü‚Á‚Ä‚È‚©‚Á‚½‚Ì‚Åˆê‚É“ü‚ê‚Ü‚µ‚½
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½Cï¿½ï¿½ï¿½pï¿½bï¿½`ï¿½Å‚ï¿½ï¿½Bï¿½gï¿½ï¿½ï¿½É‚Í‘Oï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½(6.7.0.0)ï¿½Éã‘ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Å‚ï¿½ï¿½B
+#ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Íƒlï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½pï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½É•ÏXï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+-NetServer: "broken pipe"ï¿½ï¿½IOExceptionï¿½ï¿½doWrite(SocketChannel)ï¿½Å‘ï¿½Ê‚Éoï¿½ï¿½oï¿½Oï¿½Ì‘Îï¿½
+ 1.doWrite(SocketChannel)ï¿½Ìƒï¿½ï¿½Oï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½errorï¿½ï¿½ï¿½ï¿½debugï¿½Éˆï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ 2.ï¿½ï¿½ï¿½Mï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Í‚ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½ï¿½Ø’fï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½(ï¿½ï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½Cï¿½Aï¿½ï¿½ï¿½gï¿½É‘Î‚ï¿½ï¿½Ä‚Í‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Mï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½)
+-PHANTOM MANIAï¿½ÌÅVï¿½Åƒ\ï¿½[ï¿½Xï¿½ï¿½ï¿½Oï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½Ä‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Åˆêï¿½É“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
 
 Version 6.7.0.0 (2010/04/10)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç6.6‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+NetPlay: ‘¬“xET-SpinEB2BEƒRƒ“ƒ{‚ÌÝ’è‚ð’Ç‰Á
-+NetPlay: ƒ‹[ƒ€‰æ–Ê‚Å‘¼‚ÌƒvƒŒƒCƒ„[‚ÌƒvƒŒƒCŒ‹‰Ê•\Ž¦‚ð’Ç‰Á
-+NetPlay: Ž©“®ƒXƒ^[ƒgƒ^ƒCƒ}[‹@”\‚ð’Ç‰Á(”¼•ªˆÈã‚ÌƒvƒŒƒCƒ„[‚Ì€”õ‚ªŠ®—¹‚·‚é‚Æ‚±‚Ìƒ^ƒCƒ}[‚ª“®‚«‚Ü‚·B0•b‚É‚·‚é‚Æ]—ˆ’Ê‚èƒ^ƒCƒ}[‚È‚µ)
-+NetPlay: AI‚ðŽg—p‰Â”\‚É(‚½‚¾‚µ1lƒvƒŒƒC‚â—ûK‚ÅFƒ{ƒ^ƒ“‚ðŽg‚¦‚È‚¢‚Æ‚¢‚¤–â‘è‚ ‚è)
-*NetServer: ƒƒOƒtƒ@ƒCƒ‹‚Ìo—ÍÝ’è‚ÌƒfƒtƒHƒ‹ƒg’l‚ð•ÏX(‚±‚ê‚Å‡Œv50MB‚ð’´‚¦‚È‚¢‚Í‚¸)
--PHANTOM MANIA: LV999‚Ü‚Ås‚Á‚½‚ ‚Æ‚Ì—ÎEžòƒ‰ƒCƒ“‚Ìó‹µ‚ªƒ‰ƒ“ƒLƒ“ƒO‚É‹L˜^‚³‚ê‚È‚¢ƒoƒO‚ðC³
--PHANTOM MANIA: ROƒƒ_ƒ‹‚Ì•\‹L‚ªSKƒƒ_ƒ‹‚É‚È‚Á‚Ä‚¢‚½ƒoƒO‚ðC³
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½6.6ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++NetPlay: ï¿½ï¿½ï¿½xï¿½ET-Spinï¿½EB2Bï¿½Eï¿½Rï¿½ï¿½ï¿½{ï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½
++NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚Å‘ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ê•\ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
++NetPlay: ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½^ï¿½[ï¿½gï¿½^ï¿½Cï¿½}ï¿½[ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Èï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ìƒ^ï¿½Cï¿½}ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B0ï¿½bï¿½É‚ï¿½ï¿½ï¿½Æ]ï¿½ï¿½ï¿½Ê‚ï¿½^ï¿½Cï¿½}ï¿½[ï¿½È‚ï¿½)
++NetPlay: AIï¿½ï¿½ï¿½gï¿½pï¿½Â”\ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½lï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½Kï¿½ï¿½Fï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½è‚ ï¿½ï¿½)
+*NetServer: ï¿½ï¿½ï¿½Oï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ìoï¿½ÍÝ’ï¿½Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½lï¿½ï¿½ÏX(ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½v50MBï¿½ð’´‚ï¿½ï¿½È‚ï¿½ï¿½Í‚ï¿½)
+-PHANTOM MANIA: LV999ï¿½Ü‚Åsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ì—ÎEï¿½òƒ‰ƒCï¿½ï¿½ï¿½Ìó‹µ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½É‹Lï¿½^ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+-PHANTOM MANIA: ROï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Ì•\ï¿½Lï¿½ï¿½SKï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
 
 Version 6.6.0.1 (2010/04/06)
-#ƒ}ƒCƒi[ƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚Å‚·BƒlƒbƒgƒvƒŒƒC‹@”\‚Í6.5‚ÌƒT[ƒo[‚ÆŒÝŠ·«‚ª‚ ‚è‚Ü‚·B
-+ˆÈ‰º‚Ìƒ‚[ƒh‚ÉƒxƒXƒgƒZƒNƒVƒ‡ƒ“ƒ^ƒCƒ€‚Ì‹L˜^‹@”\‚ð’Ç‰Á
- GRADE MANIA (‘S•”)
- SPEED MANIA (‘S•”)
+#ï¿½}ï¿½Cï¿½iï¿½[ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½Å‚ï¿½ï¿½Bï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½@ï¿½\ï¿½ï¿½6.5ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½ÆŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++ï¿½È‰ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½hï¿½Éƒxï¿½Xï¿½gï¿½Zï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½Ì‹Lï¿½^ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½
+ GRADE MANIA (ï¿½Sï¿½ï¿½)
+ SPEED MANIA (ï¿½Sï¿½ï¿½)
  GARBAGE MANIA
  PHANTOM MANIA
  SCORE ATTACK
  FINAL
-+GRADE MANIA 3: ƒ‰ƒ“ƒLƒ“ƒO‚ðŽŽŒ±‹@”\‚ÌON/OFF‚Å•ª‚¯‚Ä‚Ý‚½
-+AI: uT-SPINvAI‚ð’Ç‰Á(‚Ü‚¾WIP)
-+NetPlay: 1l‚¾‚¯‚ÅŽn‚ß‚½‚Æ‚«‚Í—ûKƒ‚[ƒh‚Æ“¯—l‚ÉFƒ{ƒ^ƒ“‚ÅƒQ[ƒ€‚ð‹­§I—¹‚Å‚«‚Ü‚·
--NetPlay: •‰‚¯‚½‚Æ‚«‚ÉŸ‚Á‚½‘ŠŽè‚ÌƒtƒB[ƒ‹ƒh‚ÉuWIN!v‚Ü‚½‚Íu1ST PLACE!v‚ÌƒƒbƒZ[ƒW‚ªo‚È‚¢‚±‚Æ‚ª‚ ‚éƒoƒO‚ðC³
--GRADE MANIA 2/SPEED MANIA: ARE‚ª—LŒø‚Ìƒ‹[ƒ‹‚ÅREƒƒ_ƒ‹‚ªŽè‚É“ü‚ç‚È‚¢ƒoƒO‚ðC³
--TECHNICIAN: LV15-EASY‚ÆLV15-HARD‚ÌƒŒƒxƒ‹15‚ðƒ‰ƒCƒ“–³‚µT-Spin‚Å’Ê‰ß‚·‚é‚Æƒ‰ƒCƒ“‚ðÁ‚·‚Ü‚ÅƒQ[ƒ€‚ªI‚í‚ç‚È‚¢ƒoƒO‚ðC³
++GRADE MANIA 3: ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ON/OFFï¿½Å•ï¿½ï¿½ï¿½ï¿½Ä‚Ý‚ï¿½
++AI: ï¿½uT-SPINï¿½vAIï¿½ï¿½Ç‰ï¿½(ï¿½Ü‚ï¿½WIP)
++NetPlay: 1ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ÅŽnï¿½ß‚ï¿½ï¿½Æ‚ï¿½ï¿½Í—ï¿½ï¿½Kï¿½ï¿½ï¿½[ï¿½hï¿½Æ“ï¿½ï¿½lï¿½ï¿½Fï¿½{ï¿½^ï¿½ï¿½ï¿½ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½
+-NetPlay: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒtï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ÉuWIN!ï¿½vï¿½Ü‚ï¿½ï¿½Íu1ST PLACE!ï¿½vï¿½Ìƒï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½oï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+-GRADE MANIA 2/SPEED MANIA: AREï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½REï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É“ï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+-TECHNICIAN: LV15-EASYï¿½ï¿½LV15-HARDï¿½Ìƒï¿½ï¿½xï¿½ï¿½15ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½T-Spinï¿½Å’Ê‰ß‚ï¿½ï¿½ï¿½Æƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ÅƒQï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
 
 Version 6.6.0.0 (2010/04/03)
-#‚±‚Ìƒo[ƒWƒ‡ƒ“‚©‚ç6.5‚ÌƒT[ƒo[‚Æ‚ÌŒÝŠ·«‚ÍŽ¸‚í‚ê‚Ü‚·B
-+SDL/Slick/NetLobby: ƒlƒbƒgƒvƒŒƒCƒT[ƒo[‚ÌuŠÄŽ‹v‹@”\‚ð’Ç‰Á
- ƒlƒbƒgƒvƒŒƒC‚ÌƒT[ƒo[‘I‘ð‰æ–Ê‚ÅŠÄŽ‹‹@”\‚ðÝ’è‚Å‚«‚Ü‚·B
- ŠÄŽ‹‹@”\‚ð—LŒø‚É‚·‚é‚ÆAŒ»Ý‰½l‚ÌƒvƒŒƒCƒ„[‚ªƒIƒ“ƒ‰ƒCƒ“‚È‚Ì‚©‰æ–Ê‰º‚É‚¢‚Â‚Å‚à•\Ž¦‚³‚ê‚é‚æ‚¤‚É‚È‚è‚Ü‚·B
- ƒvƒŒƒCƒ„[”‚Ì•\Ž¦F‚ÍA¡Ž©•ª‚µ‚©‚¢‚È‚¢‚È‚çÂAŽ©•ªˆÈŠO‚É‚à’N‚©NullpoMino‚ð‹N“®‚µ‚Ä‚é‚¯‚Ç’N‚àƒƒr[‚É‚¢‚È‚¢‚È‚ç—Î
- ’N‚©ƒƒr[‚É‚¢‚é‚È‚çÔ‚Å•\Ž¦‚³‚ê‚Ü‚·B
-+NetPlay: ƒ‹[ƒ‹ŒÅ’è‹@”\‚ð’Ç‰Á(ƒ‹[ƒ€ì¬‰æ–Ê‚Å—LŒø‚É‚·‚é‚Æ‚Ý‚ñ‚ÈŽ©•ª‚Æ“¯‚¶ƒ‹[ƒ‹‚ÅƒvƒŒƒC‚µ‚Ü‚·)
-+NetPlay: 2l‘Îí‚Å‘ŠŽè‚ÌNEXT‚ÆHOLD•\Ž¦‚ð’Ç‰Á(‚½‚¾‚µ‚Ü‚¾ƒ‹[ƒ‹ŒÅ’è‹@”\‚ðŽg‚Á‚Ä‚¢‚é‚Æ‚«‚Ì‚Ý)
-+NetPlay: Ÿ‚¿”•\Ž¦’Ç‰Á(‚½‚¾‚µ•”‰®‚ðo‚é‚ÆƒŠƒZƒbƒg)
-+NetPlay: 5•ªˆÈãƒT[ƒo[‚©‚ç‰ž“š‚ª‚È‚¯‚ê‚ÎŽ©“®Ø’f
-+GRADE MANIA 3: ’iˆÊ”F’èŽŽŒ±ŠÖ˜A‚ÌƒfƒoƒbƒOƒƒO‚ðo—Í‚·‚é‚æ‚¤‚É
--GRADE MANIA 3: Lv999‚Ìƒ[ƒ‹‚ð¶‚«Žc‚Á‚½‚Æ‚«‚É’iˆÊ”F’èŽŽŒ±‚É‡Ši‚µ‚Ä‚à”F’è’iˆÊ‚ªXV‚³‚ê‚È‚¢ƒoƒO‚ð‚½‚Ô‚ñC³
+#ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½6.5ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Æ‚ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÍŽï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++SDL/Slick/NetLobby: ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Tï¿½[ï¿½oï¿½[ï¿½Ìuï¿½ÄŽï¿½ï¿½vï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½
+ ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½Iï¿½ï¿½ï¿½ï¿½Ê‚ÅŠÄŽï¿½ï¿½@ï¿½\ï¿½ï¿½Ý’ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ ï¿½ÄŽï¿½ï¿½@ï¿½\ï¿½ï¿½Lï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ÆAï¿½ï¿½ï¿½Ý‰ï¿½ï¿½lï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½È‚Ì‚ï¿½ï¿½ï¿½Ê‰ï¿½ï¿½É‚ï¿½ï¿½Â‚Å‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+ ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ì•\ï¿½ï¿½ï¿½Fï¿½ÍAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½ÂAï¿½ï¿½ï¿½ï¿½ï¿½ÈŠOï¿½É‚ï¿½ï¿½Nï¿½ï¿½NullpoMinoï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ä‚é‚¯ï¿½Ç’Nï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½É‚ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½ï¿½
+ ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½É‚ï¿½ï¿½ï¿½È‚ï¿½Ô‚Å•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++NetPlay: ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å’ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½(ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ì¬ï¿½ï¿½Ê‚Å—Lï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½Æ‚Ý‚ï¿½ÈŽï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Åƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ü‚ï¿½)
++NetPlay: 2ï¿½lï¿½Îï¿½Å‘ï¿½ï¿½ï¿½ï¿½NEXTï¿½ï¿½HOLDï¿½\ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Å’ï¿½@ï¿½\ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Ì‚ï¿½)
++NetPlay: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½Ç‰ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½Æƒï¿½ï¿½Zï¿½bï¿½g)
++NetPlay: 5ï¿½ï¿½ï¿½Èï¿½Tï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½ç‰žï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ÎŽï¿½ï¿½ï¿½ï¿½Ø’f
++GRADE MANIA 3: ï¿½iï¿½Ê”Fï¿½èŽŽï¿½ï¿½ï¿½Ö˜Aï¿½Ìƒfï¿½oï¿½bï¿½Oï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½
+-GRADE MANIA 3: Lv999ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ð¶‚ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½É’iï¿½Ê”Fï¿½èŽŽï¿½ï¿½ï¿½Éï¿½ï¿½iï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Fï¿½ï¿½iï¿½Ê‚ï¿½ï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½Cï¿½ï¿½
 
 Version 6.5.0.1 (2010/04/02)
-#ƒ}ƒCƒi[ƒo[ƒWƒ‡ƒ“ƒAƒbƒv‚Å‚·BƒlƒbƒgƒvƒŒƒC‹@”\‚Í6.5‚ÌƒT[ƒo[‚ÆŒÝŠ·«‚ª‚ ‚è‚Ü‚·B
-+NetLobby: ŠeƒŠƒXƒgƒ{ƒbƒNƒX‚É‰EƒNƒŠƒbƒNƒƒjƒ…[’Ç‰Á
-+NetPlay: Œ»Ý‚ÌƒvƒŒƒCƒ„[”•\Ž¦‚È‚Ç‚ðƒQ[ƒ€‰æ–Ê‚É’Ç‰Á
-+Swing/NetPlay: Swing”Å‚Å‚àƒvƒŒƒCƒ„[–¼‚ªƒQ[ƒ€‰æ–Ê‚É•\Ž¦‚³‚ê‚é‚æ‚¤‚É‚È‚Á‚½
--Slick: "test.png"‚Æ‚¢‚¤Žg‚í‚ê‚Ä‚¢‚È‚¢‰æ‘œ‚ª“Ç‚Ýž‚Ü‚ê‚Ä‚¢‚½‚Ì‚ðC³(Á‚µ–Y‚êorz)
-*GRADE MANIA 3: ~ŠiŽŽŒ±‚È‚Ç‚ÌƒoƒOC³
+#ï¿½}ï¿½Cï¿½iï¿½[ï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½Å‚ï¿½ï¿½Bï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½@ï¿½\ï¿½ï¿½6.5ï¿½ÌƒTï¿½[ï¿½oï¿½[ï¿½ÆŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
++NetLobby: ï¿½eï¿½ï¿½ï¿½Xï¿½gï¿½{ï¿½bï¿½Nï¿½Xï¿½É‰Eï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Ç‰ï¿½
++NetPlay: ï¿½ï¿½ï¿½Ý‚Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½È‚Ç‚ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚É’Ç‰ï¿½
++Swing/NetPlay: Swingï¿½Å‚Å‚ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½Ê‚É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½
+-Slick: "test.png"ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½æ‘œï¿½ï¿½ï¿½Ç‚Ýï¿½ï¿½Ü‚ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Cï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½orz)
+*GRADE MANIA 3: ï¿½~ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½È‚Ç‚Ìƒoï¿½Oï¿½Cï¿½ï¿½
 
 Version 6.5 (2010/03/31)
-+ƒlƒbƒgƒvƒŒƒC’Ç‰Á(ƒ¿”Å)
-+VS-BATTLE:Ž×–‚ƒuƒƒbƒNƒpƒ^[ƒ“‚Éu1-ATTACKv‚ð’Ç‰Á(NORMAL‚æ‚è‚àƒoƒ‰ƒoƒ‰‚É‚È‚è‚É‚­‚­ONE RISE‚æ‚è‚àƒoƒ‰ƒoƒ‰‚É‚È‚è‚â‚·‚¢)
-+VS-BATTLE:uSEvƒIƒvƒVƒ‡ƒ“’Ç‰Á(Œø‰Ê‰¹–³Œø‰»)
--GRADE MANIA 3:ŽŽŒ±‚ª”­¶‚·‚é‚Æ–Ú•W’iˆÊ‚ª•K‚¸MM‚É‚È‚éƒoƒO‚ð‚½‚Ô‚ñC³(C³’x‚­‚Ä‚²‚ß‚ñorz)
--RETRO MANIA:ƒXƒRƒAEƒ‰ƒCƒ“EƒŒƒxƒ‹‚ªƒJƒ“ƒXƒg‚µ‚È‚¢ƒoƒO‚ðC³
--SDL/Slick:Ý’è‰æ–Ê‚ÌƒƒCƒ“ƒƒjƒ…[‚Å¶‚ð‰Ÿ‚·‚Æ0P‚É‚È‚éƒoƒO‚ðC³(Poochy‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
--Core:Field.getHighestPieceY(int)‚ÆField.getValleyDepth(int)‚ÌƒoƒO‚ð‚½‚Ô‚ñC³(Poochy‚³‚ñ‚ ‚è‚ª‚Æ‚¤I)
-*Slick:ƒWƒ‡ƒCƒXƒeƒBƒbƒNÝ’è‰æ–Ê‚Ìƒ{ƒ^ƒ“”»’è•û–@‚ð•ÏX(‚à‚Á‚Æ‘½‚­‚ÌƒWƒ‡ƒCƒXƒeƒBƒbƒN‚ª“®‚­‚æ‚¤‚É‚È‚Á‚½‚©‚à)
-*Mac OS—pƒWƒ‡ƒCƒXƒeƒBƒbƒNŠÖ˜Aƒ‰ƒCƒuƒ‰ƒŠ(lib/libjinput-osx.jnilib)‚ðSnow Leopard‘Î‰ž‚Ì‚à‚Ì‚É·‚µ‘Ö‚¦
++ï¿½lï¿½bï¿½gï¿½vï¿½ï¿½ï¿½Cï¿½Ç‰ï¿½(ï¿½ï¿½ï¿½ï¿½)
++VS-BATTLE:ï¿½×–ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Éu1-ATTACKï¿½vï¿½ï¿½Ç‰ï¿½(NORMALï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½oï¿½ï¿½ï¿½É‚È‚ï¿½É‚ï¿½ï¿½ï¿½ONE RISEï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½oï¿½ï¿½ï¿½É‚È‚ï¿½â‚·ï¿½ï¿½)
++VS-BATTLE:ï¿½uSEï¿½vï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½(ï¿½ï¿½ï¿½Ê‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+-GRADE MANIA 3:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ–Ú•Wï¿½iï¿½Ê‚ï¿½ï¿½Kï¿½ï¿½MMï¿½É‚È‚ï¿½oï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½Cï¿½ï¿½(ï¿½Cï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ß‚ï¿½orz)
+-RETRO MANIA:ï¿½Xï¿½Rï¿½Aï¿½Eï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+-SDL/Slick:ï¿½Ý’ï¿½ï¿½Ê‚Ìƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½0Pï¿½É‚È‚ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½(Poochyï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+-Core:Field.getHighestPieceY(int)ï¿½ï¿½Field.getValleyDepth(int)ï¿½Ìƒoï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½Cï¿½ï¿½(Poochyï¿½ï¿½ï¿½ñ‚ ‚è‚ªï¿½Æ‚ï¿½ï¿½I)
+*Slick:ï¿½Wï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½Ý’ï¿½ï¿½Ê‚Ìƒ{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ÏX(ï¿½ï¿½ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½ï¿½ï¿½ÌƒWï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
+*Mac OSï¿½pï¿½Wï¿½ï¿½ï¿½Cï¿½Xï¿½eï¿½Bï¿½bï¿½Nï¿½Ö˜Aï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½(lib/libjinput-osx.jnilib)ï¿½ï¿½Snow Leopardï¿½Î‰ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚Éï¿½ï¿½ï¿½ï¿½Ö‚ï¿½
  (http://ariejan.net/2009/09/01/jinput-mac-os-x-64-bit-natives/)
 
 Version 6.4 (2010/03/02)
-+ƒ~ƒ…[ƒWƒbƒNƒŠƒXƒgƒGƒfƒBƒ^’Ç‰Á (‰¹Šy‚ÌÝ’è‚ªŠÈ’P‚É)
-+GEM MANIAƒ‚[ƒh’Ç‰Á (‚·‚×‚Ä‚Ì•óÎƒuƒƒbƒN‚ðÁ‚·‚ÆƒXƒe[ƒWƒNƒŠƒA)
-+MARATHON+ƒ‚[ƒh’Ç‰Á (ƒŒƒxƒ‹20‚ðƒNƒŠƒA‚·‚é‚Æƒ{[ƒiƒXƒŒƒxƒ‹oŒ»)
-+TIME ATTACK,CLASSIC MARATHON,FINALƒ‚[ƒh‚ðNullpoUE build 010210‚©‚ç’Ç‰Á
-+TIME ATTACKƒ‚[ƒh‚ðBGM‘Î‰ž
-+TIME ATTACK‚É“ïˆÕ“xBASIC’Ç‰Á
-+TIME ATTACK‚ÌHELL‚É‚æ‚è³Šm‚ÈHiddenƒMƒ~ƒbƒN‚ð’Ç‰Á
-+GRADE MANIA‚ÅGM‚É‚È‚Á‚½‚Æ‚«‚Éƒ^ƒCƒ€‚É‚æ‚Á‚ÄŒ‹‰Ê‰æ–Ê‚É•]‰¿‚ªo‚é(NullpoUE build 010210)
-+RETRO MANIA‚ÉuPOWERONvƒIƒvƒVƒ‡ƒ“‚ð’Ç‰Á (“dŒ¹ƒpƒ^[ƒ“B–ˆ‰ñ“¯‚¶‡”Ô‚ÅƒuƒƒbƒN‚ª—Ž‚¿‚Ä‚«‚Ü‚·)
-+SDL”Å‚ÆSlick”Å‚É•óÎƒuƒƒbƒN‚ðÁ‚µ‚½‚Æ‚«‚ÌƒGƒtƒFƒNƒg‚ð’Ç‰Á
--Slick”Å‚Åˆê•”ƒrƒfƒIƒJ[ƒh‚Åƒ‰ƒCƒ“Á‹ŽƒGƒtƒFƒNƒg‚ª‰»‚¯‚é‰Â”\«‚ª‚ ‚Á‚½‚Ì‚ðC³
--Swing”Å‚Å”¼“§–¾‚ÈƒuƒƒbƒN‚ª³í‚É•`‰æ‚³‚ê‚È‚¢ƒoƒO‚ðC³
++ï¿½~ï¿½ï¿½ï¿½[ï¿½Wï¿½bï¿½Nï¿½ï¿½ï¿½Xï¿½gï¿½Gï¿½fï¿½Bï¿½^ï¿½Ç‰ï¿½ (ï¿½ï¿½ï¿½yï¿½ÌÝ’è‚ªï¿½È’Pï¿½ï¿½)
++GEM MANIAï¿½ï¿½ï¿½[ï¿½hï¿½Ç‰ï¿½ (ï¿½ï¿½ï¿½×‚Ä‚Ì•ï¿½Îƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆƒXï¿½eï¿½[ï¿½Wï¿½Nï¿½ï¿½ï¿½A)
++MARATHON+ï¿½ï¿½ï¿½[ï¿½hï¿½Ç‰ï¿½ (ï¿½ï¿½ï¿½xï¿½ï¿½20ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½Æƒ{ï¿½[ï¿½iï¿½Xï¿½ï¿½ï¿½xï¿½ï¿½ï¿½oï¿½ï¿½)
++TIME ATTACK,CLASSIC MARATHON,FINALï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½NullpoUE build 010210ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
++TIME ATTACKï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½BGMï¿½Î‰ï¿½
++TIME ATTACKï¿½É“ï¿½Õ“xBASICï¿½Ç‰ï¿½
++TIME ATTACKï¿½ï¿½HELLï¿½É‚ï¿½è³ï¿½mï¿½ï¿½Hiddenï¿½Mï¿½~ï¿½bï¿½Nï¿½ï¿½Ç‰ï¿½
++GRADE MANIAï¿½ï¿½GMï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Éƒ^ï¿½Cï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ÄŒï¿½ï¿½Ê‰ï¿½Ê‚É•]ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½(NullpoUE build 010210)
++RETRO MANIAï¿½ÉuPOWERONï¿½vï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ (ï¿½dï¿½ï¿½ï¿½pï¿½^ï¿½[ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ñ“¯‚ï¿½ï¿½ï¿½ï¿½Ô‚Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½)
++SDLï¿½Å‚ï¿½Slickï¿½Å‚É•ï¿½Îƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÌƒGï¿½tï¿½Fï¿½Nï¿½gï¿½ï¿½Ç‰ï¿½
+-Slickï¿½Å‚Åˆê•”ï¿½rï¿½fï¿½Iï¿½Jï¿½[ï¿½hï¿½Åƒï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½tï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Cï¿½ï¿½
+-Swingï¿½Å‚Å”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èƒuï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É•`ï¿½æ‚³ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
 
 Version 6.3 Beta (2010/01/02)
-+CLASSIC MARATHONƒ‚[ƒh‚ÆFINALƒ‚[ƒh‚ðNullpoUE build 010210‚©‚ç’Ç‰Á
++CLASSIC MARATHONï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½FINALï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½NullpoUE build 010210ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
 
 Version 6.3 Alpha (2010/01/02)
-*ƒƒOo—Í‚Élog4j‚ðŽg‚¤‚æ‚¤‚ÉiDOS‘‹‚Ío‚È‚­‚È‚è‚Ü‚µ‚½‚ªSwing”Å‚âƒc[ƒ‹—Þ‚Å‚àŠO•”ƒ‰ƒCƒuƒ‰ƒŠ‚ª•K—v‚É‚È‚è‚Ü‚µ‚½j
-*”wŒi‚ðNullpoUE‚Ì‚à‚Ì‚É•ÏXi‘O‚Ì”wŒi‚Íres/graphics/oldbg‚É‚ ‚è‚Ü‚·j
-*ƒuƒƒbƒN‰æ‘œ‚ðNullpoUE‚Ì‚à‚Ì‚É•ÏXi‘O‚ÌƒuƒƒbƒN‚Íƒ‹[ƒ‹ƒGƒfƒBƒ^‚Å‘I‘ð‰Â”\j
-+NullpoUE build 010210‚Ìƒ‹[ƒ‹‚ð’Ç‰Á
-+RETRO MANIA, PHANTOM MANIA, SCORE ATTACKƒ‚[ƒh‚ðNullpoUE build 121909‚©‚ç’Ç‰Á
-+GRADE MANIA 3‚Å’iˆÊŽŽŒ±‚ð’Ç‰ÁiNullpoUE‚æ‚è’Ç‰Áj
-+PRACTICEƒ‚[ƒh‚Ìƒƒjƒ…[ƒfƒUƒCƒ“•ÏX
-+PRACTICEƒ‚[ƒh‚ÅLEVEL TYPE‚ªNONE‚Ì‚Æ‚«‚ÉƒS[ƒ‹‚É‚È‚éƒ‰ƒCƒ“”‚ðÝ’è‰Â”\‚É
-+PRACTICEƒ‚[ƒh‚Å[]ƒuƒƒbƒN‚ðŽg‚¤Ý’è‚ð’Ç‰Á
-+PRACTICEƒ‚[ƒh‚ÅƒŒƒxƒ‹ƒAƒbƒv‚·‚é‚ÆŽžŠÔ§ŒÀ‚ðƒŠƒZƒbƒg‚·‚éÝ’è‚ð’Ç‰Á
-+PRACTICEƒ‚[ƒh‚Å‰Šú”z’uƒtƒB[ƒ‹ƒh‚ðŽg‚¦‚é‚æ‚¤‚É
-iƒtƒB[ƒ‹ƒhƒGƒfƒBƒbƒg‰æ–Ê‚Ì‘€ì UP/DOWN/LEFT/RIGHT:ƒJ[ƒ\ƒ‹ˆÚ“® A:”z’u B:I—¹ C+LEFT/RIGHT:F‘I‘ð D:íœj
-*‘¼‚É‚à‚ ‚Á‚½‚©‚àc
+*ï¿½ï¿½ï¿½Oï¿½oï¿½Í‚ï¿½log4jï¿½ï¿½ï¿½gï¿½ï¿½ï¿½æ‚¤ï¿½ÉiDOSï¿½ï¿½ï¿½Íoï¿½È‚ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½Swingï¿½Å‚ï¿½cï¿½[ï¿½ï¿½ï¿½Þ‚Å‚ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½j
+*ï¿½wï¿½iï¿½ï¿½NullpoUEï¿½Ì‚ï¿½ï¿½Ì‚É•ÏXï¿½iï¿½Oï¿½Ì”wï¿½iï¿½ï¿½res/graphics/oldbgï¿½É‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½j
+*ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½æ‘œï¿½ï¿½NullpoUEï¿½Ì‚ï¿½ï¿½Ì‚É•ÏXï¿½iï¿½Oï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½Íƒï¿½ï¿½[ï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½^ï¿½Å‘Iï¿½ï¿½ï¿½Â”\ï¿½j
++NullpoUE build 010210ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
++RETRO MANIA, PHANTOM MANIA, SCORE ATTACKï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½NullpoUE build 121909ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
++GRADE MANIA 3ï¿½Å’iï¿½ÊŽï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½ï¿½iNullpoUEï¿½ï¿½ï¿½Ç‰ï¿½ï¿½j
++PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½Ìƒï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½fï¿½Uï¿½Cï¿½ï¿½ï¿½ÏX
++PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½LEVEL TYPEï¿½ï¿½NONEï¿½Ì‚Æ‚ï¿½ï¿½ÉƒSï¿½[ï¿½ï¿½ï¿½É‚È‚éƒ‰ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½Â”\ï¿½ï¿½
++PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½[]ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ý’ï¿½ï¿½Ç‰ï¿½
++PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½Åƒï¿½ï¿½xï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ÆŽï¿½ï¿½Ôï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ï¿½Ý’ï¿½ï¿½Ç‰ï¿½
++PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½Åï¿½ï¿½ï¿½ï¿½zï¿½uï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½
+ï¿½iï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½Gï¿½fï¿½Bï¿½bï¿½gï¿½ï¿½Ê‚Ì‘ï¿½ï¿½ï¿½ UP/DOWN/LEFT/RIGHT:ï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Ú“ï¿½ A:ï¿½zï¿½u B:ï¿½Iï¿½ï¿½ C+LEFT/RIGHT:ï¿½Fï¿½Iï¿½ï¿½ D:ï¿½íœï¿½j
+*ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½c
 
 Version 6.2 (2009/10/29)
-Swing”Å‚ªiˆê‰žj•œŠˆ
-ƒ‹[ƒ‹ƒGƒfƒBƒ^‚ÌƒuƒƒbƒN‚ÌŠG•¿‚ÌÝ’è‚ðƒRƒ“ƒ{ƒ{ƒbƒNƒX‚É•ÏX‚µA‰æ‘œ‚ðŒ©‚È‚ª‚çÝ’è‚Å‚«‚é‚æ‚¤‚É
-LWJGL‚ð2.1.0‚Éƒo[ƒWƒ‡ƒ“ƒAƒbƒvi64bit‘Î‰ž‚ð‹­‰»ELinux‚Ìamd64‚Å‚àƒTƒEƒ“ƒh‚ª“®ì‚·‚é‚æ‚¤‚Éj
-MARATHONƒ‚[ƒh‚É200ƒ‰ƒCƒ“ƒ^ƒCƒv‚ð’Ç‰Á
-MANIAŒnƒ‚[ƒh‚Åæsƒz[ƒ‹ƒh‚ðŽg‚¤‚ÆƒŒƒxƒ‹‚ª‘‚¦‚È‚¢ƒoƒO‚ðC³(Thanks Zircean)
-MANIAŒnƒ‚[ƒh‚É— ’iˆÊ‚ð’Ç‰Á(Thanks Zircean)
-PRACTICEƒ‚[ƒh‚ÅoŒ»‚·‚éƒuƒƒbƒN‚ÌÝ’è‚ð’Ç‰Ái1`3ŒÂ‚Ì¬‚³‚¢ƒuƒƒbƒN‰“oêj
-ƒGƒ‰[ƒƒO‚ª‚¿‚á‚ñ‚Æƒtƒ@ƒCƒ‹‚Éo—Í‚³‚¹‚é‚æ‚¤‚Éƒoƒbƒ`ƒtƒ@ƒCƒ‹‚ðC³
+Swingï¿½Å‚ï¿½ï¿½iï¿½ê‰žï¿½jï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½^ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Nï¿½ÌŠGï¿½ï¿½ï¿½ÌÝ’ï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½{ï¿½{ï¿½bï¿½Nï¿½Xï¿½É•ÏXï¿½ï¿½ï¿½Aï¿½æ‘œï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ý’ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½
+LWJGLï¿½ï¿½2.1.0ï¿½Éƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½bï¿½vï¿½i64bitï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ELinuxï¿½ï¿½amd64ï¿½Å‚ï¿½ï¿½Tï¿½Eï¿½ï¿½ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½Éj
+MARATHONï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½200ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½Ç‰ï¿½
+MANIAï¿½nï¿½ï¿½ï¿½[ï¿½hï¿½Åï¿½sï¿½zï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Æƒï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½(Thanks Zircean)
+MANIAï¿½nï¿½ï¿½ï¿½[ï¿½hï¿½É—ï¿½ï¿½iï¿½Ê‚ï¿½Ç‰ï¿½(Thanks Zircean)
+PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½Åoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½ï¿½i1ï¿½`3ï¿½Â‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½oï¿½ï¿½j
+ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æƒtï¿½@ï¿½Cï¿½ï¿½ï¿½Éoï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Éƒoï¿½bï¿½`ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½
 
 Version 6.1 (2009/08/20)
-Ä‚ÑMac OS X‚Å“®‚­‚æ‚¤‚É‚È‚Á‚½‚©‚à
-AI‚Åƒ}ƒ‹ƒ`ƒXƒŒƒbƒh‚ðŽg‚í‚È‚¢Ý’è€–Ú‚ð’Ç‰ÁiŽå‚ÉƒfƒoƒbƒO—pBAI‚Í‚·‚²‚­d‚¢‚Ì‚Å‘Îí‚Å‚Í“K‚µ‚Ü‚¹‚ñj
-SPEED MANIA‚ÆGARBAGE MANIA‚ÌƒGƒ“ƒfƒBƒ“ƒO‚ÅFƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‘±‚¯‚é‚ÆƒGƒ“ƒfƒBƒ“ƒO‚ÌŽc‚èŽžŠÔ‚Ì’Zk‚ª‰Â”\‚É
+ï¿½Ä‚ï¿½Mac OS Xï¿½Å“ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+AIï¿½Åƒ}ï¿½ï¿½ï¿½`ï¿½Xï¿½ï¿½ï¿½bï¿½hï¿½ï¿½ï¿½gï¿½ï¿½È‚ï¿½ï¿½Ý’è€ï¿½Ú‚ï¿½Ç‰ï¿½ï¿½iï¿½ï¿½Éƒfï¿½oï¿½bï¿½Oï¿½pï¿½BAIï¿½Í‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½ï¿½Ì‚Å‘Îï¿½Å‚Í“Kï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½j
+SPEED MANIAï¿½ï¿½GARBAGE MANIAï¿½ÌƒGï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ï¿½Fï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆƒGï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Oï¿½ÌŽcï¿½èŽžï¿½Ô‚Ì’Zï¿½kï¿½ï¿½ï¿½Â”\ï¿½ï¿½
 
 Version 6 (2009/08/17)
-‚©‚È‚è‚Ì•”•ª‚ðì‚è’¼‚µ
-TECHNICIANƒ‚[ƒh‚ÆGARBAGE MANIAƒ‚[ƒh‚ÆVS-BATTLEƒ‚[ƒh‚ð’Ç‰Á
-AI‚ð’Ç‰ÁiCONFIG>AI SETTING‚©‚çON/OFF‚ª‰Â”\‚Å‚·B‚½‚Ü‚ÉT-Spin‚Í‚·‚é‚¯‚ÇŽã‚¢j
-Slick”Å‚ÌƒQ[ƒ€ƒpƒbƒh‹@”\‚ðŽb’è•œŠˆi”»’è•û–@‚ð•¡”‚©‚ç‘I‚×‚Ü‚·j
-Swing”Å‚Í–â‘è‚¾‚ç‚¯‚È‚Ì‚Åˆê’UÁ‚µ‚Ü‚µ‚½iƒ‹[ƒ‹ƒGƒfƒBƒbƒg‹@”\‚Íƒ‹[ƒ‹ƒGƒfƒBƒ^‚Æ‚µ‚Ä“Æ—§‚µ‚Ü‚µ‚½j
+ï¿½ï¿½ï¿½È‚ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è’¼ï¿½ï¿½
+TECHNICIANï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½GARBAGE MANIAï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½VS-BATTLEï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½
+AIï¿½ï¿½Ç‰ï¿½ï¿½iCONFIG>AI SETTINGï¿½ï¿½ï¿½ï¿½ON/OFFï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½Bï¿½ï¿½ï¿½Ü‚ï¿½T-Spinï¿½Í‚ï¿½ï¿½é‚¯ï¿½ÇŽã‚¢ï¿½j
+Slickï¿½Å‚ÌƒQï¿½[ï¿½ï¿½ï¿½pï¿½bï¿½hï¿½@ï¿½\ï¿½ï¿½ï¿½bï¿½è•œï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ð•¡ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½×‚Ü‚ï¿½ï¿½j
+Swingï¿½Å‚Í–ï¿½è‚¾ï¿½ç‚¯ï¿½È‚Ì‚Åˆï¿½Uï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½bï¿½gï¿½@ï¿½\ï¿½Íƒï¿½ï¿½[ï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½^ï¿½Æ‚ï¿½ï¿½Ä“Æ—ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½j
 
 Version 5.5 (2008/12/30)
-SCORE RACEƒ‚[ƒh‚ð’Ç‰Á
-Œø‰Ê‰¹‚Æ‰¹Šy‚Ì‰¹—Ê‚ð•Ï‚¦‚éÝ’è‚ð’Ç‰Á
-ƒRƒ“ƒ{‚µ‚½‚Æ‚«‚ÌŒø‰Ê‰¹‚ð’Ç‰Á
-SDL”Å‚Å‚àBGM‚ÌƒtƒF[ƒhƒAƒEƒg‚ª³í“®ì‚·‚é‚æ‚¤‚ÉC³
+SCORE RACEï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½
+ï¿½ï¿½ï¿½Ê‰ï¿½ï¿½Æ‰ï¿½ï¿½yï¿½Ì‰ï¿½ï¿½Ê‚ï¿½Ï‚ï¿½ï¿½ï¿½Ý’ï¿½ï¿½Ç‰ï¿½
+ï¿½Rï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÌŒï¿½ï¿½Ê‰ï¿½ï¿½ï¿½Ç‰ï¿½
+SDLï¿½Å‚Å‚ï¿½BGMï¿½Ìƒtï¿½Fï¿½[ï¿½hï¿½Aï¿½Eï¿½gï¿½ï¿½ï¿½ï¿½ï¿½í“®ï¿½ì‚·ï¿½ï¿½æ‚¤ï¿½ÉCï¿½ï¿½
 
 Version 5.4+ (2008/11/29)
-SDLƒo[ƒWƒ‡ƒ“‚ð’Ç‰Á
-ƒQ[ƒ€ƒGƒ“ƒWƒ“‚É•ÏX‚Í‚È‚¢‚Ì‚Åƒo[ƒWƒ‡ƒ“•\‹L‚Í5.4‚Ì‚Ü‚Ü‚Å‚·B
+SDLï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
+ï¿½Qï¿½[ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½Wï¿½ï¿½ï¿½É•ÏXï¿½Í‚È‚ï¿½ï¿½Ì‚Åƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½Lï¿½ï¿½5.4ï¿½Ì‚Ü‚Ü‚Å‚ï¿½ï¿½B
 
 Version 5.4 (2008/11/25)
-GRADE MANIA 3ƒ‚[ƒh‚ÆSPEED MANIA 2ƒ‚[ƒh‚ð’Ç‰Á
-ƒ‰ƒCƒ“Á‹ŽƒGƒtƒFƒNƒg‚ð’Ç‰Ái‚Ü‚¾Slick”Å‚Ì‚ÝBCONFIG‰æ–Ê‚ÅOFF‚É‚Å‚«‚Ü‚·j
-Slick”Å‚É‚àƒvƒŒƒC’†‚Ìƒ‚[ƒh–¼‚ðƒ^ƒCƒgƒ‹ƒo[‚É•\Ž¦‚·‚é‹@”\‚ð’Ç‰Á
+GRADE MANIA 3ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½SPEED MANIA 2ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½
+ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½tï¿½Fï¿½Nï¿½gï¿½ï¿½Ç‰ï¿½ï¿½iï¿½Ü‚ï¿½Slickï¿½Å‚Ì‚ÝBCONFIGï¿½ï¿½Ê‚ï¿½OFFï¿½É‚Å‚ï¿½ï¿½Ü‚ï¿½ï¿½j
+Slickï¿½Å‚É‚ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½oï¿½[ï¿½É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½
 
 Version 5.3 (2008/10/29)
-‰¡—­‚ßŽü‚è‚Ìˆ—‚ð•ÏX
-CLASSICŒn‚Ìƒ‹[ƒ‹‚ÅBIGƒ‚[ƒh‚Å‚Ì•ÇR‚è‚ÌŽd—l‚ð•ÏXi1ƒ}ƒX‚¾‚¯‚¸‚ê‚½‚Ü‚Ü•ÇR‚è‚·‚é‚Æ•ÇR‚èŒã‚à‚¸‚ê‚½‚Ü‚Ü‚É‚È‚è‚Ü‚·j
-ƒuƒƒbƒN‚ÌoŒ»ˆÊ’u‚ð•â³‚·‚éƒIƒvƒVƒ‡ƒ“‚ðƒ‹[ƒ‹ƒJƒXƒ^ƒ}ƒCƒY‰æ–Ê‚É’Ç‰Á
-ƒŠƒvƒŒƒC’Ç‹L‹@”\‚ð’Ç‰ÁiƒŠƒvƒŒƒC’†‚Éƒ|[ƒY‚µ‚ÄDƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚ÆŽ©•ª‚ÅƒvƒŒƒC‚Å‚«‚Ü‚·B‚½‚¾‚µ‰ü•Ï‚µ‚½ƒŠƒvƒŒƒCƒtƒ@ƒCƒ‹‚Í­‚µƒTƒCƒY‚ª‘‚¦‚Ü‚·cj
+ï¿½ï¿½ï¿½ï¿½ï¿½ßŽï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½ÏX
+CLASSICï¿½nï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½BIGï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Ì•ÇRï¿½ï¿½ÌŽdï¿½lï¿½ï¿½ÏXï¿½i1ï¿½}ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Ü‚Ü•ÇRï¿½è‚·ï¿½ï¿½Æ•ÇRï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Ü‚Ü‚É‚È‚ï¿½Ü‚ï¿½ï¿½j
+ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½Ìoï¿½ï¿½ï¿½Ê’uï¿½ï¿½â³ï¿½ï¿½ï¿½ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½ï¿½Ê‚É’Ç‰ï¿½
+ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Ç‹Lï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½iï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Éƒ|ï¿½[ï¿½Yï¿½ï¿½ï¿½ï¿½Dï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽï¿½ï¿½ï¿½ï¿½Åƒvï¿½ï¿½ï¿½Cï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Íï¿½ï¿½ï¿½ï¿½Tï¿½Cï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½cï¿½j
 
 Version 5.2 (2008/10/05)
-Slick”Å‚ÅŒø‰Ê‰¹‚ÌƒfƒtƒHƒ‹ƒg‚ðOFF‚É•ÏXiOpenAL‚ª–³‚¢ŠÂ‹«‚Å‚à“®‚©‚¹‚é‚æ‚¤‚Éj
-Slick”Å‚É‚àÅ‘åFPS‚ÌÝ’è‚ð’Ç‰Á
-ƒtƒŒ[ƒ€ƒXƒeƒbƒv‹@”\‚ð’Ç‰ÁiÝ’è‰æ–Ê‚ÌFRAME STEP‚ðON‚É‚·‚é‚Æƒ|[ƒY’†‚ÉFƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚Æ1ƒtƒŒ[ƒ€‚¾‚¯ƒQ[ƒ€‚ªi‚Ý‚Ü‚·j
-PRACTICE‚ÅƒNƒŠƒAƒŒƒxƒ‹‚ðÝ’è‚Å‚«‚é‹@”\‚ð’Ç‰Á
-ƒz[ƒ‹ƒh‚ðŽg—p‚µ‚½‚Æ‚«‚É1ƒtƒŒ[ƒ€•ª–³‘Ê‚ÈŽžŠÔ‚ª”­¶‚µ‚Ä‚µ‚Ü‚¤ƒoƒO‚ðC³
-ƒuƒƒbƒN‚ðŒÅ’è‚µ‚½‚Æ‚«‚ÌŒõ‚éŽžŠÔ‚ªÝ’è‚æ‚è‚à1ƒtƒŒ[ƒ€’Z‚­‚È‚Á‚Ä‚¢‚éƒoƒO‚ðC³
+Slickï¿½Å‚ÅŒï¿½ï¿½Ê‰ï¿½ï¿½Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½OFFï¿½É•ÏXï¿½iOpenALï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‹ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Éj
+Slickï¿½Å‚É‚ï¿½ï¿½Å‘ï¿½FPSï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½
+ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Xï¿½eï¿½bï¿½vï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½ï¿½iï¿½Ý’ï¿½ï¿½Ê‚ï¿½FRAME STEPï¿½ï¿½ONï¿½É‚ï¿½ï¿½ï¿½Æƒ|ï¿½[ï¿½Yï¿½ï¿½ï¿½ï¿½Fï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½Ý‚Ü‚ï¿½ï¿½j
+PRACTICEï¿½ÅƒNï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½Ý’ï¿½Å‚ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½
+ï¿½zï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½1ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ÈŽï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½Å’è‚µï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÌŒï¿½ï¿½éŽžï¿½Ô‚ï¿½ï¿½Ý’ï¿½ï¿½ï¿½ï¿½1ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
 
 Version 5.1 (2008/09/19)
-BIGƒ‚[ƒh’Ç‰ÁiƒuƒƒbƒNƒs[ƒX‚Ì‘å‚«‚³2”{j
-PRACTICEƒ‚[ƒh‚ÅƒŒƒxƒ‹ƒ^ƒCƒv‚ð‘I‘ð‚Å‚«‚é‚æ‚¤‚É
-æs‰ñ“]‚ð”FŽ¯‚µ‚È‚¢‚±‚Æ‚ª‚ ‚éƒoƒO‚ð‚½‚Ô‚ñC³
+BIGï¿½ï¿½ï¿½[ï¿½hï¿½Ç‰ï¿½ï¿½iï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½sï¿½[ï¿½Xï¿½Ì‘å‚«ï¿½ï¿½2ï¿½{ï¿½j
+PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½Åƒï¿½ï¿½xï¿½ï¿½ï¿½^ï¿½Cï¿½vï¿½ï¿½Iï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½
+ï¿½ï¿½sï¿½ï¿½]ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½Cï¿½ï¿½
 
 Version 5.0 (2008/09/12)
-•ÏX“_‚ ‚è‚·‚¬‚ÄŽv‚¢o‚¹‚È‚¢orz
-Swingƒo[ƒWƒ‡ƒ“’Ç‰Á
-ƒ‹[ƒ‹ƒJƒXƒ^ƒ}ƒCƒY‹@”\’Ç‰Á
-ƒŠƒvƒŒƒC‚ÌŽd—l•ÏXi‰ß‹Ž‚Ìƒo[ƒWƒ‡ƒ“‚ÆŒÝŠ·«‚Í‚ ‚è‚Ü‚¹‚ñj
-ƒŠƒvƒŒƒC‚ÉƒXƒRƒA‚âƒ^ƒCƒ€‚ð‹L˜^‚·‚é‚æ‚¤‚Éi‚Ü‚¾Žg‚Á‚Ä‚Í‚È‚¢‚Å‚·‚ªj
-ƒQ[ƒ€ƒpƒbƒh‚ÉÚ‚µ‚¢l‚ªŒ»‚ê‚é‚Ü‚ÅƒQ[ƒ€ƒpƒbƒh”pŽ~
-Šeƒ‚[ƒh‚ÉŠÈ’P‚Èƒ‰ƒ“ƒLƒ“ƒO‚ð’Ç‰Á
+ï¿½ÏXï¿½_ï¿½ï¿½ï¿½è‚·ï¿½ï¿½ï¿½ÄŽvï¿½ï¿½ï¿½oï¿½ï¿½ï¿½È‚ï¿½orz
+Swingï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
+ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Jï¿½Xï¿½^ï¿½}ï¿½Cï¿½Yï¿½@ï¿½\ï¿½Ç‰ï¿½
+ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ÌŽdï¿½lï¿½ÏXï¿½iï¿½ß‹ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ÆŒÝŠï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½j
+ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ÉƒXï¿½Rï¿½Aï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½^ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½Éiï¿½Ü‚ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚Í‚È‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½j
+ï¿½Qï¿½[ï¿½ï¿½ï¿½pï¿½bï¿½hï¿½ÉÚ‚ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ÅƒQï¿½[ï¿½ï¿½ï¿½pï¿½bï¿½hï¿½pï¿½~
+ï¿½eï¿½ï¿½ï¿½[ï¿½hï¿½ÉŠÈ’Pï¿½Èƒï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Oï¿½ï¿½Ç‰ï¿½
 
 Version 4 (2008/08/10)
-SPEED MANIAƒ‚[ƒh‚ð’Ç‰Á
-ƒQ[ƒ€ƒpƒbƒh‚Ì\Žšƒ{ƒ^ƒ“‚Ì”»’è•û–@‚ð‚Ü‚½•ÏX
-ƒGƒ‰[ƒƒO‚ðlog.txt‚Éo—Í‚·‚é‚æ‚¤‚Éplay.bat‚ð•ÏXi•s³I—¹‚µ‚½‚çlog.txt‚ð‚Ç‚Á‚©“K“–‚ÈƒAƒbƒvƒ[ƒ_[‚Éã‚°‚Ä•ñ‚µ‚Ä‚­‚¾‚³‚¢j
+SPEED MANIAï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½
+ï¿½Qï¿½[ï¿½ï¿½ï¿½pï¿½bï¿½hï¿½Ì\ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ÏX
+ï¿½Gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Oï¿½ï¿½log.txtï¿½Éoï¿½Í‚ï¿½ï¿½ï¿½æ‚¤ï¿½ï¿½play.batï¿½ï¿½ÏXï¿½iï¿½sï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½log.txtï¿½ï¿½ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½Kï¿½ï¿½ï¿½ÈƒAï¿½bï¿½vï¿½ï¿½ï¿½[ï¿½_ï¿½[ï¿½Éã‚°ï¿½Ä•ñ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½j
 
 Version 3 (2008/08/05)
-ƒQ[ƒ€ƒpƒbƒh‚Ì\Žšƒ{ƒ^ƒ“‚Ì”»’è•û–@‚ð•ÏXi‚Ç‚¤‚â‚çƒ{ƒ^ƒ“‚¶‚á‚È‚­‚ÄƒXƒeƒBƒbƒN‚Å‚È‚¢‚Æ”FŽ¯‚µ‚È‚¢‚Á‚Û‚¢‚Ì‚Åj
-GRADE MANIA 2ƒ‚[ƒh‚ð’Ç‰Á
-PRACTICEƒ‚[ƒh‚ð’Ç‰Ái¡‚Ì‚Æ‚±‚ë‚½‚¾‚ÌŽžŠÔ–³§ŒÀ”ÅULTRAƒ‚[ƒhj
-ƒŠƒvƒŒƒC‚Ì—Ê‚ª‘‚¦‚é‚Æ‰æ–Ê‰º‚Ìƒ‹[ƒ‹–¼‚Æƒ‚[ƒh–¼‚Ì•¶Žš‚Éd‚È‚éƒoƒO‚ðC³
-‘¼‚É‚à‚¢‚ë‚¢‚ë‚â‚Á‚½‹C‚ª‚·‚é‚¯‚Ç–Y‚ê‚½orz
+ï¿½Qï¿½[ï¿½ï¿½ï¿½pï¿½bï¿½hï¿½Ì\ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ÏXï¿½iï¿½Ç‚ï¿½ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ÄƒXï¿½eï¿½Bï¿½bï¿½Nï¿½Å‚È‚ï¿½ï¿½Æ”Fï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Ì‚Åj
+GRADE MANIA 2ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½
+PRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½Ç‰ï¿½ï¿½iï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ë‚½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½Ô–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ULTRAï¿½ï¿½ï¿½[ï¿½hï¿½j
+ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Ì—Ê‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‰ï¿½Ê‰ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Æƒï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½Édï¿½È‚ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
+ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ë‚¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½é‚¯ï¿½Ç–Yï¿½ê‚½orz
 
 Version 2 (2008/07/29)
-‰æ–Ê¶‰º‚ÌFPS•\Ž¦‚ðÁ‚·Ý’è‚ðGAME OPTIONS‚É’Ç‰Á
-GRADE MANIAƒ‚[ƒh‚ÉuLVSTOPSEv‚ÌÝ’è‚ð’Ç‰ÁiON‚É‚·‚é‚ÆLV*99‚¨‚æ‚ÑLV998‚É“ž’B‚µ‚½‚Æ‚«‚Élevelstop.wav‚ª–Â‚è‚Ü‚·j
-Šeƒ‚[ƒh‚ÌƒvƒŒƒC‰æ–Ê‚Éƒ‚[ƒh–¼‚Ì•\Ž¦‚ð’Ç‰Á
-ƒtƒB[ƒ‹ƒh‚ðˆÍ‚ÞƒtƒŒ[ƒ€‚ÌF‚ªƒ‚[ƒh‚É‚æ‚Á‚Ä•Ï‚í‚é‚æ‚¤‚É
-ƒQ[ƒ€ƒpƒbƒh‚Ì\Žšƒ{ƒ^ƒ“‚ð”FŽ¯‚µ‚È‚¢ƒoƒO‚ð‚½‚Ô‚ñC³
-GRADE MANIAƒ‚[ƒh‚Åƒz[ƒ‹ƒh‚ðŽg—p‚µ‚½‚Æ‚«‚É‚àƒŒƒxƒ‹‚ª‘‚¦‚Ä‚µ‚Ü‚¤ƒoƒO‚ðC³
+ï¿½ï¿½Êï¿½ï¿½ï¿½ï¿½ï¿½FPSï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½ï¿½GAME OPTIONSï¿½É’Ç‰ï¿½
+GRADE MANIAï¿½ï¿½ï¿½[ï¿½hï¿½ÉuLVSTOPSEï¿½vï¿½ÌÝ’ï¿½ï¿½Ç‰ï¿½ï¿½iONï¿½É‚ï¿½ï¿½ï¿½ï¿½LV*99ï¿½ï¿½ï¿½ï¿½ï¿½LV998ï¿½É“ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½levelstop.wavï¿½ï¿½ï¿½Â‚ï¿½Ü‚ï¿½ï¿½j
+ï¿½eï¿½ï¿½ï¿½[ï¿½hï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½Ê‚Éƒï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ì•\ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
+ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½Í‚Þƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ÌFï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½É‚ï¿½ï¿½ï¿½Ä•Ï‚ï¿½ï¿½æ‚¤ï¿½ï¿½
+ï¿½Qï¿½[ï¿½ï¿½ï¿½pï¿½bï¿½hï¿½Ì\ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½Cï¿½ï¿½
+GRADE MANIAï¿½ï¿½ï¿½[ï¿½hï¿½Åƒzï¿½[ï¿½ï¿½ï¿½hï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½oï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½
 
-Version 1.01 (2008/07/29) ¦ƒoƒCƒiƒŠEƒ\[ƒX‚É•ÏX‚Í‚ ‚è‚Ü‚¹‚ñB•\Ž¦‚ÍVersion 1‚Ì‚Ü‚Ü‚Å‚·B
-ƒQ[ƒ€ƒpƒbƒh‚ðŽg—p‚·‚é‚½‚ß‚É•K—v‚Èƒ‰ƒCƒuƒ‰ƒŠ‚ð“ü‚ê‚Ä‚È‚©‚Á‚½‚Ì‚ðC³
-Linux‚ÆMac‚ð“®‚©‚·•û–@‚ðreadme‚É’Ç‰Á
-‰pŒê”Åreadme‚ð’Ç‰Á
+Version 1.01 (2008/07/29) ï¿½ï¿½ï¿½oï¿½Cï¿½iï¿½ï¿½ï¿½Eï¿½\ï¿½[ï¿½Xï¿½É•ÏXï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½\ï¿½ï¿½ï¿½ï¿½Version 1ï¿½Ì‚Ü‚Ü‚Å‚ï¿½ï¿½B
+ï¿½Qï¿½[ï¿½ï¿½ï¿½pï¿½bï¿½hï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½é‚½ï¿½ß‚É•Kï¿½vï¿½Èƒï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Cï¿½ï¿½
+Linuxï¿½ï¿½Macï¿½ð“®‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½readmeï¿½É’Ç‰ï¿½
+ï¿½pï¿½ï¿½ï¿½readmeï¿½ï¿½Ç‰ï¿½
 
 Version 1 (2008/07/27)
-‰ŒöŠJi‚Ü‚¾‚Ü‚¾ƒeƒXƒg”Åj
+ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½iï¿½Ü‚ï¿½ï¿½Ü‚ï¿½ï¿½eï¿½Xï¿½gï¿½Åj
 
-yTODOz
-E‚Ü‚Æ‚à‚Èà–¾‘‚ðì‚é
-ECONFIG‰æ–Ê‚ÌÝ’è€–Ú‚Ìà–¾‚ðì‚é
-ESwing”Å‚ð‚È‚É‚©‚Ü‚Æ‚à‚È•Ê‚Ì‚à‚Ì‚É‚·‚é
-EPRACTICEƒ‚[ƒh‚ÌÝ’è€–Ú‚ð‘‚â‚·
-EAI‚ð‹­‚­‚·‚é
-EƒpƒYƒ‹ƒ‚[ƒh
-Ereadme_en.txt‚ÌTODO‚àŒ©‚Ä‚Ë
+ï¿½yTODOï¿½z
+ï¿½Eï¿½Ü‚Æ‚ï¿½ï¿½Èï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ECONFIGï¿½ï¿½Ê‚ÌÝ’è€ï¿½Ú‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ESwingï¿½Å‚ï¿½ï¿½È‚É‚ï¿½ï¿½Ü‚Æ‚ï¿½ï¿½È•Ê‚Ì‚ï¿½ï¿½Ì‚É‚ï¿½ï¿½ï¿½
+ï¿½EPRACTICEï¿½ï¿½ï¿½[ï¿½hï¿½ÌÝ’è€ï¿½Ú‚ð‘‚â‚·
+ï¿½EAIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½Eï¿½pï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½h
+ï¿½Ereadme_en.txtï¿½ï¿½TODOï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½

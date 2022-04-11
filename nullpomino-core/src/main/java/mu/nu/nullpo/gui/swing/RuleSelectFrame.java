@@ -48,6 +48,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 
 import mu.nu.nullpo.game.play.GameEngine;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 
 import org.apache.log4j.Logger;
@@ -206,7 +207,7 @@ public class RuleSelectFrame extends JFrame implements ActionListener {
 	 * @return Rule file list. null if directory doesn't exist.
 	 */
 	private String[] getRuleFileList() {
-		File dir = new File("config/rule");
+		File dir = new File(Constants.CONFIG_BASE_PATH + "/rule");
 
 		FilenameFilter filter = new FilenameFilter() {
 			public boolean accept(File dir1, String name) {
@@ -234,13 +235,13 @@ public class RuleSelectFrame extends JFrame implements ActionListener {
 		for(int i = 0; i < filelist.length; i++) {
 			RuleEntry entry = new RuleEntry();
 
-			File file = new File("config/rule/" + filelist[i]);
+			File file = new File(Constants.CONFIG_BASE_PATH + "/rule/" + filelist[i]);
 			entry.filename = filelist[i];
 			entry.filepath = file.getPath();
 
 			CustomProperties prop = new CustomProperties();
 			try {
-				FileInputStream in = new FileInputStream("config/rule/" + filelist[i]);
+				FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/rule/" + filelist[i]);
 				prop.load(in);
 				in.close();
 				entry.rulename = prop.getProperty("0.ruleopt.strRuleName", "");

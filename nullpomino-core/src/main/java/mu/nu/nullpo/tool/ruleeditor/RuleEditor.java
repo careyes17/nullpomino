@@ -78,6 +78,7 @@ import mu.nu.nullpo.game.component.Block;
 import mu.nu.nullpo.game.component.Piece;
 import mu.nu.nullpo.game.component.RuleOptions;
 import mu.nu.nullpo.game.play.GameEngine;
+import mu.nu.nullpo.util.Constants;
 import mu.nu.nullpo.util.CustomProperties;
 
 import org.apache.log4j.Logger;
@@ -496,7 +497,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 		// Read configuration file
 		propConfig = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/setting/swing.cfg");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/setting/swing.cfg");
 			propConfig.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -504,7 +505,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 		// Read language file
 		propLangDefault = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/ruleeditor_default.properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/ruleeditor_default.properties");
 			propLangDefault.load(in);
 			in.close();
 		} catch (IOException e) {
@@ -513,7 +514,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 
 		propLang = new CustomProperties();
 		try {
-			FileInputStream in = new FileInputStream("config/lang/ruleeditor_" + Locale.getDefault().getCountry() + ".properties");
+			FileInputStream in = new FileInputStream(Constants.CONFIG_BASE_PATH + "/lang/ruleeditor_" + Locale.getDefault().getCountry() + ".properties");
 			propLang.load(in);
 			in.close();
 		} catch(IOException e) {}
@@ -674,7 +675,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 		JLabel lRandomizer = new JLabel(getUIText("Basic_Randomizer"));
 		pRandomizer.add(lRandomizer);
 
-		vectorRandomizer = getTextFileVector("config/list/randomizer.lst");
+		vectorRandomizer = getTextFileVector(Constants.CONFIG_BASE_PATH + "/list/randomizer.lst");
 		comboboxRandomizer = new JComboBox(createShortStringVector(vectorRandomizer));
 		comboboxRandomizer.setPreferredSize(new Dimension(200, 30));
 		pRandomizer.add(comboboxRandomizer);
@@ -862,7 +863,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 		JLabel lWallkickSystem = new JLabel(getUIText("Rotate_WallkickSystem"));
 		pWallkickSystem.add(lWallkickSystem);
 
-		vectorWallkickSystem = getTextFileVector("config/list/wallkick.lst");
+		vectorWallkickSystem = getTextFileVector(Constants.CONFIG_BASE_PATH + "/list/wallkick.lst");
 		comboboxWallkickSystem = new JComboBox(createShortStringVector(vectorWallkickSystem));
 		comboboxWallkickSystem.setPreferredSize(new Dimension(200, 30));
 		pWallkickSystem.add(comboboxWallkickSystem);
@@ -1766,7 +1767,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 			readRuleToUI(new RuleOptions());
 		} else if(e.getActionCommand() == "Open") {
 			// Open
-			JFileChooser c = new JFileChooser(System.getProperty("user.dir") + "/config/rule");
+			JFileChooser c = new JFileChooser(System.getProperty("user.dir") + "Constants.CONFIG_BASE_PATH + //rule");
 			c.setFileFilter(new FileFilterRUL());
 
 			if(c.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
@@ -1798,7 +1799,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 			}
 		} else if((e.getActionCommand() == "Save") || (e.getActionCommand() == "SaveAs")) {
 			// NameSave
-			JFileChooser c = new JFileChooser(System.getProperty("user.dir") + "/config/rule");
+			JFileChooser c = new JFileChooser(System.getProperty("user.dir") + "Constants.CONFIG_BASE_PATH + //rule");
 			c.setFileFilter(new FileFilterRUL());
 
 			if(c.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
@@ -1832,7 +1833,7 @@ public class RuleEditor extends JFrame implements ActionListener {
 	 * @param args CommandLinesArgumentcount
 	 */
 	public static void main(String[] args) {
-		PropertyConfigurator.configure("config/etc/log.cfg");
+		PropertyConfigurator.configure(Constants.CONFIG_BASE_PATH + "/etc/log.cfg");
 		log.debug("RuleEditor start");
 
 		if(args.length > 0) {

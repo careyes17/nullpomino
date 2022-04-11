@@ -6,7 +6,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>./nullpomino-core</module>
-		<module>./nullpomino-run</module>
 	</modules>
 
 	<dependencies>
