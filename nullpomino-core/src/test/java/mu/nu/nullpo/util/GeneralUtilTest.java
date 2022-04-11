@@ -150,14 +150,7 @@ class GeneralUtilTest {
 
 	@Test
 	void returnsOffForFalse() {
-		boolean bool = true;
-		assertEquals("ON", GeneralUtil.getONorOFF(bool));
-	}
-
-	@Test
-	void correctlyFormattedReplayFilenameIsCreated() {
-		String expectedFormat = "yyyy_MM_dd_HH_mm_ss";
-		String createdFilename = GeneralUtil.createReplayFilename();
-		assertTrue(GeneralUtil.validateDateFormat(expectedFormat, createdFilename));
+		boolean bool = false;
+		assertEquals("OFF", GeneralUtil.getONorOFF(bool));
 	}
 }

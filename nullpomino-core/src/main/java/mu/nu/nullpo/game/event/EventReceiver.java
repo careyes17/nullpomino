@@ -32,6 +32,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 import org.apache.log4j.Logger;
 
@@ -39,7 +42,6 @@ import mu.nu.nullpo.game.component.Block;
 import mu.nu.nullpo.game.play.GameEngine;
 import mu.nu.nullpo.game.play.GameManager;
 import mu.nu.nullpo.util.CustomProperties;
-import mu.nu.nullpo.util.GeneralUtil;
 
 /**
  * Drawing and event handling EventReceiver
@@ -1218,6 +1220,17 @@ public class EventReceiver {
 	public void lineClearEnd(GameEngine engine, int playerID) {}
 
 	/**
+	 * Creates the filename for a replay
+	 * @return filename for a replay
+	 */
+	private String createReplayFilename() {
+		Calendar c = Calendar.getInstance();
+		DateFormat dfm = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+		String filename = dfm.format(c.getTime()) + ".rep";
+		return filename;
+	}
+
+	/**
 	 * Called when saving replay
 	 * @param owner GameManager
 	 * @param prop CustomProperties where the replay is going to stored
@@ -1231,8 +1244,7 @@ public class EventReceiver {
 	 * @param foldername Replay folder name
 	 */
 	public void saveReplay(GameManager owner, CustomProperties prop, String foldername) {
-
-		String filename = foldername + "/" + GeneralUtil.createReplayFilename();
+		String filename = foldername + "/" + createReplayFilename();
 		try {
 			File repfolder = new File(foldername);
 			if (!repfolder.exists()) {
