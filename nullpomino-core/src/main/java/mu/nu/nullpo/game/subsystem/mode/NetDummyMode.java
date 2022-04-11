@@ -1158,7 +1158,7 @@ public class NetDummyMode extends AbstractMode implements NetLobbyListener {
 					String strDate = "----/--/-- --:--:--";
 					Calendar calendar = netRankingDate[d].get(netRankingCursor[d]);
 					if(calendar != null) {
-						strDate = GeneralUtil.getDateAndTime(calendar, TimeZone.getDefault());
+						strDate = GeneralUtil.getDateAndTime(calendar);
 					}
 					receiver.drawMenuFont(engine, playerID, 1, 25, "DATE:" + strDate, EventReceiver.COLOR_CYAN);
 
