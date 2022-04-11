@@ -224,7 +224,7 @@ public class GeneralUtil {
 
 		try {
 			randomizerClass = Class.forName(filename);
-			randomizerObject = (Randomizer) randomizerClass.newInstance();
+			randomizerObject = (Randomizer) randomizerClass.getDeclaredConstructor().newInstance();
 		} catch (Exception e) {
 			log.warn("Failed to load Randomizer from " + filename, e);
 		}
@@ -243,7 +243,7 @@ public class GeneralUtil {
 
 		try {
 			wallkickClass = Class.forName(filename);
-			wallkickObject = (Wallkick) wallkickClass.newInstance();
+			wallkickObject = (Wallkick) wallkickClass.getDeclaredConstructor().newInstance();
 		} catch (Exception e) {
 			log.warn("Failed to load Wallkick from " + filename, e);
 		}
@@ -262,7 +262,7 @@ public class GeneralUtil {
 
 		try {
 			aiClass = Class.forName(filename);
-			aiObject = (DummyAI) aiClass.newInstance();
+			aiObject = (DummyAI) aiClass.getDeclaredConstructor().newInstance();
 		} catch (Exception e) {
 			log.warn("Failed to load AIPlayer from " + filename, e);
 		}

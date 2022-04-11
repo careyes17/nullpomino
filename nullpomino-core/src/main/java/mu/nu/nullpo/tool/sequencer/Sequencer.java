@@ -426,7 +426,7 @@ public class Sequencer extends JFrame implements ActionListener {
 
 		try {
 			randomizerClass = Class.forName(name);
-			randomizerObject = (Randomizer) randomizerClass.newInstance();
+			randomizerObject = (Randomizer) randomizerClass.getDeclaredConstructor().newInstance();
 			randomizerObject.setState(nextPieceEnable, getLongTextField(txtfldSeed));
 			sequence = new int[getIntTextField(txtfldSeqLength)];
 			for (int i = 0; i < getIntTextField(txtfldSeqOffset); i++) {

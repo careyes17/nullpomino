@@ -125,36 +125,23 @@ public class RanksAI extends DummyAI implements Runnable {
 			this.distanceToSet=0;
 			int [] surface= new int[ranks.getStackWidth()-1];
 			int maxJump=ranks.getMaxJump();
-			int nbstep=0;
-			int correctedSteepStep=0;
-			int indexSteepStep=0;
-			boolean isCliff=true;
 
 			for (int i=0;i<ranks.getStackWidth()-1;i++){
 				int diff=heights[i+1]-heights[i];
 			
 				if (diff>maxJump){	
-					
-					nbstep++;	
-					
-						this.distanceToSet+=(diff-maxJump);
+					this.distanceToSet+=(diff-maxJump);
 					diff=maxJump;
-					
-
-
 				}
+
 				if (diff<-maxJump){
-					
-						nbstep++;
-						distanceToSet-=(diff+maxJump);
-
+					distanceToSet-=(diff+maxJump);
 					diff=-maxJump;
-
-
 				}
 				surface[i]=diff;
 			}
-			log.debug("new surface ="+Arrays.toString(surface));
+			
+			log.debug("new surface ="+ Arrays.toString(surface));
 
 			int	surfaceNb=ranks.encode(surface);
 			

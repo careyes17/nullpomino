@@ -195,7 +195,7 @@ public class ModeManager {
 
 			try {
 				modeClass = Class.forName(name);
-				modeObject = (GameMode) modeClass.newInstance();
+				modeObject = (GameMode) modeClass.getDeclaredConstructor().newInstance();
 				modelist.add(modeObject);
 			} catch(ClassNotFoundException e) {
 				log.warn("Mode class " + name + " not found", e);
@@ -230,7 +230,7 @@ public class ModeManager {
 
 				try {
 					modeClass = Class.forName(name);
-					modeObject = (GameMode) modeClass.newInstance();
+					modeObject = (GameMode) modeClass.getDeclaredConstructor().newInstance();
 					modelist.add(modeObject);
 				} catch(ClassNotFoundException e) {
 					log.warn("Mode class " + name + " not found", e);

@@ -216,7 +216,7 @@ public class AISelectFrame extends JFrame implements ActionListener {
 
 			try {
 				aiClass = Class.forName(aiPath[i]);
-				aiObj = (AIPlayer) aiClass.newInstance();
+				aiObj = (AIPlayer) aiClass.getDeclaredConstructor().newInstance();
 				aiName[i] = aiObj.getName();
 			} catch(ClassNotFoundException e) {
 				log.warn("AI class " + aiPath[i] + " not found", e);

@@ -173,7 +173,7 @@ public class StateConfigAISelect extends BaseGameState {
 
 			try {
 				aiClass = Class.forName(aiPath[i]);
-				aiObj = (AIPlayer) aiClass.newInstance();
+				aiObj = (AIPlayer) aiClass.getDeclaredConstructor().newInstance();
 				aiName[i] = aiObj.getName();
 			} catch(ClassNotFoundException e) {
 				log.error("AI class " + aiPath[i] + " not found", e);
