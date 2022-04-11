@@ -82,17 +82,6 @@ public class GeneralUtil {
 	}
 
 	/**
-	 * Fetches the filename for a replay
-	 * @return Replay's filename
-	 */
-	public static String createReplayFilename() {
-		Calendar c = Calendar.getInstance();
-		DateFormat dfm = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
-		String filename = dfm.format(c.getTime()) + ".rep";
-		return filename;
-	}
-
-	/**
 	 * Get date and time from a Calendar
 	 * @param calendar Calendar
 	 * @return Date and Time String
@@ -101,62 +90,6 @@ public class GeneralUtil {
 		if (calendar == null) throw new IllegalArgumentException("The calendar object supplied is null.");
 		DateFormat dfm = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		return dfm.format(calendar.getTime());
-	}
-
-	/**
-	 * Get date and time from a Calendar with specific TimeZone
-	 * @param c Calendar
-	 * @param z TimeZone
-	 * @return Date and Time String
-	 */
-	public static String getDateAndTime(Calendar c, TimeZone z) {
-		DateFormat dfm = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		dfm.setTimeZone(z);
-		return dfm.format(c.getTime());
-	}
-
-	/**
-	 * Get date from a Calendar
-	 * @param c Calendar
-	 * @return Date String
-	 */
-	public static String getCalendarStringDate(Calendar c) {
-		DateFormat dfm = new SimpleDateFormat("yyyy-MM-dd");
-		return dfm.format(c.getTime());
-	}
-
-	/**
-	 * Get date from a Calendar with specific TimeZone
-	 * @param c Calendar
-	 * @param z TimeZone
-	 * @return Date String
-	 */
-	public static String getCalendarStringDate(Calendar c, TimeZone z) {
-		DateFormat dfm = new SimpleDateFormat("yyyy-MM-dd");
-		dfm.setTimeZone(z);
-		return dfm.format(c.getTime());
-	}
-
-	/**
-	 * Get time from a Calendar
-	 * @param c Calendar
-	 * @return Time String
-	 */
-	public static String getCalendarStringTime(Calendar c) {
-		DateFormat dfm = new SimpleDateFormat("HH:mm:ss");
-		return dfm.format(c.getTime());
-	}
-
-	/**
-	 * Get time from a Calendar with specific TimeZone
-	 * @param c Calendar
-	 * @param z TimeZone
-	 * @return Time String
-	 */
-	public static String getCalendarStringTime(Calendar c, TimeZone z) {
-		DateFormat dfm = new SimpleDateFormat("HH:mm:ss");
-		dfm.setTimeZone(z);
-		return dfm.format(c.getTime());
 	}
 
 	/**
