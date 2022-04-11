@@ -1231,7 +1231,6 @@ public class EventReceiver {
 	 * @param foldername Replay folder name
 	 */
 	public void saveReplay(GameManager owner, CustomProperties prop, String foldername) {
-		if(owner.mode.isNetplayMode()) return;
 
 		String filename = foldername + "/" + GeneralUtil.createReplayFilename();
 		try {
